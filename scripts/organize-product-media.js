@@ -1,203 +1,80 @@
-const fs = require('fs');
-const path = require('path');
-
-const root = process.cwd();
-const productsPath = path.join(root, 'products.json');
-const pagesPath = path.join(root, '.pages.yml');
-const mediaRoot = path.join(root, 'media');
-const OTHER = 'Khác / thêm mới';
-
-function slugify(value) {
-  return String(value || '')
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase().replace(/đ/g, 'd')
-    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 120);
-}
-function cleanWebPath(value) {
-  if (!value) return '';
-  let s = String(value).trim().replace(/\\/g, '/');
-  return s.replace(/^\.\//, '').replace(/^\//, '');
-}
-function isRemote(value) { return /^(https?:|data:|blob:)/i.test(String(value || '')); }
-function ensureDir(dir) { fs.mkdirSync(dir, { recursive: true }); }
-function sameFile(a, b) {
-  try {
-    const sa = fs.statSync(a), sb = fs.statSync(b);
-    return sa.size === sb.size && fs.readFileSync(a).equals(fs.readFileSync(b));
-  } catch { return false; }
-}
-function uniqueDestination(dir, filename, src) {
-  const parsed = path.parse(filename);
-  let dest = path.join(dir, filename);
-  if (!fs.existsSync(dest) || sameFile(src, dest)) return dest;
-  let i = 2;
-  while (true) {
-    const candidate = path.join(dir, `${parsed.name}-${i}${parsed.ext}`);
-    if (!fs.existsSync(candidate) || sameFile(src, candidate)) return candidate;
-    i++;
-  }
-}
-function moveMedia(value, productFolder) {
-  if (!value || isRemote(value)) return value;
-  const clean = cleanWebPath(value);
-  if (!clean || !clean.startsWith('media/')) return value;
-  const source = path.join(root, clean);
-  if (!fs.existsSync(source) || !fs.statSync(source).isFile()) return value;
-  const destDir = path.join(mediaRoot, productFolder);
-  ensureDir(destDir);
-  const wantedPrefix = `media/${productFolder}/`;
-  if (clean.startsWith(wantedPrefix)) return '/' + clean;
-  const dest = uniqueDestination(destDir, path.basename(clean), source);
-  if (path.resolve(source) !== path.resolve(dest)) fs.renameSync(source, dest);
-  return '/' + path.relative(root, dest).replace(/\\/g, '/');
-}
-function removeEmptyDirs(dir) {
-  if (!fs.existsSync(dir)) return;
-  for (const name of fs.readdirSync(dir)) {
-    const p = path.join(dir, name);
-    if (fs.statSync(p).isDirectory()) removeEmptyDirs(p);
-  }
-  if (dir !== mediaRoot && fs.existsSync(dir) && fs.readdirSync(dir).length === 0) fs.rmdirSync(dir);
-}
-function yamlValue(value) {
-  const s = String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-  return `"${s}"`;
-}
-function unquoteYamlValue(line) {
-  let s = line.trim().replace(/^-[ ]*/, '').trim();
-  if ((s.startsWith('"') && s.endsWith('"')) || (s.startsWith("'") && s.endsWith("'"))) s = s.slice(1, -1);
-  return s.replace(/\\"/g, '"').replace(/\\\\/g, '\\');
-}
-function ensureSelectOptions(yaml, fieldName, values) {
-  const lines = yaml.split(/\r?\n/);
-  const fieldRe = new RegExp(`^\\s*- name: ${fieldName}\\s*$`);
-  const start = lines.findIndex(line => fieldRe.test(line));
-  if (start < 0) return yaml;
-  let end = lines.length;
-  const fieldIndent = (lines[start].match(/^\s*/) || [''])[0].length;
-  for (let i = start + 1; i < lines.length; i++) {
-    const m = lines[i].match(/^(\s*)- name:/);
-    if (m && m[1].length === fieldIndent) { end = i; break; }
-  }
-  let valuesLine = -1;
-  for (let i = start; i < end; i++) if (/^\s*values:\s*$/.test(lines[i])) { valuesLine = i; break; }
-  if (valuesLine < 0) return yaml;
-  const optionIndent = (lines[valuesLine].match(/^\s*/) || [''])[0] + '  ';
-  let optionStart = valuesLine + 1, optionEnd = optionStart;
-  while (optionEnd < end && (lines[optionEnd].trim() === '' || lines[optionEnd].startsWith(optionIndent + '- '))) optionEnd++;
-  const current = [];
-  for (let i = optionStart; i < optionEnd; i++) if (lines[i].startsWith(optionIndent + '- ')) current.push(unquoteYamlValue(lines[i]));
-  const merged = [];
-  for (const v of [...current, ...values]) {
-    const val = String(v || '').trim();
-    if (!val || val === OTHER || merged.some(x => x.toLowerCase() === val.toLowerCase())) continue;
-    merged.push(val);
-  }
-  merged.push(OTHER);
-  lines.splice(optionStart, optionEnd - optionStart, ...merged.map(v => optionIndent + '- ' + yamlValue(v)));
-  return lines.join('\n');
-}
-
-const learnableFields = [
-  'camera_brand','camera_type','camera_resolution','camera_connection','camera_lens','camera_night','camera_audio','camera_storage',
-  'computer_brand','computer_type','computer_cpu','computer_ram','computer_storage','computer_gpu','computer_screen','computer_refresh',
-  'printer_brand','printer_type','printer_paper','printer_color','printer_functions','printer_duplex','printer_connection','printer_speed',
-  'network_brand','network_type','network_wifi','network_speed','network_ports','network_poe','network_management','warranty'
-];
-const categoryMap = { camera:'Camera', computer:'Máy tính', printer:'Máy in', network:'Thiết bị mạng' };
-const brandFieldMap = { camera:'camera_brand', computer:'computer_brand', printer:'printer_brand', network:'network_brand' };
-const modelFieldMap = { camera:'camera_model', computer:'computer_model', printer:'printer_model', network:'network_model' };
-
-function main() {
-  if (!fs.existsSync(productsPath)) throw new Error('products.json not found');
-  ensureDir(mediaRoot);
-  const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
-  if (!Array.isArray(products)) throw new Error('products.json must contain an array');
-  const activeFolders = new Set(), usedIds = new Set();
-  const learned = Object.fromEntries(learnableFields.map(field => [field, new Set()]));
-  let changed = false;
-
-  function nextUniqueId(base) {
-    let id = base || 'san-pham';
-    if (!usedIds.has(id)) { usedIds.add(id); return id; }
-    let i = 2; while (usedIds.has(`${id}-${i}`)) i++;
-    const unique = `${id}-${i}`; usedIds.add(unique); return unique;
-  }
-  for (const product of products) {
-    const existing = slugify(product.id);
-    if (existing && !usedIds.has(existing)) usedIds.add(existing);
-  }
-
-  for (const product of products) {
-    let id = slugify(product.id);
-    if (!id) { id = nextUniqueId(slugify(product.name) || 'san-pham'); product.id = id; changed = true; }
-    else if (product.id !== id) { product.id = id; changed = true; }
-    activeFolders.add(id);
-
-    const blocks = Array.isArray(product.quick_specs) ? product.quick_specs : [];
-    const profile = blocks[0] && typeof blocks[0] === 'object' ? blocks[0] : null;
-    if (profile) {
-      const kind = String(profile.kind || '').trim();
-      const brandField = brandFieldMap[kind];
-      const modelField = modelFieldMap[kind];
-      if (brandField && profile[brandField] && profile[brandField] !== OTHER && product.brand !== profile[brandField]) { product.brand = profile[brandField]; changed = true; }
-      if (modelField && profile[modelField] && product.model !== profile[modelField]) { product.model = profile[modelField]; changed = true; }
-      for (const field of learnableFields) {
-        const value = profile[field];
-        if (Array.isArray(value)) for (const v of value) if (v && v !== OTHER) learned[field].add(String(v).trim());
-        else if (value && value !== OTHER) learned[field].add(String(value).trim());
+const fs=require('fs'),path=require('path');
+const root=process.cwd();
+const mediaRoot=path.join(root,'media');
+const projectMediaRoot=path.join(mediaRoot,'cong-trinh');
+const pagesPath=path.join(root,'.pages.yml');
+const OTHER='Khác / thêm mới';
+const productFiles=[['products-camera.json','Camera','camera'],['products-computer.json','Máy tính','computer'],['products-printer.json','Máy in','printer'],['products-network.json','Thiết bị mạng','network']];
+const projectFile='projects.json';
+const slugify=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,120);
+const clean=v=>String(v||'').trim().replace(/\\/g,'/').replace(/^\.\//,'').replace(/^\//,'');
+const remote=v=>/^(https?:|data:|blob:)/i.test(String(v||''));
+const ensure=d=>fs.mkdirSync(d,{recursive:true});
+function same(a,b){try{return fs.statSync(a).size===fs.statSync(b).size&&fs.readFileSync(a).equals(fs.readFileSync(b));}catch{return false;}}
+function unique(dir,name,src){const p=path.parse(name);let d=path.join(dir,name);if(!fs.existsSync(d)||same(src,d))return d;for(let i=2;;i++){d=path.join(dir,`${p.name}-${i}${p.ext}`);if(!fs.existsSync(d)||same(src,d))return d;}}
+function moveMedia(v,targetDir,webPrefix){if(!v||remote(v))return v;const c=clean(v);if(!c.startsWith('media/'))return v;const src=path.join(root,c);if(!fs.existsSync(src)||!fs.statSync(src).isFile())return v;ensure(targetDir);const relTarget=path.relative(root,targetDir).replace(/\\/g,'/');if(c.startsWith(relTarget+'/'))return'/'+c;const dest=unique(targetDir,path.basename(c),src);if(path.resolve(src)!==path.resolve(dest))fs.renameSync(src,dest);return webPrefix+'/'+path.basename(dest);}
+function load(f){const p=path.join(root,f);if(!fs.existsSync(p))return[];try{const x=JSON.parse(fs.readFileSync(p,'utf8'));return Array.isArray(x)?x:[];}catch{return[];}}
+function save(f,x){fs.writeFileSync(path.join(root,f),JSON.stringify(x,null,2)+'\n','utf8');}
+function yamlValue(v){return '"'+String(v).replace(/\\/g,'\\\\').replace(/"/g,'\\"')+'"';}
+function unquote(line){let s=line.trim().replace(/^-\s*/,'').trim();if((s.startsWith('"')&&s.endsWith('"'))||(s.startsWith("'")&&s.endsWith("'")))s=s.slice(1,-1);return s.replace(/\\"/g,'"').replace(/\\\\/g,'\\');}
+function ensureOptions(yaml,field,vals){const lines=yaml.split(/\r?\n/),re=new RegExp(`^\\s*- name: ${field}\\s*$`),start=lines.findIndex(x=>re.test(x));if(start<0)return yaml;const indent=(lines[start].match(/^\s*/)||[''])[0].length;let end=lines.length;for(let i=start+1;i<lines.length;i++){const m=lines[i].match(/^(\s*)- name:/);if(m&&m[1].length===indent){end=i;break;}}let vl=-1;for(let i=start;i<end;i++)if(/^\s*values:\s*$/.test(lines[i])){vl=i;break;}if(vl<0)return yaml;const oi=(lines[vl].match(/^\s*/)||[''])[0]+'  ';let a=vl+1,b=a;while(b<end&&(lines[b].trim()===''||lines[b].startsWith(oi+'- ')))b++;const cur=[];for(let i=a;i<b;i++)if(lines[i].startsWith(oi+'- '))cur.push(unquote(lines[i]));const merged=[];for(const v of [...cur,...vals]){const s=String(v||'').trim();if(!s||s===OTHER||merged.some(x=>x.toLowerCase()===s.toLowerCase()))continue;merged.push(s);}merged.push(OTHER);lines.splice(a,b-a,...merged.map(v=>oi+'- '+yamlValue(v)));return lines.join('\n');}
+const learnable=['camera_brand','camera_type','camera_resolution','camera_connection','camera_lens','camera_night','camera_audio','camera_storage','computer_brand','computer_type','computer_cpu','computer_ram','computer_storage','computer_gpu','computer_screen','computer_refresh','printer_brand','printer_type','printer_paper','printer_color','printer_functions','printer_duplex','printer_connection','printer_speed','network_brand','network_type','network_wifi','network_speed','network_ports','network_poe','network_management','warranty'];
+const brandKey={camera:'camera_brand',computer:'computer_brand',printer:'printer_brand',network:'network_brand'};
+const modelKey={camera:'camera_model',computer:'computer_model',printer:'printer_model',network:'network_model'};
+function makeUnique(base,used){let id=base||'muc';if(!used.has(id)){used.add(id);return id;}for(let i=2;;i++){const x=`${id}-${i}`;if(!used.has(x)){used.add(x);return x;}}}
+function main(){
+  ensure(mediaRoot);ensure(projectMediaRoot);
+  const usedProducts=new Set(),activeProducts=new Set(),activeProjects=new Set();
+  const learn=Object.fromEntries(learnable.map(k=>[k,new Set()]));
+  let changed=false;
+  const groups=productFiles.map(([f,c,k])=>[f,c,k,load(f)]);
+  for(const[, , ,arr]of groups)for(const p of arr){const s=slugify(p.id);if(s)usedProducts.add(s);}
+  for(const [file,category,kind,arr] of groups){
+    for(const p of arr){
+      let id=slugify(p.id);
+      if(!id){id=makeUnique(slugify(p.name),usedProducts);p.id=id;changed=true;}
+      else if(p.id!==id){p.id=id;changed=true;}
+      activeProducts.add(id);p.category=category;
+      const bk=brandKey[kind],mk=modelKey[kind];
+      if(p[bk]&&p[bk]!==OTHER&&p.brand!==p[bk]){p.brand=p[bk];changed=true;}
+      if(p[mk]&&p.model!==p[mk]){p.model=p[mk];changed=true;}
+      for(const fld of learnable){const v=p[fld];if(Array.isArray(v))v.forEach(x=>x&&x!==OTHER&&learn[fld].add(String(x).trim()));else if(v&&v!==OTHER)learn[fld].add(String(v).trim());}
+      if(Array.isArray(p.custom_options)){
+        for(const it of p.custom_options){if(!it)continue;const fld=String(it.field||''),val=String(it.value||'').trim();if(!learnable.includes(fld)||!val)continue;learn[fld].add(val);if(fld==='warranty'&&(!p.warranty||p.warranty===OTHER))p.warranty=val;else if(Array.isArray(p[fld])){const v=p[fld].filter(x=>x&&x!==OTHER);if(!v.some(x=>String(x).toLowerCase()===val.toLowerCase()))v.push(val);p[fld]=v;}else if(!p[fld]||p[fld]===OTHER)p[fld]=val;}delete p.custom_options;changed=true;
       }
+      if((!Array.isArray(p.images)||!p.images.length)&&p.image){p.images=[p.image];delete p.image;changed=true;}
+      const dir=path.join(mediaRoot,id),prefix='/media/'+id;
+      if(Array.isArray(p.images))p.images=p.images.filter(Boolean).map(x=>moveMedia(x,dir,prefix));
+      if(p.video)p.video=moveMedia(p.video,dir,prefix);
     }
-    if (product.warranty && product.warranty !== OTHER) learned.warranty.add(String(product.warranty).trim());
-
-    // One compact section for any new option. It is learned and, when the matching current field is OTHER, applied immediately.
-    if (Array.isArray(product.custom_options)) {
-      for (const item of product.custom_options) {
-        if (!item || typeof item !== 'object') continue;
-        const field = String(item.field || '').trim();
-        const value = String(item.value || '').trim();
-        if (!learnableFields.includes(field) || !value) continue;
-        learned[field].add(value);
-        if (field === 'warranty') {
-          if (!product.warranty || product.warranty === OTHER) { product.warranty = value; changed = true; }
-        } else if (profile && Object.prototype.hasOwnProperty.call(profile, field)) {
-          if (Array.isArray(profile[field])) {
-            const vals = profile[field].filter(v => v && v !== OTHER);
-            if (!vals.some(v => String(v).toLowerCase() === value.toLowerCase())) vals.push(value);
-            profile[field] = vals; changed = true;
-          } else if (!profile[field] || profile[field] === OTHER) { profile[field] = value; changed = true; }
-        }
-      }
-      delete product.custom_options; changed = true;
-    }
-
-    if ((!Array.isArray(product.images) || product.images.length === 0) && product.image) { product.images = [product.image]; delete product.image; changed = true; }
-    if (Array.isArray(product.images)) {
-      const nextImages = product.images.filter(Boolean).map(src => moveMedia(src, id));
-      if (JSON.stringify(nextImages) !== JSON.stringify(product.images)) changed = true;
-      product.images = nextImages;
-    }
-    if (product.video) {
-      const nextVideo = moveMedia(product.video, id);
-      if (nextVideo !== product.video) changed = true;
-      product.video = nextVideo;
-    }
+    save(file,arr);
+  }
+  for(const e of fs.readdirSync(mediaRoot,{withFileTypes:true})){
+    if(!e.isDirectory()||e.name==='cong-trinh')continue;
+    if(!activeProducts.has(e.name)){fs.rmSync(path.join(mediaRoot,e.name),{recursive:true,force:true});changed=true;}
   }
 
-  if (fs.existsSync(mediaRoot)) {
-    for (const entry of fs.readdirSync(mediaRoot, { withFileTypes: true })) {
-      if (entry.isDirectory() && !activeFolders.has(entry.name)) { fs.rmSync(path.join(mediaRoot, entry.name), { recursive: true, force: true }); changed = true; }
-    }
+  const projects=load(projectFile),usedProjects=new Set(projects.map(x=>slugify(x.id)).filter(Boolean));
+  for(const p of projects){
+    let id=slugify(p.id);
+    if(!id){id=makeUnique(slugify(p.title),usedProjects);p.id=id;changed=true;}
+    else if(p.id!==id){p.id=id;changed=true;}
+    activeProjects.add(id);
+    const dir=path.join(projectMediaRoot,id),prefix='/media/cong-trinh/'+id;
+    if(Array.isArray(p.images))p.images=p.images.filter(Boolean).map(x=>moveMedia(x,dir,prefix));
+    if(p.video)p.video=moveMedia(p.video,dir,prefix);
   }
-  removeEmptyDirs(mediaRoot);
-  if (changed) fs.writeFileSync(productsPath, JSON.stringify(products, null, 2) + '\n', 'utf8');
+  save(projectFile,projects);
+  for(const e of fs.readdirSync(projectMediaRoot,{withFileTypes:true})){
+    if(e.isDirectory()&&!activeProjects.has(e.name)){fs.rmSync(path.join(projectMediaRoot,e.name),{recursive:true,force:true});changed=true;}
+  }
 
-  if (fs.existsSync(pagesPath)) {
-    let yaml = fs.readFileSync(pagesPath, 'utf8');
-    for (const field of learnableFields) yaml = ensureSelectOptions(yaml, field, [...learned[field]]);
-    const old = fs.readFileSync(pagesPath, 'utf8');
-    if (yaml !== old) { fs.writeFileSync(pagesPath, yaml.endsWith('\n') ? yaml : yaml + '\n', 'utf8'); changed = true; }
+  if(fs.existsSync(pagesPath)){
+    let y=fs.readFileSync(pagesPath,'utf8');
+    for(const f of learnable)y=ensureOptions(y,f,[...learn[f]]);
+    const old=fs.readFileSync(pagesPath,'utf8');
+    if(y!==old){fs.writeFileSync(pagesPath,y.endsWith('\n')?y:y+'\n');changed=true;}
   }
-  console.log(changed ? 'Products, media and preset options updated.' : 'No changes needed.');
+  console.log(changed?'Updated products, projects, media and options.':'No changes needed.');
 }
 main();
