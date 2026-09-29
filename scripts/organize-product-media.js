@@ -98,46 +98,15 @@ function ensureSelectOptions(yaml, fieldName, values) {
   return lines.join('\n');
 }
 
-const learnablePairs = [
-  ['camera_brand','camera_brand_new'],['camera_type','camera_type_new'],['camera_resolution','camera_resolution_new'],
-  ['camera_connection','camera_connection_new'],['camera_lens','camera_lens_new'],['camera_night','camera_night_new'],
-  ['camera_audio','camera_audio_new'],['camera_storage','camera_storage_new'],
-  ['computer_brand','computer_brand_new'],['computer_type','computer_type_new'],['computer_cpu','computer_cpu_new'],
-  ['computer_ram','computer_ram_new'],['computer_storage','computer_storage_new'],['computer_gpu','computer_gpu_new'],
-  ['computer_screen','computer_screen_new'],['computer_refresh','computer_refresh_new'],
-  ['printer_brand','printer_brand_new'],['printer_type','printer_type_new'],['printer_paper','printer_paper_new'],
-  ['printer_color','printer_color_new'],['printer_functions','printer_functions_new'],['printer_duplex','printer_duplex_new'],
-  ['printer_connection','printer_connection_new'],['printer_speed','printer_speed_new'],
-  ['network_brand','network_brand_new'],['network_type','network_type_new'],['network_wifi','network_wifi_new'],
-  ['network_speed','network_speed_new'],['network_ports','network_ports_new'],['network_poe','network_poe_new'],
-  ['network_management','network_management_new'],['warranty','warranty_new']
+const learnableFields = [
+  'camera_brand','camera_type','camera_resolution','camera_connection','camera_lens','camera_night','camera_audio','camera_storage',
+  'computer_brand','computer_type','computer_cpu','computer_ram','computer_storage','computer_gpu','computer_screen','computer_refresh',
+  'printer_brand','printer_type','printer_paper','printer_color','printer_functions','printer_duplex','printer_connection','printer_speed',
+  'network_brand','network_type','network_wifi','network_speed','network_ports','network_poe','network_management','warranty'
 ];
 const categoryMap = { camera:'Camera', computer:'Máy tính', printer:'Máy in', network:'Thiết bị mạng' };
 const brandFieldMap = { camera:'camera_brand', computer:'computer_brand', printer:'printer_brand', network:'network_brand' };
 const modelFieldMap = { camera:'camera_model', computer:'computer_model', printer:'printer_model', network:'network_model' };
-
-function applyLearnable(obj, field, newField, learned) {
-  if (!obj || typeof obj !== 'object') return false;
-  let changed = false;
-  const custom = String(obj[newField] || '').trim();
-  let value = obj[field];
-  if (Array.isArray(value)) {
-    value = value.filter(v => v && v !== OTHER);
-    if (custom && !value.some(v => String(v).toLowerCase() === custom.toLowerCase())) value.push(custom);
-    if (JSON.stringify(value) !== JSON.stringify(obj[field])) { obj[field] = value; changed = true; }
-    if (custom) { delete obj[newField]; changed = true; }
-    for (const v of value) learned.add(String(v).trim());
-  } else {
-    if (custom) {
-      if (obj[field] !== custom) { obj[field] = custom; changed = true; }
-      delete obj[newField]; changed = true;
-      learned.add(custom);
-    } else if (value === OTHER) {
-      obj[field] = ''; changed = true;
-    } else if (value) learned.add(String(value).trim());
-  }
-  return changed;
-}
 
 function main() {
   if (!fs.existsSync(productsPath)) throw new Error('products.json not found');
@@ -145,7 +114,7 @@ function main() {
   const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
   if (!Array.isArray(products)) throw new Error('products.json must contain an array');
   const activeFolders = new Set(), usedIds = new Set();
-  const learned = Object.fromEntries(learnablePairs.map(([field]) => [field, new Set()]));
+  const learned = Object.fromEntries(learnableFields.map(field => [field, new Set()]));
   let changed = false;
 
   function nextUniqueId(base) {
@@ -169,14 +138,38 @@ function main() {
     const profile = blocks[0] && typeof blocks[0] === 'object' ? blocks[0] : null;
     if (profile) {
       const kind = String(profile.kind || '').trim();
-      if (categoryMap[kind] && product.category !== categoryMap[kind]) { product.category = categoryMap[kind]; changed = true; }
       const brandField = brandFieldMap[kind];
       const modelField = modelFieldMap[kind];
-      if (brandField && profile[brandField] && product.brand !== profile[brandField]) { product.brand = profile[brandField]; changed = true; }
+      if (brandField && profile[brandField] && profile[brandField] !== OTHER && product.brand !== profile[brandField]) { product.brand = profile[brandField]; changed = true; }
       if (modelField && profile[modelField] && product.model !== profile[modelField]) { product.model = profile[modelField]; changed = true; }
-      for (const [field,newField] of learnablePairs) if (Object.prototype.hasOwnProperty.call(profile, field) || Object.prototype.hasOwnProperty.call(profile, newField)) changed = applyLearnable(profile, field, newField, learned[field]) || changed;
+      for (const field of learnableFields) {
+        const value = profile[field];
+        if (Array.isArray(value)) for (const v of value) if (v && v !== OTHER) learned[field].add(String(v).trim());
+        else if (value && value !== OTHER) learned[field].add(String(value).trim());
+      }
     }
-    changed = applyLearnable(product, 'warranty', 'warranty_new', learned.warranty) || changed;
+    if (product.warranty && product.warranty !== OTHER) learned.warranty.add(String(product.warranty).trim());
+
+    // One compact section for any new option. It is learned and, when the matching current field is OTHER, applied immediately.
+    if (Array.isArray(product.custom_options)) {
+      for (const item of product.custom_options) {
+        if (!item || typeof item !== 'object') continue;
+        const field = String(item.field || '').trim();
+        const value = String(item.value || '').trim();
+        if (!learnableFields.includes(field) || !value) continue;
+        learned[field].add(value);
+        if (field === 'warranty') {
+          if (!product.warranty || product.warranty === OTHER) { product.warranty = value; changed = true; }
+        } else if (profile && Object.prototype.hasOwnProperty.call(profile, field)) {
+          if (Array.isArray(profile[field])) {
+            const vals = profile[field].filter(v => v && v !== OTHER);
+            if (!vals.some(v => String(v).toLowerCase() === value.toLowerCase())) vals.push(value);
+            profile[field] = vals; changed = true;
+          } else if (!profile[field] || profile[field] === OTHER) { profile[field] = value; changed = true; }
+        }
+      }
+      delete product.custom_options; changed = true;
+    }
 
     if ((!Array.isArray(product.images) || product.images.length === 0) && product.image) { product.images = [product.image]; delete product.image; changed = true; }
     if (Array.isArray(product.images)) {
@@ -201,7 +194,7 @@ function main() {
 
   if (fs.existsSync(pagesPath)) {
     let yaml = fs.readFileSync(pagesPath, 'utf8');
-    for (const [field] of learnablePairs) yaml = ensureSelectOptions(yaml, field, [...learned[field]]);
+    for (const field of learnableFields) yaml = ensureSelectOptions(yaml, field, [...learned[field]]);
     const old = fs.readFileSync(pagesPath, 'utf8');
     if (yaml !== old) { fs.writeFileSync(pagesPath, yaml.endsWith('\n') ? yaml : yaml + '\n', 'utf8'); changed = true; }
   }
