@@ -58,3 +58,7 @@
   .product-card.compact .price{font-size:16px}
   .hero-poster-stage>img{width:100%;max-width:100%;height:auto;transform:none}
 }
+
+/* Category navigation: keep product heading visible below sticky menu */
+#products{scroll-margin-top:112px}
+@media(max-width:900px){#products{scroll-margin-top:82px}}
