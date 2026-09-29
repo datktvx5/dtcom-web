@@ -1,28 +1,29 @@
 [
   {
     "id": "pc-van-phong-demo",
-    "name": "PC văn phòng - Sản phẩm mẫu",
-    "category": "Máy tính",
+    "name": "CAMERA IMOU A32",
+    "category": "Camera",
     "subcategory": "PC",
-    "brand": "DTCOM Demo",
-    "price": 6990000,
-    "old_price": 0,
-    "warranty": "12 tháng",
-    "video": "/media/pc-van-phong-demo/008ctajar.mp4",
+    "brand": "IMOU",
+    "price": 550000,
+    "old_price": 650000,
+    "warranty": "24 tháng",
+    "images": [
+      "/media/camera-wifi-trong-nha-quay-quet-3mp-imou-ipc-a32ep-l-1.jpg",
+      "/media/a32.webp",
+      "/media/a322.webp",
+      "/media/a323.webp"
+    ],
     "featured": true,
-    "description": "Bộ máy tính mẫu dành cho văn phòng. Thông tin này chỉ để minh họa cách hiển thị sản phẩm.",
+    "description": "Thông số chi tiết của Imou Ranger 2 A32\nĐộ phân giải\t3MP (2K - 2304×1296), cảm biến 1/2.8” CMOS cho hình ảnh sắc nét vượt trội so với chuẩn Full HD.\nGóc quay quét\tQuay ngang 355° và quay dọc -5° đến 80°, giúp quan sát toàn cảnh phòng không góc chết.\nTầm nhìn ban đêm\tHồng ngoại thông minh, tầm xa lên đến 10 mét.\nTính năng AI\tPhát hiện chuyển động, phát hiện người, cảnh báo âm thanh bất thường (tiếng trẻ khóc) và tự động bám theo đối tượng (Smart Tracking).\nĐàm thoại\tTích hợp Mic và Loa hỗ trợ đàm thoại 2 chiều to rõ.\nLưu trữ\tHỗ trợ khe cắm thẻ nhớ MicroSD tối đa 256GB hoặc lưu trữ đám mây.",
     "specs": [
-      {
-        "name": "Loại",
-        "value": "PC văn phòng"
-      },
-      {
-        "name": "Lưu trữ",
-        "value": "SSD"
-      },
       {
         "name": "Bảo hành",
         "value": "12 tháng"
+      },
+      {
+        "name": "Kết nối",
+        "value": "WIFI"
       }
     ]
   },
