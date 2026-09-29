@@ -45,6 +45,9 @@ content:
       - name: warranty
         label: Bảo hành
         type: string
+      - name: shopee_link
+        label: Link Shopee Affiliate
+        type: string
       - name: images
         label: Ảnh sản phẩm
         type: image

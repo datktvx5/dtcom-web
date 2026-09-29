@@ -1,5 +1,10 @@
 const money=n=>Number(n||0).toLocaleString('vi-VN')+'đ';
 
+const safeExternalUrl=value=>{
+  const s=String(value||'').trim();
+  return /^https?:\/\//i.test(s)?s:'';
+};
+
 const normalizeMedia=src=>{
   if(!src) return 'placeholder.svg';
   let s=String(src).trim().replace(/\\/g,'/');
@@ -42,7 +47,10 @@ const getSlides=p=>{
   const slides=getSlides(p);
   const arrows=slides.length>1?`<button class="gallery-arrow gallery-prev" type="button" aria-label="Nội dung trước">‹</button><button class="gallery-arrow gallery-next" type="button" aria-label="Nội dung tiếp theo">›</button><div class="gallery-count"><span class="gallery-current">1</span> / ${slides.length}</div>`:'';
 
-  box.innerHTML=`<div class="detail-image gallery"><div class="gallery-stage"><img class="gallery-main" alt="${p.name}"><video class="gallery-video" controls preload="metadata" playsinline></video></div>${arrows}</div><div class="detail-content"><span class="badge">${p.category}</span><h1>${p.name}</h1><div class="muted">${p.brand||'DTCOM'}${p.warranty?' • Bảo hành '+p.warranty:''}</div><div class="price">${money(p.price)}${p.old_price?`<span class="old-price">${money(p.old_price)}</span>`:''}</div><p class="desc">${p.description||''}</p><div class="specs">${specs}</div><div class="detail-actions"><a class="btn primary" href="tel:0971675929">☎ Gọi đặt hàng</a><a class="btn orange" href="https://zalo.me/0971675929">Zalo DTCOM</a></div></div>`;
+  const shopeeUrl=safeExternalUrl(p.shopee_link);
+  const shopeeButton=shopeeUrl?`<a class="btn shopee" href="${shopeeUrl}" target="_blank" rel="nofollow sponsored noopener">🛒 Tham khảo Shopee</a>`:'';
+
+  box.innerHTML=`<div class="detail-image gallery"><div class="gallery-stage"><img class="gallery-main" alt="${p.name}"><video class="gallery-video" controls preload="metadata" playsinline></video></div>${arrows}</div><div class="detail-content"><span class="badge">${p.category}</span><h1>${p.name}</h1><div class="muted">${p.brand||'DTCOM'}${p.warranty?' • Bảo hành '+p.warranty:''}</div><div class="price">${money(p.price)}${p.old_price?`<span class="old-price">${money(p.old_price)}</span>`:''}</div><p class="desc">${p.description||''}</p><div class="specs">${specs}</div><div class="detail-actions"><a class="btn primary" href="tel:0971675929">☎ Gọi đặt hàng</a><a class="btn orange" href="https://zalo.me/0971675929">Zalo DTCOM</a>${shopeeButton}</div></div>`;
 
   const stage=box.querySelector('.gallery-stage');
   const imageEl=box.querySelector('.gallery-main');
