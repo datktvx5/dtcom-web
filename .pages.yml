@@ -37,15 +37,16 @@ content:
         type: select
         options:
           values:
-            - IMOU
-            - EZVIZ
-            - Hikvision
-            - Dahua
-            - TP-Link / Tapo
-            - Xiaomi
-            - KBVision
-            - Ruijie
-            - Khác / thêm mới
+            - "Dahua"
+            - "DTCOM Demo"
+            - "EZVIZ"
+            - "Hikvision"
+            - "IMOU"
+            - "KBVision"
+            - "Ruijie"
+            - "TP-Link / Tapo"
+            - "Xiaomi"
+            - "Khác / thêm mới"
       - name: brand_new
         label: Thương hiệu mới (chỉ nhập khi chưa có trong danh sách)
         type: string
@@ -61,14 +62,14 @@ content:
         type: select
         options:
           values:
-            - Không bảo hành
-            - 3 tháng
-            - 6 tháng
-            - 12 tháng
-            - 18 tháng
-            - 24 tháng
-            - 36 tháng
-            - Khác / thêm mới
+            - "12 tháng"
+            - "18 tháng"
+            - "24 tháng"
+            - "3 tháng"
+            - "36 tháng"
+            - "6 tháng"
+            - "Không bảo hành"
+            - "Khác / thêm mới"
       - name: warranty_new
         label: Bảo hành mới (chỉ nhập khi chưa có trong danh sách)
         type: string
