@@ -9,10 +9,10 @@
     "old_price": 1490000,
     "warranty": "24 tháng",
     "images": [
-      "/media/a32.webp",
-      "/media/a322.webp"
+      "/media/camera-ip-4mp-demo/a32.webp",
+      "/media/camera-ip-4mp-demo/a322.webp"
     ],
-    "video": "/media/008ctajar.mp4",
+    "video": "/media/camera-ip-4mp-demo/008ctajar.mp4",
     "featured": true,
     "description": "Sản phẩm mẫu để bạn thử giao diện quản lý. Sau khi kết nối Pages CMS, bạn có thể sửa hoặc xóa mục này.",
     "specs": [
