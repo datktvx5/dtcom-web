@@ -1,92 +1,94 @@
-[
-  {
-    "id": "camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet",
-    "name": "Camera Wifi ngoài trời 6MP iMOU IPC-S7XEP-6M0WED [2 ống kính, quay quét]",
-    "camera_brand": "IMOU",
-    "camera_model": "IPC-S7XEP-6M0WED",
-    "camera_type": "Camera WiFi ngoài trời",
-    "camera_resolution": "6MP",
-    "camera_connection": [
-      "WiFi 2.4GHz",
-      "LAN RJ45"
-    ],
-    "camera_lens": "3.6mm",
-    "camera_night": "Có màu ban đêm",
-    "camera_audio": "Mic + Loa / Đàm thoại 2 chiều",
-    "camera_storage": [
-      "MicroSD tối đa 512GB",
-      "NVR",
-      "Cloud"
-    ],
-    "camera_ai": [
-      "Phát hiện chuyển động",
-      "Phát hiện người",
-      "Auto Tracking"
-    ],
-    "price": 1650000,
-    "old_price": 1850000,
-    "warranty": "24 tháng",
-    "images": [
-      "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/1.png",
-      "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/2.webp",
-      "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/3.webp",
-      "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/4.webp"
-    ],
-    "featured": false,
-    "description": "– Model: IPC-S7XEP-6M0WED\n– Chuẩn nén H.265. Tốc độ khung hình 15fps.\n– 2 Ống kính với độ phân giải 6.0MP (3.0 MP cho ống kính cố định và 3.0 MP cho ống kính quay quét).\n– Ống kính cố định có thể điều chỉnh được góc 0~260° và độ nghiên (0~25°). Trang bị ống kính cố định 3.6mm (góc nhìn 80°)\n– Ống kính quay quét có thể điều khiển từ xa, góc quay ngang 0~355°, góc quay dọc 0~90°. Trang bị ống kính cố định 3.6mm (góc nhìn 80°)\n– Hồng ngoại và đèn LED trên cả 2 ống kính, tầm xa 30m\n– Chống ngược sáng HDR\n– Chế độ ánh sáng kép thông minh 4 chế độ ban đêm\n– Chế độ riêng tư (new)\n– Đàm thoại 2 chiều với mic và loa tích hợp sẵn\n– Hỗ trợ các tính năng thông minh IMOU SENSE: phát hiện chuyển động, phát hiện con người, phát hiện xe cộ, Smart tracking.\n– Báo động chủ động bằng còi 110dB và đèn chớp xanh đỏ\n– Hỗ trợ kết nối Wi-Fi 6 2.4GHz, Cổng LAN\n– Khe cắm thẻ nhớ Micro SD max 512GB. Hỗ trợ ONVIF.\n– Nguồn cấp: DC 12V/1A, điện năng tiêu thụ <12W",
-    "category": "Camera",
-    "brand": "IMOU",
-    "model": "IPC-S7XEP-6M0WED"
-  },
-  {
-    "id": "camera-wifi-full-color-imou-ipc-s31fep-cruiser-se-3mp",
-    "name": " Camera Wifi Full Color IMOU IPC-S31FEP (Cruiser SE+ 3MP)",
-    "camera_brand": "IMOU",
-    "camera_type": "Camera WiFi ngoài trời",
-    "camera_resolution": "3MP / 2K",
-    "camera_connection": [
-      "WiFi 2.4GHz"
-    ],
-    "price": 1050000,
-    "old_price": 1150000,
-    "warranty": "24 tháng",
-    "images": [
-      "/media/camera-wifi-full-color-imou-ipc-s31fep-cruiser-se-3mp/1.webp",
-      "/media/camera-wifi-full-color-imou-ipc-s31fep-cruiser-se-3mp/2.jpg"
-    ],
-    "featured": false,
-    "description": "– Độ phân giải 3 Megapixel (2304×1296) cảm biến CMOS kích thước 1/2.8”.\n– Độ phân giải 3.0 Megapixel CMOS 1/2.8”\n– Chuẩn hình ảnh H.265/H.264.\n– Ống kính cố định 3.6mm, góc nhìn 82°(H), 44°(V), 104°(D)\n– Tầm nhìn ban đêm 30m ( Led/ hồng ngoại).\n– Hỗ trợ quay quét 355°Pan & 0~90°Tilt\n– 4 chế độ ban đêm: Tầm nhìn ban đêm thông minh, tầm nhìn ban đêm hồng ngoại, tầm nhìn ban đêm có màu, tắt tầm nhìn ban đêm.\n– Tích hợp đèn Spotlight + còi cảnh báo\n– Tính năng phát hiện chuyển động, phát hiện con người\n– Tính năng theo dõi thông minh Smart Tracking\n– Tích hợp Mic và loa. Hỗ trợ đàm thoại 2 chiều\n– Hỗ trợ khe cắm thẻ nhớ Micro SD, Max 512GB.\n– Cổng LAN 1/100Mbps tích hợp 2 ăng ten với chuẩn Wi-Fi (IEEE802.11 b/g/n/ax)\n– Hỗ trợ P2P, tích hợp rút reset\n– Chuẩn chống nước IP66.\n– Chuẩn tương thích ONVIF.\n– Nguồn cấp: DC12V/0.5A, công suất < 6W\n– Chất liệu vỏ plastic.\n– Kích thước: 120.7 × 136.2× 183.3 mm\n– Trọng lượng: 395 g\n– Môi trường làm việc từ -30°C~+50°C (< 95%RH).\n– Xuất xứ: Trung Quốc.\n– Bảo hành: 24 tháng.",
-    "category": "Camera",
-    "brand": "IMOU"
-  },
-  {
-    "id": "camera-wifi-trong-nha-imou-cue-c32-3mp-ipc-c32sp-ipc-c32ep",
-    "name": "Camera Wifi trong nhà IMOU Cue C32 3MP (IPC-C32SP/ IPC-C32EP)",
-    "camera_brand": "IMOU",
-    "price": 550000,
-    "old_price": 650000,
-    "warranty": "24 tháng",
-    "images": [
-      "/media/camera-wifi-trong-nha-imou-cue-c32-3mp-ipc-c32sp-ipc-c32ep/1-1.webp"
-    ],
-    "featured": false,
-    "description": "– Model: IPC-C32SP/ IPC-C32EP\n– Chuẩn nén H.265\n– Độ phân giải 3.0MP cảm biến 1/3” CMOS, 3MP 25fps@(2304 x 1296)\n– Ống kính cố định 2.8mm cho góc nhìn 112°\n– Tầm xa hồng ngoại 10m với công nghệ hồng ngoại thông minh.\n– Tích hợp còi báo động.\n– Hỗ trợ đàm thoại 2 chiều\n– Hỗ trợ các tính năng thông minh: Phát hiện con người, phát hiện chuyển động, phát hiện âm thanh bất thường.\n– Hỗ trợ khe cắm thẻ nhớ Micro SD lên đến 512GB\n– Hỗ trợ ONVIF, Cloud\n– Tích hợp Wi-Fi 6 (2.4GHz)\n– Nguồn cấp: DC5V/ 1A\n– Điện năng tiêu thụ <5W\n– Chất liệu vỏ plastic.\n– Kích thước: 68 × 33 × 106,6mm\n– Trọng lượng: 69,6g\n– Đạt chứng nhận CE, FCC\n– Xuất xứ: Trung Quốc.\n– Bảo hành: 24 tháng.",
-    "category": "Camera",
-    "brand": "IMOU"
-  },
-  {
-    "name": "Camera Wifi trong nhà iMOU Ranger Mini 3MP (IPC-K2MP-3H0WE)",
-    "camera_brand": "IMOU",
-    "price": 750000,
-    "old_price": 850000,
-    "images": [
-      "/media/camera-wifi-trong-nha-imou-ranger-mini-3mp-ipc-k2mp-3h0we/1.png",
-      "/media/camera-wifi-trong-nha-imou-ranger-mini-3mp-ipc-k2mp-3h0we/2.jpg"
-    ],
-    "featured": false,
-    "description": "– Camera wifi quay quét trong nhà tích hợp chân đế 3.0MP\n\n– Độ phân giải 3MP (2K), cảm biến 1/3” CMOS, 20fps@3.0MP(2304 x 1296)\n\n– Ống kính cố đinh 3.6mm, góc nhìn 66°, quay quét ngang 355°, quay quét dọc -5° – 50°\n\n– Chuẩn nén H.265\n\n– Chống ngược sáng HDR\n\n– Tầm nhìn ban đêm 10m. Tích hợp 4 chế độ ánh sáng thông minh, hồng ngoại, full color và tắt.\n\n– Hỗ trợ đàm thoại 2 chiều\n\n– Hỗ trợ Auto-Cruise\n\n– Hỗ trợ các tính năng thông minh: phát hiện chuyển động, phát hiện con người, phát hiện âm thanh bất thường, chế độ riêng tư, Smart tracking.\n\n– Tích hợp Wi-Fi 6 (IEEE802.11b/g/n/ax), LAN, CLOUD, ONVIF\n\n– Hỗ trợ khe cắm thẻ nhớ Micro SD max 512GB\n\n– Nguồn: DC 5V1A cổng USB-C, điện năng tiêu thụ <3.7W\n\n– Chất liệu vỏ nhựa. Tích hợp sẵn chân đế gắn tường và gắn trần.",
-    "id": "camera-wifi-trong-nha-imou-ranger-mini-3mp-ipc-k2mp-3h0we",
-    "category": "Camera",
-    "brand": "IMOU"
-  }
-]
+{
+  "items": [
+    {
+      "id": "camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet",
+      "name": "Camera Wifi ngoài trời 6MP iMOU IPC-S7XEP-6M0WED [2 ống kính, quay quét]",
+      "camera_brand": "IMOU",
+      "camera_model": "IPC-S7XEP-6M0WED",
+      "camera_type": "Camera WiFi ngoài trời",
+      "camera_resolution": "6MP",
+      "camera_connection": [
+        "WiFi 2.4GHz",
+        "LAN RJ45"
+      ],
+      "camera_lens": "3.6mm",
+      "camera_night": "Có màu ban đêm",
+      "camera_audio": "Mic + Loa / Đàm thoại 2 chiều",
+      "camera_storage": [
+        "MicroSD tối đa 512GB",
+        "NVR",
+        "Cloud"
+      ],
+      "camera_ai": [
+        "Phát hiện chuyển động",
+        "Phát hiện người",
+        "Auto Tracking"
+      ],
+      "price": 1650000,
+      "old_price": 1850000,
+      "warranty": "24 tháng",
+      "images": [
+        "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/1.png",
+        "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/2.webp",
+        "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/3.webp",
+        "/media/camera-wifi-ngoai-troi-6mp-imou-ipc-s7xep-6m0wed-2-ong-kinh-quay-quet/4.webp"
+      ],
+      "featured": false,
+      "description": "– Model: IPC-S7XEP-6M0WED\n– Chuẩn nén H.265. Tốc độ khung hình 15fps.\n– 2 Ống kính với độ phân giải 6.0MP (3.0 MP cho ống kính cố định và 3.0 MP cho ống kính quay quét).\n– Ống kính cố định có thể điều chỉnh được góc 0~260° và độ nghiên (0~25°). Trang bị ống kính cố định 3.6mm (góc nhìn 80°)\n– Ống kính quay quét có thể điều khiển từ xa, góc quay ngang 0~355°, góc quay dọc 0~90°. Trang bị ống kính cố định 3.6mm (góc nhìn 80°)\n– Hồng ngoại và đèn LED trên cả 2 ống kính, tầm xa 30m\n– Chống ngược sáng HDR\n– Chế độ ánh sáng kép thông minh 4 chế độ ban đêm\n– Chế độ riêng tư (new)\n– Đàm thoại 2 chiều với mic và loa tích hợp sẵn\n– Hỗ trợ các tính năng thông minh IMOU SENSE: phát hiện chuyển động, phát hiện con người, phát hiện xe cộ, Smart tracking.\n– Báo động chủ động bằng còi 110dB và đèn chớp xanh đỏ\n– Hỗ trợ kết nối Wi-Fi 6 2.4GHz, Cổng LAN\n– Khe cắm thẻ nhớ Micro SD max 512GB. Hỗ trợ ONVIF.\n– Nguồn cấp: DC 12V/1A, điện năng tiêu thụ <12W",
+      "category": "Camera",
+      "brand": "IMOU",
+      "model": "IPC-S7XEP-6M0WED"
+    },
+    {
+      "id": "camera-wifi-full-color-imou-ipc-s31fep-cruiser-se-3mp",
+      "name": " Camera Wifi Full Color IMOU IPC-S31FEP (Cruiser SE+ 3MP)",
+      "camera_brand": "IMOU",
+      "camera_type": "Camera WiFi ngoài trời",
+      "camera_resolution": "3MP / 2K",
+      "camera_connection": [
+        "WiFi 2.4GHz"
+      ],
+      "price": 1050000,
+      "old_price": 1150000,
+      "warranty": "24 tháng",
+      "images": [
+        "/media/camera-wifi-full-color-imou-ipc-s31fep-cruiser-se-3mp/1.webp",
+        "/media/camera-wifi-full-color-imou-ipc-s31fep-cruiser-se-3mp/2.jpg"
+      ],
+      "featured": false,
+      "description": "– Độ phân giải 3 Megapixel (2304×1296) cảm biến CMOS kích thước 1/2.8”.\n– Độ phân giải 3.0 Megapixel CMOS 1/2.8”\n– Chuẩn hình ảnh H.265/H.264.\n– Ống kính cố định 3.6mm, góc nhìn 82°(H), 44°(V), 104°(D)\n– Tầm nhìn ban đêm 30m ( Led/ hồng ngoại).\n– Hỗ trợ quay quét 355°Pan & 0~90°Tilt\n– 4 chế độ ban đêm: Tầm nhìn ban đêm thông minh, tầm nhìn ban đêm hồng ngoại, tầm nhìn ban đêm có màu, tắt tầm nhìn ban đêm.\n– Tích hợp đèn Spotlight + còi cảnh báo\n– Tính năng phát hiện chuyển động, phát hiện con người\n– Tính năng theo dõi thông minh Smart Tracking\n– Tích hợp Mic và loa. Hỗ trợ đàm thoại 2 chiều\n– Hỗ trợ khe cắm thẻ nhớ Micro SD, Max 512GB.\n– Cổng LAN 1/100Mbps tích hợp 2 ăng ten với chuẩn Wi-Fi (IEEE802.11 b/g/n/ax)\n– Hỗ trợ P2P, tích hợp rút reset\n– Chuẩn chống nước IP66.\n– Chuẩn tương thích ONVIF.\n– Nguồn cấp: DC12V/0.5A, công suất < 6W\n– Chất liệu vỏ plastic.\n– Kích thước: 120.7 × 136.2× 183.3 mm\n– Trọng lượng: 395 g\n– Môi trường làm việc từ -30°C~+50°C (< 95%RH).\n– Xuất xứ: Trung Quốc.\n– Bảo hành: 24 tháng.",
+      "category": "Camera",
+      "brand": "IMOU"
+    },
+    {
+      "id": "camera-wifi-trong-nha-imou-cue-c32-3mp-ipc-c32sp-ipc-c32ep",
+      "name": "Camera Wifi trong nhà IMOU Cue C32 3MP (IPC-C32SP/ IPC-C32EP)",
+      "camera_brand": "IMOU",
+      "price": 550000,
+      "old_price": 650000,
+      "warranty": "24 tháng",
+      "images": [
+        "/media/camera-wifi-trong-nha-imou-cue-c32-3mp-ipc-c32sp-ipc-c32ep/1-1.webp"
+      ],
+      "featured": false,
+      "description": "– Model: IPC-C32SP/ IPC-C32EP\n– Chuẩn nén H.265\n– Độ phân giải 3.0MP cảm biến 1/3” CMOS, 3MP 25fps@(2304 x 1296)\n– Ống kính cố định 2.8mm cho góc nhìn 112°\n– Tầm xa hồng ngoại 10m với công nghệ hồng ngoại thông minh.\n– Tích hợp còi báo động.\n– Hỗ trợ đàm thoại 2 chiều\n– Hỗ trợ các tính năng thông minh: Phát hiện con người, phát hiện chuyển động, phát hiện âm thanh bất thường.\n– Hỗ trợ khe cắm thẻ nhớ Micro SD lên đến 512GB\n– Hỗ trợ ONVIF, Cloud\n– Tích hợp Wi-Fi 6 (2.4GHz)\n– Nguồn cấp: DC5V/ 1A\n– Điện năng tiêu thụ <5W\n– Chất liệu vỏ plastic.\n– Kích thước: 68 × 33 × 106,6mm\n– Trọng lượng: 69,6g\n– Đạt chứng nhận CE, FCC\n– Xuất xứ: Trung Quốc.\n– Bảo hành: 24 tháng.",
+      "category": "Camera",
+      "brand": "IMOU"
+    },
+    {
+      "name": "Camera Wifi trong nhà iMOU Ranger Mini 3MP (IPC-K2MP-3H0WE)",
+      "camera_brand": "IMOU",
+      "price": 750000,
+      "old_price": 850000,
+      "images": [
+        "/media/camera-wifi-trong-nha-imou-ranger-mini-3mp-ipc-k2mp-3h0we/1.png",
+        "/media/camera-wifi-trong-nha-imou-ranger-mini-3mp-ipc-k2mp-3h0we/2.jpg"
+      ],
+      "featured": false,
+      "description": "– Camera wifi quay quét trong nhà tích hợp chân đế 3.0MP\n\n– Độ phân giải 3MP (2K), cảm biến 1/3” CMOS, 20fps@3.0MP(2304 x 1296)\n\n– Ống kính cố đinh 3.6mm, góc nhìn 66°, quay quét ngang 355°, quay quét dọc -5° – 50°\n\n– Chuẩn nén H.265\n\n– Chống ngược sáng HDR\n\n– Tầm nhìn ban đêm 10m. Tích hợp 4 chế độ ánh sáng thông minh, hồng ngoại, full color và tắt.\n\n– Hỗ trợ đàm thoại 2 chiều\n\n– Hỗ trợ Auto-Cruise\n\n– Hỗ trợ các tính năng thông minh: phát hiện chuyển động, phát hiện con người, phát hiện âm thanh bất thường, chế độ riêng tư, Smart tracking.\n\n– Tích hợp Wi-Fi 6 (IEEE802.11b/g/n/ax), LAN, CLOUD, ONVIF\n\n– Hỗ trợ khe cắm thẻ nhớ Micro SD max 512GB\n\n– Nguồn: DC 5V1A cổng USB-C, điện năng tiêu thụ <3.7W\n\n– Chất liệu vỏ nhựa. Tích hợp sẵn chân đế gắn tường và gắn trần.",
+      "id": "camera-wifi-trong-nha-imou-ranger-mini-3mp-ipc-k2mp-3h0we",
+      "category": "Camera",
+      "brand": "IMOU"
+    }
+  ]
+}
