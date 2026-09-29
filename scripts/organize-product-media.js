@@ -5,22 +5,18 @@ const root = process.cwd();
 const productsPath = path.join(root, 'products.json');
 const pagesPath = path.join(root, '.pages.yml');
 const mediaRoot = path.join(root, 'media');
+const OTHER = 'Khác / thêm mới';
 
 function slugify(value) {
   return String(value || '')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/đ/g, 'd')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 120);
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/đ/g, 'd')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 120);
 }
 function cleanWebPath(value) {
   if (!value) return '';
   let s = String(value).trim().replace(/\\/g, '/');
-  s = s.replace(/^\.\//, '').replace(/^\//, '');
-  return s;
+  return s.replace(/^\.\//, '').replace(/^\//, '');
 }
 function isRemote(value) { return /^(https?:|data:|blob:)/i.test(String(value || '')); }
 function ensureDir(dir) { fs.mkdirSync(dir, { recursive: true }); }
@@ -75,7 +71,7 @@ function unquoteYamlValue(line) {
 function ensureSelectOptions(yaml, fieldName, values) {
   const lines = yaml.split(/\r?\n/);
   const fieldRe = new RegExp(`^\\s*- name: ${fieldName}\\s*$`);
-  let start = lines.findIndex(line => fieldRe.test(line));
+  const start = lines.findIndex(line => fieldRe.test(line));
   if (start < 0) return yaml;
   let end = lines.length;
   const fieldIndent = (lines[start].match(/^\s*/) || [''])[0].length;
@@ -91,18 +87,56 @@ function ensureSelectOptions(yaml, fieldName, values) {
   while (optionEnd < end && (lines[optionEnd].trim() === '' || lines[optionEnd].startsWith(optionIndent + '- '))) optionEnd++;
   const current = [];
   for (let i = optionStart; i < optionEnd; i++) if (lines[i].startsWith(optionIndent + '- ')) current.push(unquoteYamlValue(lines[i]));
-  const other = 'Khác / thêm mới';
   const merged = [];
   for (const v of [...current, ...values]) {
     const val = String(v || '').trim();
-    if (!val || val === other || merged.some(x => x.toLowerCase() === val.toLowerCase())) continue;
+    if (!val || val === OTHER || merged.some(x => x.toLowerCase() === val.toLowerCase())) continue;
     merged.push(val);
   }
-  merged.sort((a,b)=>a.localeCompare(b,'vi',{sensitivity:'base'}));
-  merged.push(other);
-  const replacement = merged.map(v => optionIndent + '- ' + yamlValue(v));
-  lines.splice(optionStart, optionEnd - optionStart, ...replacement);
+  merged.push(OTHER);
+  lines.splice(optionStart, optionEnd - optionStart, ...merged.map(v => optionIndent + '- ' + yamlValue(v)));
   return lines.join('\n');
+}
+
+const learnablePairs = [
+  ['camera_brand','camera_brand_new'],['camera_type','camera_type_new'],['camera_resolution','camera_resolution_new'],
+  ['camera_connection','camera_connection_new'],['camera_lens','camera_lens_new'],['camera_night','camera_night_new'],
+  ['camera_audio','camera_audio_new'],['camera_storage','camera_storage_new'],
+  ['computer_brand','computer_brand_new'],['computer_type','computer_type_new'],['computer_cpu','computer_cpu_new'],
+  ['computer_ram','computer_ram_new'],['computer_storage','computer_storage_new'],['computer_gpu','computer_gpu_new'],
+  ['computer_screen','computer_screen_new'],['computer_refresh','computer_refresh_new'],
+  ['printer_brand','printer_brand_new'],['printer_type','printer_type_new'],['printer_paper','printer_paper_new'],
+  ['printer_color','printer_color_new'],['printer_functions','printer_functions_new'],['printer_duplex','printer_duplex_new'],
+  ['printer_connection','printer_connection_new'],['printer_speed','printer_speed_new'],
+  ['network_brand','network_brand_new'],['network_type','network_type_new'],['network_wifi','network_wifi_new'],
+  ['network_speed','network_speed_new'],['network_ports','network_ports_new'],['network_poe','network_poe_new'],
+  ['network_management','network_management_new'],['warranty','warranty_new']
+];
+const categoryMap = { camera:'Camera', computer:'Máy tính', printer:'Máy in', network:'Thiết bị mạng' };
+const brandFieldMap = { camera:'camera_brand', computer:'computer_brand', printer:'printer_brand', network:'network_brand' };
+const modelFieldMap = { camera:'camera_model', computer:'computer_model', printer:'printer_model', network:'network_model' };
+
+function applyLearnable(obj, field, newField, learned) {
+  if (!obj || typeof obj !== 'object') return false;
+  let changed = false;
+  const custom = String(obj[newField] || '').trim();
+  let value = obj[field];
+  if (Array.isArray(value)) {
+    value = value.filter(v => v && v !== OTHER);
+    if (custom && !value.some(v => String(v).toLowerCase() === custom.toLowerCase())) value.push(custom);
+    if (JSON.stringify(value) !== JSON.stringify(obj[field])) { obj[field] = value; changed = true; }
+    if (custom) { delete obj[newField]; changed = true; }
+    for (const v of value) learned.add(String(v).trim());
+  } else {
+    if (custom) {
+      if (obj[field] !== custom) { obj[field] = custom; changed = true; }
+      delete obj[newField]; changed = true;
+      learned.add(custom);
+    } else if (value === OTHER) {
+      obj[field] = ''; changed = true;
+    } else if (value) learned.add(String(value).trim());
+  }
+  return changed;
 }
 
 function main() {
@@ -111,7 +145,7 @@ function main() {
   const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
   if (!Array.isArray(products)) throw new Error('products.json must contain an array');
   const activeFolders = new Set(), usedIds = new Set();
-  const learnedBrands = new Set(), learnedWarranties = new Set();
+  const learned = Object.fromEntries(learnablePairs.map(([field]) => [field, new Set()]));
   let changed = false;
 
   function nextUniqueId(base) {
@@ -127,36 +161,24 @@ function main() {
 
   for (const product of products) {
     let id = slugify(product.id);
-    if (!id) {
-      id = nextUniqueId(slugify(product.name) || 'san-pham');
-      product.id = id; changed = true;
-    } else if (product.id !== id) { product.id = id; changed = true; }
+    if (!id) { id = nextUniqueId(slugify(product.name) || 'san-pham'); product.id = id; changed = true; }
+    else if (product.id !== id) { product.id = id; changed = true; }
     activeFolders.add(id);
 
-    const newBrand = String(product.brand_new || '').trim();
-    if (newBrand) {
-      product.brand = newBrand;
-      delete product.brand_new;
-      changed = true;
-    } else if (product.brand === 'Khác / thêm mới') {
-      product.brand = '';
-      changed = true;
+    const blocks = Array.isArray(product.quick_specs) ? product.quick_specs : [];
+    const profile = blocks[0] && typeof blocks[0] === 'object' ? blocks[0] : null;
+    if (profile) {
+      const kind = String(profile.kind || '').trim();
+      if (categoryMap[kind] && product.category !== categoryMap[kind]) { product.category = categoryMap[kind]; changed = true; }
+      const brandField = brandFieldMap[kind];
+      const modelField = modelFieldMap[kind];
+      if (brandField && profile[brandField] && product.brand !== profile[brandField]) { product.brand = profile[brandField]; changed = true; }
+      if (modelField && profile[modelField] && product.model !== profile[modelField]) { product.model = profile[modelField]; changed = true; }
+      for (const [field,newField] of learnablePairs) if (Object.prototype.hasOwnProperty.call(profile, field) || Object.prototype.hasOwnProperty.call(profile, newField)) changed = applyLearnable(profile, field, newField, learned[field]) || changed;
     }
-    const newWarranty = String(product.warranty_new || '').trim();
-    if (newWarranty) {
-      product.warranty = newWarranty;
-      delete product.warranty_new;
-      changed = true;
-    } else if (product.warranty === 'Khác / thêm mới') {
-      product.warranty = '';
-      changed = true;
-    }
-    if (product.brand) learnedBrands.add(String(product.brand).trim());
-    if (product.warranty) learnedWarranties.add(String(product.warranty).trim());
+    changed = applyLearnable(product, 'warranty', 'warranty_new', learned.warranty) || changed;
 
-    if ((!Array.isArray(product.images) || product.images.length === 0) && product.image) {
-      product.images = [product.image]; delete product.image; changed = true;
-    }
+    if ((!Array.isArray(product.images) || product.images.length === 0) && product.image) { product.images = [product.image]; delete product.image; changed = true; }
     if (Array.isArray(product.images)) {
       const nextImages = product.images.filter(Boolean).map(src => moveMedia(src, id));
       if (JSON.stringify(nextImages) !== JSON.stringify(product.images)) changed = true;
@@ -171,23 +193,18 @@ function main() {
 
   if (fs.existsSync(mediaRoot)) {
     for (const entry of fs.readdirSync(mediaRoot, { withFileTypes: true })) {
-      if (entry.isDirectory() && !activeFolders.has(entry.name)) {
-        fs.rmSync(path.join(mediaRoot, entry.name), { recursive: true, force: true }); changed = true;
-      }
+      if (entry.isDirectory() && !activeFolders.has(entry.name)) { fs.rmSync(path.join(mediaRoot, entry.name), { recursive: true, force: true }); changed = true; }
     }
   }
   removeEmptyDirs(mediaRoot);
-
   if (changed) fs.writeFileSync(productsPath, JSON.stringify(products, null, 2) + '\n', 'utf8');
 
   if (fs.existsSync(pagesPath)) {
     let yaml = fs.readFileSync(pagesPath, 'utf8');
-    const next = ensureSelectOptions(ensureSelectOptions(yaml, 'brand', [...learnedBrands]), 'warranty', [...learnedWarranties]);
-    if (next !== yaml) {
-      fs.writeFileSync(pagesPath, next.endsWith('\n') ? next : next + '\n', 'utf8');
-      changed = true;
-    }
+    for (const [field] of learnablePairs) yaml = ensureSelectOptions(yaml, field, [...learned[field]]);
+    const old = fs.readFileSync(pagesPath, 'utf8');
+    if (yaml !== old) { fs.writeFileSync(pagesPath, yaml.endsWith('\n') ? yaml : yaml + '\n', 'utf8'); changed = true; }
   }
-  console.log(changed ? 'Products, media and quick-select options updated.' : 'No changes needed.');
+  console.log(changed ? 'Products, media and preset options updated.' : 'No changes needed.');
 }
 main();
