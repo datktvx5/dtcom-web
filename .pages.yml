@@ -1,6 +1,6 @@
 media:
-  input: .
-  output: /.
+  input: media
+  output: /media
 
 content:
   - name: products
