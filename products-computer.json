@@ -10,7 +10,8 @@
       ],
       "featured": true,
       "description": "Chi tiết cấu hình\n\n\n\nMainboard Gigabyte H610M-H V3 DDR4\n\nBộ vi xử lý Intel Core i3 14100 / LGA 1700\n\nRam SSTC 8GB DDR4 3200MHz (U3200A-C22-8GB)\n\nỔ Cứng SSD SSTC M2 NVME Gen3x4 Max III 256GB\n\nNguồn máy tính CoolerMaster Elite NEX N400 230V (400W)\n\nCase máy tính XIGMATEK XA-22 (ATX)",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-homework-i5",
@@ -22,7 +23,8 @@
       ],
       "featured": true,
       "description": "Chi tiết cấu hình\n\nMainboard Gigabyte H610M-H V3 DDR4\n\nIntel Core i5 14400 / Turbo up to 4.7GHz / 10 Nhân 16 Luồng / LGA 1700\n\nRam SSTC 8GB DDR4 3200MHz (U3200A-C22-8GB)\n\nỔ Cứng SSD SSTC M2 NVME Gen3x4 Max III 256GB\n\nNguồn máy tính Jetek Elite V6 350W E350\n\nVỏ máy tính EDRA ECS1105 Micro-ATX",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-homework-r5",
@@ -34,7 +36,8 @@
       ],
       "featured": false,
       "description": "Chi tiết cấu hình\n\nMainboard Gigabyte A520M-K V2\n\nAMD Ryzen 5 5600GT / 3.6GHz Boost 4.6GHz / 6 nhân 12 luồng / 19MB / AM4\n\nRAM TeamGroup Elite Plus (1x8GB) DDR4 3200MHz\n\nCó thể tùy chọn Nâng cấp\n\nCó thể tùy chọn Nâng cấp\n\nỔ cứng SSD GIGABYTE NVMe V2 256GB (G3NVMEV2256G)\n\nNguồn máy tính Jetek Elite V6 350W E350\n\nVỏ máy tính EDRA ECS1105 Micro-ATX",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-intel-i3-12100f-vga-rx-6600",
@@ -45,7 +48,8 @@
       ],
       "featured": false,
       "description": "CẤU HÌNH CHI TIẾT SẢN PHẨM PC GVN Intel i3-12100F/ VGA RX 6600:\n\nMainboard\tASUS PRIME H610M-K DDR4\t36 Tháng\nCPU\t Intel Core i3 12100F / 3.3GHz Turbo 4.3GHz / 4 Nhân 8 Luồng / 12MB / LGA 1700\t36 Tháng\nRAM\tV-Color Skywalker Plus 1x8GB 3600 RGB Black DDR4\t36 Tháng\nCard đồ họa\tCard màn hình ASUS Dual Radeon RX 6600 V3 8GB (DUAL-RX6600-8G-V3)\t36 Tháng\nHDD\tCó thể tùy chọn Nâng cấp\t24 Tháng\nSSD\tPNY CS900 250GB Sata3\t36 Tháng\nPSU\tFSP HV PRO 550W - 80 Plus Bronze\t36 Tháng\nCase \tXigmatek QUANTUM 3GF",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-gvn-intel-i5-13400f-vga-rx-6600-h610",
@@ -56,7 +60,8 @@
       ],
       "featured": false,
       "description": "Thông số kỹ thuật:\n\n\tMainboard ASUS PRIME H610M-A WIFI D4\t36 Tháng\n\tCPU Intel Core i5 13400F / 2.7GHz Turbo 5.0GHz / 10 Nhân 16 Luồng\t36 Tháng\nRAM\tV-Color Skywalker Plus 1x8GB 3600 RGB Black DDR4\t36 Tháng\nVGA - Card đồ họa\tCard màn hình ASUS Dual Radeon RX 6600 V3 8GB (DUAL-RX6600-8G-V3)\t36 Tháng\nHDD\tCó thể tùy chọn Nâng cấp\t24 Tháng\nSSD\tWD Black SN770 500G M.2 NVMe PCIe Gen4\t60 Tháng\nPSU\tFSP HV PRO 550W - 80 Plus Bronze\t36 Tháng\nCase \tXigmatek QUANTUM 3GF\t12 Tháng\nTản nhiệt\tCooler Master Hyper 212 Spectrum V3 ARGB",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-intel-i5-12400f-vga-rtx-4060",
@@ -67,7 +72,8 @@
       ],
       "featured": false,
       "description": "Thông số kỹ thuật:\nMainboard\t Bo mạch chủ ASUS PRIME B760M-K D4\t36 Tháng\nCPU\tCPU Intel Core i5 12400F / 2.5GHz Turbo 4.4GHz / 6 Nhân 12 Luồng (Chính hãng - Full Box)\t36 Tháng\nRAM\tRAM V-Color Skywalker Plus 1x16GB 3600 RGB Black DDR4\t36 Tháng\nVGA \tCard Màn Hình MSI GeForce RTX 4060 VENTUS 2X BLACK 8G OC\t36 Tháng\nHDD\tCó thể tùy chọn Nâng cấp\t24 Tháng\nSSD\tSSD PNY CS1031 M.2 2280 256GB Gen 3x4\t36 Tháng\nPSU\tFSP HV PRO 550W - 80 Plus Bronze (550W)\t36 Tháng\nCase\tVỏ máy tính Xigmatek QUANTUM 4AF\t12 Tháng\nTản nhiệt\tCooler Master Hyper 212 Spectrum V3 ARGB\t24 Tháng\n*Hình ảnh minh hoạ có thể khác với cấu hình thực tế ",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-intel-i5-12400f-vga-rtx-3050",
@@ -79,7 +85,8 @@
       ],
       "featured": false,
       "description": "Thông số kỹ thuật:\n\nBo mạch chủ MSI PRO B760M-E DDR4 \n\nBộ vi xử lý Intel Core i5 12400F / 2.5GHz Turbo 4.4GHz (TRAY) - CHÍNH HÃNG \n\nRam Kingmax Blade X 1x16GB DDR4 Bus 3200Mhz \n\nCard màn hình GIGABYTE GeForce RTX 3050 WINDFORCE OC 6G (GV-N3050WF2OCV2-6GD)\n\nTản nhiệt Cooler Master Hyper 212 Spectrum V3 ARGB\n\nỔ Cứng SSD SSTC Oceanic Whitetip E130 512GB M.2 2280 PCIe NVMe (Gen 3x4) \n\nNguồn máy tính CoolerMaster Elite NEX PN600 230V \n\nVỏ máy tính Xigmatek QUANTUM 4AF \n\n*Hình ảnh minh hoạ có thể khác với cấu hình thực tế.\n",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-x-corsair-icue-intel-i5-13400f-vga-rtx-4060",
@@ -92,7 +99,8 @@
       ],
       "featured": false,
       "description": "Thông số kỹ thuật:\nMainboard\tMainboard GIGABYTE B760M AORUS ELITE AX DDR4\t36 Tháng\nCPU\tCPU Intel Core i5 13400F / 2.7GHz Turbo 5.0GHz / 10 Nhân 16 Luồng\t36 Tháng\nRAM\tRAM V-Color Skywalker Plus 1x16GB 3600 RGB Black DDR4\t36 Tháng\nVGA \tCard màn hình GIGABYTE GeForce RTX 4060 WINDFORCE OC 8G\t36 Tháng\nHDD\tCó thể tùy chọn Nâng cấp\t24 Tháng\nSSD\tWD Black SN770 500G M.2 NVMe PCIe Gen4\t60 Tháng\nPSU\tCorsair CX750 - 80 Plus Bronze (750W)\t36 Tháng\nCase\tCorsair 3500X TG Mid Tower Black\t24 Tháng\nQuạt\tBộ 3 quạt Corsair RS120 ARGB BLACK",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-intel-i7-14700f-vga-rtx-5060",
@@ -107,7 +115,8 @@
       ],
       "featured": false,
       "description": "Thông số kỹ thuật:\n\nBo mạch chủ GIGABYTE Z790 D DDR4\n\nBộ vi xử lý Intel Core i7 14700F / 20 Nhân 28 Luồng / 33MB / LGA 1700\n\nRam Kingmax Blade X 1x16GB DDR4 Bus 3200Mhz \n\nCard màn hình MSI GeForce RTX 5060 Ventus 2X OC V1 8GB \n\nỔ Cứng SSD SSTC Oceanic Whitetip E130 512GB M.2 2280 PCIe NVMe (Gen 3x4) \n\nNguồn máy tính Corsair CX750 - 80 Plus Bronze (750W)\n\nVỏ máy tính Corsair 3500X TG Mid Tower Black (CC-9011276-WW)\n\nTản nhiệt AIO Corsair NAUTILUS 360 ARGB Black",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     },
     {
       "id": "pc-gvn-ai-meg-vision-x-ai-2nd",
@@ -121,7 +130,8 @@
       ],
       "featured": false,
       "description": "PC DTCOM AI MEG VISION X AI 2ND: Siêu Phẩm Hiệu Năng Cho Gaming, Sáng Tạo Và AI Chuyên Sâu\nPC DTCOM AI MEG VISION X AI 2ND là hệ thống máy tính cao cấp được thiết kế đặc biệt hướng đến người dùng đòi hỏi hiệu năng tối thượng. Sự kết hợp giữa vi xử lý Intel Core Ultra 7 270K Plus, card màn hình NVIDIA GeForce RTX 5090, 32GB RAM DDR5 và SSD PCIe Gen5 2TB tạo nên một cỗ máy hủy diệt mọi giới hạn. Đặc biệt, sự góp mặt của hệ thống màn hình AI HMI và tản nhiệt Silent Storm Cooling AI giúp chiếc PC này trở thành tâm điểm của mọi không gian làm việc và giải trí.\n\nSức Mạnh Đa Nhiệm Vượt Trội Từ Intel Core Ultra 7 270K Plus\nĐược xây dựng trên nền tảng chipset Intel Z890 thế hệ mới, PC DTCOM AI MEG VISION X AI 2ND sở hữu bộ vi xử lý Intel Core Ultra 7 270K Plus với 24 nhân và mức xung nhịp tối đa lên đến 5.5GHz.\nĐây là nền tảng tính toán mạnh mẽ, cho phép xử lý hoàn hảo mọi workload từ chơi game AAA, livestream, biên tập video 4K/8K cho đến dựng hình 3D phức tạp. Nhờ khả năng phân luồng thông minh, CPU và GPU phối hợp nhịp nhàng để tối ưu hóa cả những tác vụ kết hợp giữa tính toán và đồ họa, giúp bạn làm chủ mọi project chuyên nghiệp trên một hệ thống duy nhất.\n\nĐột Phá Đồ Họa Và AI Với NVIDIA GeForce RTX 5090\nThành phần đắt giá nhất của cấu hình chính là siêu card đồ họa NVIDIA GeForce RTX 5090, sử dụng kiến trúc NVIDIA Blackwell đột phá cùng bộ nhớ GDDR7 tốc độ siêu cao.\nGPU này sinh ra để phục vụ những workload đồ họa nặng nề nhất, gaming ở độ phân giải 4K/8K và các ứng dụng AI đòi hỏi năng lực tính toán khổng lồ. Hệ sinh thái RTX 50 Series mang đến công nghệ DLSS 4, Ray Tracing thế hệ mới và các tính năng neural render đỉnh cao. Với các nhà sáng tạo nội dung, dung lượng VRAM lớn đảm bảo không gian rộng rãi cho các dự án đa cảnh, render phức tạp mà không lo tràn bộ nhớ.\n\nTốc Độ Xử Lý Chớp Nhoáng Cùng 32GB DDR5 & SSD PCIe Gen5 2TB\nHệ thống được trang bị 32GB RAM DDR5 (16GB x 2) chạy Dual-channel, cung cấp băng thông khổng lồ và độ trễ cực thấp cho gaming cũng như các phần mềm chuyên dụng. Đi kèm với đó là ổ cứng lưu trữ SSD M.2 PCIe Gen5 x4 dung lượng 2TB, mang lại không gian lưu trữ rộng rãi và tốc độ đọc/ghi dữ liệu dẫn đầu thị trường, giúp khởi động hệ điều hành, load game và truy xuất các project nặng chỉ trong chớp mắt.\n\nTrải Nghiệm Tương Lai Với Màn Hình Cảm Ứng AI HMI 13-Inch\nĐiểm nhấn công nghệ độc quyền làm nên đẳng cấp của DTCOM AI MEG VISION X AI 2ND chính là hệ thống AI HMI. Mặt trước của máy được tích hợp một màn hình cảm ứng 13-inch FHD IPS, đi kèm microphone và loa.\nMàn hình này cho phép hiển thị thông số phần cứng theo thời gian thực, hỗ trợ điều khiển hệ thống trực quan và tự động chuyển đổi các tiện ích, phím tắt linh hoạt theo phần mềm mà người dùng đang thao tác.\n\nTản Nhiệt Kép AIO 360mm & Silent Storm Cooling AI\nHiệu năng càng cao, hệ thống tản nhiệt càng phải tối ưu. Cỗ máy này sử dụng tản nhiệt nước AIO 360mm kết hợp cùng kiến trúc Silent Storm Cooling AI. Thiết kế phân khoang thông minh giúp tách biệt luồng khí của các linh kiện tỏa nhiệt nhiều nhất, đồng thời sử dụng thuật toán NPU để tự động điều chỉnh tốc độ quạt theo trạng thái vận hành của máy.\nHệ thống còn được gia cố bởi Glacier Armor – lớp giáp tản nhiệt cao cấp bố trí tại các khu vực trọng yếu như RAM, SSD, PCH và VRM. Nhờ đó, PC luôn duy trì nhiệt độ lý tưởng và trạng thái êm ái kể cả khi render liên tục hay cày ải game trong thời gian dài.\n\nSở Hữu Ngay Siêu Phẩm PC AI MEG VISION Tại DTCOM\nNếu bạn đang tìm kiếm một hệ thống PC duy trì hiệu năng tối đa liên tục, vận hành tĩnh lặng và sở hữu thiết kế đậm chất tương lai, PC DTCOM AI MEG VISION X AI 2ND chính là sự lựa chọn hoàn hảo.\n\nSản phẩm hiện đang được phân phối chính hãng tại DTCOM với mức giá cực kỳ cạnh tranh cùng hàng loạt ưu đãi và chính sách bảo hành hậu mãi hấp dẫn. Liên hệ ngay với DTCOM hôm nay để nâng tầm góc máy và khẳng định đẳng cấp công nghệ của riêng bạn!",
-      "category": "Máy tính"
+      "category": "Máy tính",
+      "brand": ""
     }
   ]
 }
