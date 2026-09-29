@@ -33,3 +33,14 @@ footer{background:#03132e;color:#afc1d8;padding:30px 0}.footer-grid{display:grid
 .product-body .price{margin-top:auto}
 @media(max-width:900px){.product-image{height:210px;flex-basis:210px}.product-card{min-height:330px}}
 @media(max-width:560px){.product-card{min-height:285px}.product-image{height:170px;flex-basis:170px;padding:8px}.product-body{min-height:94px;padding:9px 9px 11px}.product-body h3{font-size:12px;line-height:1.25;margin-bottom:7px}.price{font-size:15px}}
+
+/* ===== DTCOM PRODUCT TAXONOMY / FILTERS ===== */
+.taxonomy-toolbar{display:grid;grid-template-columns:minmax(240px,1.4fr) repeat(4,minmax(150px,1fr));gap:10px;align-items:stretch;margin-bottom:22px}
+.taxonomy-toolbar input,.taxonomy-toolbar select{width:100%;min-width:0;height:46px;border:1px solid #cddbeb;border-radius:10px;background:#fff;color:#10213d;padding:0 13px;font:inherit;outline:none}
+.taxonomy-toolbar input:focus,.taxonomy-toolbar select:focus{border-color:#1788ff;box-shadow:0 0 0 3px rgba(23,136,255,.12)}
+#productTypeWrap{min-width:0}#productTypeWrap[hidden]{display:none!important}#productTypeWrap select{height:46px}
+.taxonomy-page-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.taxonomy-box{background:#fff;border:1px solid #dbe7f5;border-radius:18px;padding:22px;box-shadow:0 12px 36px rgba(23,66,119,.08)}
+.taxonomy-box h2{margin:0 0 14px;color:#0a3470;font-size:22px}.taxonomy-links{display:flex;flex-wrap:wrap;gap:9px}.taxonomy-links a{display:inline-flex;padding:9px 12px;border-radius:999px;background:#edf6ff;color:#0b67c9;text-decoration:none;font-weight:800;font-size:13px;border:1px solid #d8eaff}.taxonomy-links a:hover{background:#0d7cff;color:#fff;border-color:#0d7cff}
+@media(max-width:1100px){.taxonomy-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}.taxonomy-toolbar input{grid-column:1/-1}}
+@media(max-width:720px){.taxonomy-toolbar{grid-template-columns:1fr}.taxonomy-toolbar input{grid-column:auto}.taxonomy-page-grid{grid-template-columns:1fr}.taxonomy-box{padding:16px}.taxonomy-links{gap:7px}.taxonomy-links a{font-size:12px;padding:8px 10px}}

@@ -19,6 +19,18 @@ content:
         fields:
           - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
           - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: subcategory
+            label: Nhóm sản phẩm
+            type: select
+            required: true
+            options:
+              values: ["Camera trong nhà", "Camera ngoài trời", "Camera IP PoE", "Camera PTZ / 360", "Camera Analog", "Đầu ghi", "Phụ kiện Camera"]
+          - name: brand
+            label: Hãng
+            type: select
+            required: true
+            options:
+              values: [IMOU, EZVIZ, Hikvision, Dahua, KBVision, "TP-Link / Tapo", Xiaomi, Reolink, Uniview, Vantech, Yoosee, Axis, Bosch, "Hanwha Vision", Tiandy, TVT, Khác]
           - { name: price, label: Giá bán, type: number, required: true }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
@@ -59,6 +71,23 @@ content:
         fields:
           - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
           - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: subcategory
+            label: Nhóm sản phẩm
+            type: select
+            required: true
+            options:
+              values: [Laptop, "Máy tính để bàn", "Màn hình", "Linh kiện", "Phụ kiện"]
+          - name: product_type
+            label: Loại chi tiết (nếu cần)
+            type: select
+            options:
+              values: [CPU, Mainboard, RAM, "SSD / HDD", VGA, "Nguồn / PSU", Case, "Tản nhiệt", "Bàn phím", Chuột, Webcam, "Tai nghe", Khác]
+          - name: brand
+            label: Hãng
+            type: select
+            required: true
+            options:
+              values: [Acer, ASUS, Dell, HP, Lenovo, MSI, Gigabyte, Apple, Intel, AMD, NVIDIA, Kingston, Corsair, "G.Skill", Crucial, Samsung, "Western Digital", Seagate, Lexar, TeamGroup, Logitech, Razer, Rapoo, AOC, LG, ViewSonic, BenQ, Philips, Khác]
           - { name: price, label: Giá bán, type: number, required: true }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
@@ -99,6 +128,18 @@ content:
         fields:
           - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
           - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: subcategory
+            label: Nhóm sản phẩm
+            type: select
+            required: true
+            options:
+              values: ["Laser đen trắng", "Laser màu", "Phun màu", "Đa chức năng", "Máy in nhiệt / tem", "Máy Scan", "Mực & vật tư"]
+          - name: brand
+            label: Hãng
+            type: select
+            required: true
+            options:
+              values: [Canon, HP, Brother, Epson, Pantum, Ricoh, Xerox, "Fujifilm Business Innovation", Kyocera, "Konica Minolta", Lexmark, Samsung, Oki, Zebra, Godex, Xprinter, Khác]
           - { name: price, label: Giá bán, type: number, required: true }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
@@ -139,6 +180,18 @@ content:
         fields:
           - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
           - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: subcategory
+            label: Nhóm sản phẩm
+            type: select
+            required: true
+            options:
+              values: [Router, "Access Point", Switch, "Firewall / Gateway", "Mesh WiFi", "Converter / SFP", "Cáp & phụ kiện mạng"]
+          - name: brand
+            label: Hãng
+            type: select
+            required: true
+            options:
+              values: ["TP-Link", Ruijie, Reyee, MikroTik, Ubiquiti, Cisco, Aruba, Tenda, "D-Link", DrayTek, Fortinet, HPE, Netgear, Totolink, Mercusys, Khác]
           - { name: price, label: Giá bán, type: number, required: true }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
