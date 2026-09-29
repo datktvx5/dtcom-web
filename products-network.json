@@ -1,3 +1,13 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "Router Cân Bằng Tải MikroTik hEX refresh E50UG 5 Ports 1G",
+      "price": 0,
+      "images": [
+        "/media/e50ug-1.jpg"
+      ],
+      "featured": false,
+      "description": "Loại thiết bị: Router chia mạng - cân bằng tải.Cổng Gigabit Ethernet: 5x 10/100/1000 Ethernet ports.Cổng WAN Internet: 5 Ports 1G.Cổng PoE in: 1x POE-IN.Nguồn điện: PoE 10W, DC jack 12-28 V.CPU: ARM 2 Core, 950 MHz.RAM: 512 MB.Storage: 128 MB NAND.Hệ điều hành: RouterOS v7.Hiệu suất: đạt 100-134% công lực so với các sản phẩm thế hệ trước."
+    }
+  ]
 }
