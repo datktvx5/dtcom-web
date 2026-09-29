@@ -1,36 +1,5 @@
 [
   {
-    "id": "camera-ip-4mp-demo",
-    "name": "IMOU A32 ",
-    "category": "Camera",
-    "subcategory": "Camera IP",
-    "brand": "IMOU",
-    "price": 550000,
-    "old_price": 650000,
-    "warranty": "24 tháng",
-    "images": [
-      "/media/camera-ip-4mp-demo/a32.webp",
-      "/media/camera-ip-4mp-demo/a322.webp"
-    ],
-    "video": "/media/camera-ip-4mp-demo/008ctajar.mp4",
-    "featured": true,
-    "description": "Sản phẩm mẫu để bạn thử giao diện quản lý. Sau khi kết nối Pages CMS, bạn có thể sửa hoặc xóa mục này.",
-    "specs": [
-      {
-        "name": "Độ phân giải",
-        "value": "4MP"
-      },
-      {
-        "name": "Kết nối",
-        "value": "IP / PoE"
-      },
-      {
-        "name": "Bảo hành",
-        "value": "24 tháng"
-      }
-    ]
-  },
-  {
     "id": "pc-van-phong-demo",
     "name": "PC văn phòng - Sản phẩm mẫu",
     "category": "Máy tính",
@@ -39,6 +8,7 @@
     "price": 6990000,
     "old_price": 0,
     "warranty": "12 tháng",
+    "video": "/media/camera-ip-4mp-demo/008ctajar.mp4",
     "featured": true,
     "description": "Bộ máy tính mẫu dành cho văn phòng. Thông tin này chỉ để minh họa cách hiển thị sản phẩm.",
     "specs": [
