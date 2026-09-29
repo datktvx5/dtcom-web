@@ -39,7 +39,8 @@
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat001-1.jpg",
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat003.jpg",
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat004.jpg",
-        "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat005.jpg"
+        "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat005.jpg",
+        "/media/cameragiamsatmanhinh001.jpg"
       ],
       "featured": false
     },
@@ -49,6 +50,15 @@
       "images": [
         "/media/khaccongtrinh001-1.jpg",
         "/media/cameragiamsatmanhinh002.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "title": "Camera TRường Học",
+      "project_type": "Hệ thống Camera",
+      "images": [
+        "/media/cameragiamsathethong001.jpg",
+        "/media/cameragiamsatmanhinh003.jpg"
       ],
       "featured": false
     }
