@@ -221,36 +221,43 @@ content:
     type: file
     path: projects.json
     format: json
-    list: true
     fields:
-      - { name: id, label: Mã công trình / đường dẫn, type: string, hidden: true }
-      - { name: title, label: Tên công trình, type: string, required: true }
-      - name: project_type
-        label: Loại công trình
-        type: select
-        required: true
-        options:
-          values: ["Hệ thống Camera", "Mạng LAN / WiFi", "Phòng máy / Máy tính", "Hệ thống Máy in", "Hệ thống tổng hợp", "Khác"]
-      - { name: location, label: Địa điểm, type: string }
-      - { name: customer, label: Khách hàng / Đơn vị, type: string }
-      - { name: completed, label: Thời gian hoàn thành, type: string }
-      - name: images
-        label: Hình ảnh công trình
-        type: image
-        options:
-          multiple: { max: 20 }
-          unique: true
-          extensions: [jpg, jpeg, png, webp]
-          rename: safe
-      - name: video
-        label: Video công trình
-        type: file
-        options:
-          categories: [video]
-          extensions: [mp4, webm]
-          rename: safe
-      - { name: featured, label: Hiển thị trên trang chủ, type: boolean }
-      - name: description
-        label: Giới thiệu công trình
-        type: text
-        options: { rows: 10 }
+      - name: items
+        label: Danh sách công trình
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: id, label: Mã công trình / đường dẫn, type: string, hidden: true }
+          - { name: title, label: Tên công trình, type: string, required: true }
+          - name: project_type
+            label: Loại công trình
+            type: select
+            required: true
+            options:
+              values: ["Hệ thống Camera", "Mạng LAN / WiFi", "Phòng máy / Máy tính", "Hệ thống Máy in", "Hệ thống tổng hợp", "Khác"]
+          - { name: location, label: Địa điểm, type: string }
+          - { name: customer, label: Khách hàng / Đơn vị, type: string }
+          - { name: completed, label: Thời gian hoàn thành, type: string }
+          - name: images
+            label: Hình ảnh công trình
+            type: image
+            options:
+              multiple: { max: 20 }
+              unique: true
+              extensions: [jpg, jpeg, png, webp]
+              rename: safe
+          - name: video
+            label: Video công trình
+            type: file
+            options:
+              categories: [video]
+              extensions: [mp4, webm]
+              rename: safe
+          - { name: featured, label: Hiển thị trên trang chủ, type: boolean }
+          - name: description
+            label: Giới thiệu công trình
+            type: text
+            options: { rows: 10 }
