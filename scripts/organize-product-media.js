@@ -14,8 +14,8 @@ function moveMedia(v,targetDir,webPrefix){if(!v||remote(v))return v;const c=clea
 function parse(f){const p=path.join(root,f);if(!fs.existsSync(p))return null;try{return JSON.parse(fs.readFileSync(p,'utf8'));}catch{return null;}}
 function loadProducts(f){const x=parse(f);if(Array.isArray(x))return x;if(x&&Array.isArray(x.items))return x.items;return[];}
 function saveProducts(f,items){fs.writeFileSync(path.join(root,f),JSON.stringify({items},null,2)+'\n','utf8');}
-function loadArray(f){const x=parse(f);return Array.isArray(x)?x:[];}
-function saveArray(f,x){fs.writeFileSync(path.join(root,f),JSON.stringify(x,null,2)+'\n','utf8');}
+function loadArray(f){const x=parse(f);if(Array.isArray(x))return x;if(x&&Array.isArray(x.items))return x.items;return[];}
+function saveArray(f,x){fs.writeFileSync(path.join(root,f),JSON.stringify({items:x},null,2)+'\n','utf8');}
 function makeUnique(base,used){let id=base||'muc';if(!used.has(id)){used.add(id);return id;}for(let i=2;;i++){const x=`${id}-${i}`;if(!used.has(x)){used.add(x);return x;}}}
 function main(){
   ensure(mediaRoot);ensure(projectMediaRoot);
@@ -80,6 +80,6 @@ function main(){
   }
   saveArray(projectFile,projects);
   for(const e of fs.readdirSync(projectMediaRoot,{withFileTypes:true}))if(e.isDirectory()&&!activeProjects.has(e.name))fs.rmSync(path.join(projectMediaRoot,e.name),{recursive:true,force:true});
-  console.log('Updated product IDs/media and migrated product JSON files to { items: [...] }.');
+  console.log('Updated product/project IDs and media; migrated product and project JSON files to { items: [...] }.');
 }
 main();
