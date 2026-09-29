@@ -22,11 +22,15 @@
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh015.jpg",
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh017.jpg",
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh002.jpg",
-        "/media/cong-trinh/camera-tiem-vang/zztrunglap001.jpg"
+        "/media/cong-trinh/camera-tiem-vang/zztrunglap001.jpg",
+        "/media/khaccongtrinh012.jpg",
+        "/media/khaccongtrinh011.jpg",
+        "/media/khaccongtrinh009.jpg"
       ],
       "featured": false
     },
     {
+      "id": "camera-giao-thong",
       "title": "Camera Giao Thông",
       "project_type": "Hệ thống Camera",
       "location": "Hòa Bình",
@@ -37,8 +41,7 @@
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat004.jpg",
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat005.jpg"
       ],
-      "featured": false,
-      "id": "camera-giao-thong"
+      "featured": false
     }
   ]
 }
