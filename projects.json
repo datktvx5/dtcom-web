@@ -4,9 +4,10 @@
     "project_type": "Mạng LAN / WiFi",
     "location": "Phú Thọ",
     "images": [
-      "/media/mangturack011.jpg",
-      "/media/mangturack012.jpg"
+      "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack011.jpg",
+      "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack012.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "id": "nha-hang-tiec-cuoi"
   }
 ]
