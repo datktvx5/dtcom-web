@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "id": "may-in-laser-canon-lbp243dw",
       "name": "Máy in laser Canon LBP243dw",
       "price": 8090000,
       "old_price": 8990000,
@@ -11,9 +12,20 @@
         "/media/may-in-laser-canon-lbp243dw/4-2.webp"
       ],
       "featured": false,
-      "description": "Thông tin chung\nThương hiệu\nCanon\nBảo hành\n24 tháng\nNhu cầu\nVăn phòng\nCấu hình chi tiết\nChức năng\nChỉ In\nKiểu máy in\nIn laser trắng đen , In 2 mặt\nĐộ phân giải\n1200 x 1200 dpi\nTốc độ in\n36 - 37 trang/ phút (trắng đen)\nCông suất in\n80.000 pages/ tháng\nBộ nhớ tích hợp\n1 GB\nCatridge Mực\nCartridge 070H\n\nHộp mực kèm máy:\nCartridge 070: 3.000 pages\n\nKhay nạp giấy\nTối đa 900 tờ\nKhay chứa giấy đã in\n150 tờ\nKhổ giấy in\nA4, A5, A6, Legal, Letter, Foolscap, Indian Legal, Index Card, Postcard, Envelope (COM10,Monarch,DL,C5), Tùy chỉnh (tối thiểu 76,2 x 127 mm đến tối đa 216 x 355,6 mm)\nHệ điều hành hỗ trợ\nWindows®10/11, Windows® Server 2016/2019/2022/2025, macOS 10.15 trở lên, Linux, Chrome OS\nKết nối\nUSB 2.0\nKết nối mạng\n10Base-T/100Base-TX/1000Base-T; Wi-Fi 802.11b/g/n\nKích thước - Trọng lượng\nKích thước\n399 x 373 x 249 mm\nKhối lượng\n8.8 kg",
-      "id": "may-in-laser-canon-lbp243dw",
-      "category": "Máy in"
+      "description": "Thông tin chung\nThương hiệu\nCanon\nBảo hành\n24 tháng\nNhu cầu\nVăn phòng\nCấu hình chi tiết\nChức năng\nChỉ In\nKiểu máy in\nIn laser trắng đen , In 2 mặt\nĐộ phân giải\n1200 x 1200 dpi\nTốc độ in\n36 - 37 trang/ phút (trắng đen)\nCông suất in\n80.000 pages/ tháng\nBộ nhớ tích hợp\n1 GB\nCatridge Mực\nCartridge 070H\n\nHộp mực kèm máy:\nCartridge 070: 3.000 pages\n\nKhay nạp giấy\nTối đa 900 tờ\nKhay chứa giấy đã in\n150 tờ\nKhổ giấy in\nA4, A5, A6, Legal, Letter, Foolscap, Indian Legal, Index Card, Postcard, Envelope (COM10,Monarch,DL,C5), Tùy chỉnh (tối thiểu 76,2 x 127 mm đến tối đa 216 x 355,6 mm)\nHệ điều hành hỗ trợ\nWindows®10/11, Windows® Server 2016/2019/2022/2025, macOS 10.15 trở lên, Linux, Chrome OS\nKết nối\nUSB 2.0\nKết nối mạng\n10Base-T/100Base-TX/1000Base-T; Wi-Fi 802.11b/g/n\nKích thước - Trọng lượng\nKích thước\n399 x 373 x 249 mm\nKhối lượng\n8.8 kg"
+    },
+    {
+      "name": "Máy in laser Canon LBP246DW",
+      "price": 8990000,
+      "old_price": 9990000,
+      "images": [
+        "/media/1-3.webp",
+        "/media/2-3.webp",
+        "/media/3-2.webp",
+        "/media/4-2.webp"
+      ],
+      "featured": false,
+      "description": "Thương hiệu\nCanon\nBảo hành\n24 tháng\nNhu cầu\nVăn phòng\nCấu hình chi tiết\nChức năng\nChỉ in\nKiểu máy in\nIn laser trắng đen , In 2 mặt\nĐộ phân giải\n1200 x 1200 dpi\nTốc độ in\n40 - 42 trang/ phút (trắng đen)\nCông suất in\n80.000 pages/ tháng\nBộ nhớ tích hợp\n1 GB\nCatridge Mực\nHộp mực 070H\n\nHộp mực kèm máy:\nHộp mực 070: 3.000 pages\n\nKhay nạp giấy\nTối đa 900 tờ\nKhay chứa giấy đã in\n150 tờ\nKhổ giấy in\nA4, A5, A6, B5, Legal, Letter, Executive, Statement, Foolscap, Government Letter, Government Legal, Indian Legal, Index Card, Postcard, Envelope (COM10, Monarch, DL, C5), Custom (min. 76.2 x 127 mm to max. 216 x 355.6 mm)\nHệ điều hành hỗ trợ\nWindows®10/11, Windows® Server 2016/2019/2022/2025, macOS 10.15 trở lên, Linux, Chrome OS\nKết nối\nUSB 2.0\nKết nối mạng\nWi-Fi 802.11b/g/n; 10Base-T/100Base-TX/1000Base-T\nKích thước - Trọng lượng\nKích thước\n399 x 373 x 249 mm\nKhối lượng\n8.8 Kg"
     }
   ]
 }
