@@ -1,12 +1,12 @@
 [
   {
     "id": "camera-ip-4mp-demo",
-    "name": "Camera IP 4MP - Sản phẩm mẫu",
+    "name": "IMOU A32 ",
     "category": "Camera",
     "subcategory": "Camera IP",
-    "brand": "DTCOM Demo",
-    "price": 1290000,
-    "old_price": 1490000,
+    "brand": "IMOU",
+    "price": 550000,
+    "old_price": 650000,
     "warranty": "24 tháng",
     "images": [
       "/media/camera-ip-4mp-demo/a32.webp",
