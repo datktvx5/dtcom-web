@@ -1,0 +1,69 @@
+media:
+  input: .
+  output: /.
+
+content:
+  - name: products
+    label: Sản phẩm
+    type: file
+    path: products.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Mã sản phẩm / đường dẫn
+        type: string
+        required: true
+      - name: name
+        label: Tên sản phẩm
+        type: string
+        required: true
+      - name: category
+        label: Danh mục
+        type: select
+        required: true
+        options:
+          values:
+            - Camera
+            - Máy tính
+            - Máy in
+            - Thiết bị mạng
+      - name: subcategory
+        label: Nhóm con
+        type: string
+      - name: brand
+        label: Thương hiệu
+        type: string
+      - name: price
+        label: Giá bán
+        type: number
+        required: true
+      - name: old_price
+        label: Giá cũ
+        type: number
+      - name: warranty
+        label: Bảo hành
+        type: string
+      - name: image
+        label: Ảnh sản phẩm
+        type: image
+      - name: featured
+        label: Sản phẩm nổi bật
+        type: boolean
+      - name: description
+        label: Mô tả
+        type: text
+      - name: specs
+        label: Thông số
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}: {value}"
+        fields:
+          - name: name
+            label: Tên thông số
+            type: string
+          - name: value
+            label: Giá trị
+            type: string

@@ -1,0 +1,58 @@
+[
+  {
+    "id":"camera-ip-4mp-demo",
+    "name":"Camera IP 4MP - Sản phẩm mẫu",
+    "category":"Camera",
+    "subcategory":"Camera IP",
+    "brand":"DTCOM Demo",
+    "price":1290000,
+    "old_price":1490000,
+    "warranty":"24 tháng",
+    "image":"/assets/placeholder.svg",
+    "featured":true,
+    "description":"Sản phẩm mẫu để bạn thử giao diện quản lý. Sau khi kết nối Pages CMS, bạn có thể sửa hoặc xóa mục này.",
+    "specs":[{"name":"Độ phân giải","value":"4MP"},{"name":"Kết nối","value":"IP / PoE"},{"name":"Bảo hành","value":"24 tháng"}]
+  },
+  {
+    "id":"pc-van-phong-demo",
+    "name":"PC văn phòng - Sản phẩm mẫu",
+    "category":"Máy tính",
+    "subcategory":"PC",
+    "brand":"DTCOM Demo",
+    "price":6990000,
+    "old_price":0,
+    "warranty":"12 tháng",
+    "image":"/assets/placeholder.svg",
+    "featured":true,
+    "description":"Bộ máy tính mẫu dành cho văn phòng. Thông tin này chỉ để minh họa cách hiển thị sản phẩm.",
+    "specs":[{"name":"Loại","value":"PC văn phòng"},{"name":"Lưu trữ","value":"SSD"},{"name":"Bảo hành","value":"12 tháng"}]
+  },
+  {
+    "id":"printer-laser-demo",
+    "name":"Máy in Laser - Sản phẩm mẫu",
+    "category":"Máy in",
+    "subcategory":"Máy in Laser",
+    "brand":"DTCOM Demo",
+    "price":3290000,
+    "old_price":0,
+    "warranty":"12 tháng",
+    "image":"/assets/placeholder.svg",
+    "featured":false,
+    "description":"Sản phẩm minh họa cho nhóm máy in.",
+    "specs":[{"name":"Công nghệ","value":"Laser"},{"name":"Khổ giấy","value":"A4"}]
+  },
+  {
+    "id":"router-demo",
+    "name":"Router WiFi - Sản phẩm mẫu",
+    "category":"Thiết bị mạng",
+    "subcategory":"Router",
+    "brand":"DTCOM Demo",
+    "price":890000,
+    "old_price":0,
+    "warranty":"12 tháng",
+    "image":"/assets/placeholder.svg",
+    "featured":false,
+    "description":"Sản phẩm minh họa cho nhóm thiết bị mạng.",
+    "specs":[{"name":"Loại","value":"Router WiFi"},{"name":"Bảo hành","value":"12 tháng"}]
+  }
+]
