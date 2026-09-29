@@ -61,6 +61,16 @@
         "/media/cameragiamsatmanhinh003.jpg"
       ],
       "featured": false
+    },
+    {
+      "title": "Camera Trang Trại",
+      "project_type": "Hệ thống Camera",
+      "images": [
+        "/media/camerangoaitroilapdat003.jpg",
+        "/media/camerangoaitroilapdat002.jpg",
+        "/media/camerangoaitroilapdat001.jpg"
+      ],
+      "featured": false
     }
   ]
 }
