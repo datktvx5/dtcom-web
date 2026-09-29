@@ -14,6 +14,7 @@
       "featured": true
     },
     {
+      "id": "camera-tiem-vang",
       "title": "Camera Tiệm Vàng",
       "project_type": "Hệ thống Camera",
       "images": [
@@ -23,8 +24,20 @@
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh002.jpg",
         "/media/cong-trinh/camera-tiem-vang/zztrunglap001.jpg"
       ],
-      "featured": false,
-      "id": "camera-tiem-vang"
+      "featured": false
+    },
+    {
+      "title": "Camera Giao Thông",
+      "project_type": "Hệ thống Camera",
+      "location": "Hòa Bình",
+      "images": [
+        "/media/cameratrungtamgiamsat001.jpg",
+        "/media/cameragiaothonglapdat001-1.jpg",
+        "/media/cameragiaothonglapdat003.jpg",
+        "/media/cameragiaothonglapdat004.jpg",
+        "/media/cameragiaothonglapdat005.jpg"
+      ],
+      "featured": false
     }
   ]
 }
