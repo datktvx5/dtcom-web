@@ -31,7 +31,7 @@ content:
             required: true
             options:
               values: [IMOU, EZVIZ, Hikvision, Dahua, KBVision, "TP-Link / Tapo", Xiaomi, Reolink, Uniview, Vantech, Yoosee, Axis, Bosch, "Hanwha Vision", Tiandy, TVT, Khác]
-          - { name: price, label: Giá bán, type: number, required: true }
+          - { name: price, label: Giá bán, type: number }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
           - name: images
@@ -88,7 +88,7 @@ content:
             required: true
             options:
               values: [Acer, ASUS, Dell, HP, Lenovo, MSI, Gigabyte, Apple, Intel, AMD, NVIDIA, Kingston, Corsair, "G.Skill", Crucial, Samsung, "Western Digital", Seagate, Lexar, TeamGroup, Logitech, Razer, Rapoo, AOC, LG, ViewSonic, BenQ, Philips, Khác]
-          - { name: price, label: Giá bán, type: number, required: true }
+          - { name: price, label: Giá bán, type: number }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
           - name: images
@@ -140,7 +140,7 @@ content:
             required: true
             options:
               values: [Canon, HP, Brother, Epson, Pantum, Ricoh, Xerox, "Fujifilm Business Innovation", Kyocera, "Konica Minolta", Lexmark, Samsung, Oki, Zebra, Godex, Xprinter, Khác]
-          - { name: price, label: Giá bán, type: number, required: true }
+          - { name: price, label: Giá bán, type: number }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
           - name: images
@@ -192,7 +192,7 @@ content:
             required: true
             options:
               values: ["TP-Link", Ruijie, Reyee, MikroTik, Ubiquiti, Cisco, Aruba, Tenda, "D-Link", DrayTek, Fortinet, HPE, Netgear, Totolink, Mercusys, Khác]
-          - { name: price, label: Giá bán, type: number, required: true }
+          - { name: price, label: Giá bán, type: number }
           - { name: old_price, label: Giá cũ, type: number }
           - { name: shopee_link, label: Link Shopee Affiliate, type: string }
           - name: images
