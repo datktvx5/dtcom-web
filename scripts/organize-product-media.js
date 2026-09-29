@@ -27,6 +27,38 @@ function main(){
       let id=slugify(p.id);
       if(!id)id=makeUnique(slugify(p.name),usedProducts);
       p.id=id;p.category=category;activeProducts.add(id);
+      // Preserve existing data and fill the new browsing taxonomy when older fields exist.
+      if(!p.brand){
+        p.brand=p.camera_brand||p.computer_brand||p.printer_brand||p.network_brand||p.brand||'';
+      }
+      if(!p.subcategory){
+        const oldType=p.camera_type||p.computer_type||p.printer_type||p.network_type||'';
+        if(category==='Máy tính'){
+          const parts=['Mainboard','CPU','RAM','SSD','HDD','VGA / Card đồ họa','Nguồn / PSU','Case','Tản nhiệt'];
+          const accessories=['Bàn phím','Chuột','Webcam','Tai nghe'];
+          if(oldType==='Laptop')p.subcategory='Laptop';
+          else if(['PC Văn phòng','PC Gaming','Mini PC','All-in-One'].includes(oldType))p.subcategory='Máy tính để bàn';
+          else if(oldType==='Màn hình')p.subcategory='Màn hình';
+          else if(parts.includes(oldType)){p.subcategory='Linh kiện';if(!p.product_type)p.product_type=oldType;}
+          else if(accessories.includes(oldType)){p.subcategory='Phụ kiện';if(!p.product_type)p.product_type=oldType;}
+        }else if(category==='Máy in'){
+          const map={'Laser đen trắng':'Laser đen trắng','Laser màu':'Laser màu','Phun màu':'Phun màu','In phun tiếp mực liên tục':'Phun màu','Máy in đa năng':'Đa chức năng','Máy in nhiệt / hóa đơn':'Máy in nhiệt / tem','Máy in tem / mã vạch':'Máy in nhiệt / tem','Máy Scan':'Máy Scan'};
+          if(map[oldType])p.subcategory=map[oldType];
+        }else if(category==='Thiết bị mạng'){
+          const s=String(oldType).toLowerCase();
+          if(s.includes('router'))p.subcategory='Router';
+          else if(s.includes('access point')||s.includes('wifi'))p.subcategory='Access Point';
+          else if(s.includes('switch'))p.subcategory='Switch';
+          else if(s.includes('firewall')||s.includes('gateway'))p.subcategory='Firewall / Gateway';
+        }else if(category==='Camera'){
+          const s=String(oldType).toLowerCase();
+          if(s.includes('trong nhà'))p.subcategory='Camera trong nhà';
+          else if(s.includes('ngoài trời'))p.subcategory='Camera ngoài trời';
+          else if(s.includes('poe'))p.subcategory='Camera IP PoE';
+          else if(s.includes('ptz')||s.includes('360'))p.subcategory='Camera PTZ / 360';
+          else if(s.includes('analog'))p.subcategory='Camera Analog';
+        }
+      }
       if((!Array.isArray(p.images)||!p.images.length)&&p.image){p.images=[p.image];delete p.image;}
       const dir=path.join(mediaRoot,id),prefix='/media/'+id;
       if(Array.isArray(p.images))p.images=p.images.filter(Boolean).map(x=>moveMedia(x,dir,prefix));
