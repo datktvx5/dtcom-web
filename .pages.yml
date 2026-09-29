@@ -699,16 +699,16 @@ content:
         type: select
         options:
           values:
-            - Không bảo hành
-            - 1 tháng
-            - 3 tháng
-            - 6 tháng
-            - 12 tháng
-            - 18 tháng
-            - 24 tháng
-            - 36 tháng
-            - 60 tháng
-            - Khác / thêm mới
+            - "1 tháng"
+            - "12 tháng"
+            - "18 tháng"
+            - "24 tháng"
+            - "3 tháng"
+            - "36 tháng"
+            - "6 tháng"
+            - "60 tháng"
+            - "Không bảo hành"
+            - "Khác / thêm mới"
       - name: warranty_new
         label: Bảo hành mới
         type: string
