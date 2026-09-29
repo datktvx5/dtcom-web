@@ -12,6 +12,18 @@
         "/media/cong-trinh/nha-hang-tiec-cuoi/mangphongmaychu001.jpg"
       ],
       "featured": true
+    },
+    {
+      "title": "Camera Tiệm Vàng",
+      "project_type": "Hệ thống Camera",
+      "images": [
+        "/media/khaccongtrinh010-1.jpg",
+        "/media/khaccongtrinh015.jpg",
+        "/media/khaccongtrinh017.jpg",
+        "/media/khaccongtrinh002.jpg",
+        "/media/zztrunglap001.jpg"
+      ],
+      "featured": false
     }
   ]
 }
