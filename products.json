@@ -8,7 +8,11 @@
     "price": 1290000,
     "old_price": 1490000,
     "warranty": "24 tháng",
-    "image": "/media/a32-1.webp",
+    "images": [
+      "/media/a32.webp",
+      "/media/a322.webp"
+    ],
+    "video": "/media/008ctajar.mp4",
     "featured": true,
     "description": "Sản phẩm mẫu để bạn thử giao diện quản lý. Sau khi kết nối Pages CMS, bạn có thể sửa hoặc xóa mục này.",
     "specs": [
@@ -35,7 +39,6 @@
     "price": 6990000,
     "old_price": 0,
     "warranty": "12 tháng",
-    "image": "/assets/placeholder.svg",
     "featured": true,
     "description": "Bộ máy tính mẫu dành cho văn phòng. Thông tin này chỉ để minh họa cách hiển thị sản phẩm.",
     "specs": [
@@ -62,7 +65,6 @@
     "price": 3290000,
     "old_price": 0,
     "warranty": "12 tháng",
-    "image": "/assets/placeholder.svg",
     "featured": false,
     "description": "Sản phẩm minh họa cho nhóm máy in.",
     "specs": [
@@ -85,7 +87,6 @@
     "price": 890000,
     "old_price": 0,
     "warranty": "12 tháng",
-    "image": "/assets/placeholder.svg",
     "featured": false,
     "description": "Sản phẩm minh họa cho nhóm thiết bị mạng.",
     "specs": [
