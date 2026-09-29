@@ -34,6 +34,20 @@ content:
         hidden: true
       - name: brand
         label: Thương hiệu
+        type: select
+        options:
+          values:
+            - IMOU
+            - EZVIZ
+            - Hikvision
+            - Dahua
+            - TP-Link / Tapo
+            - Xiaomi
+            - KBVision
+            - Ruijie
+            - Khác / thêm mới
+      - name: brand_new
+        label: Thương hiệu mới (chỉ nhập khi chưa có trong danh sách)
         type: string
       - name: price
         label: Giá bán
@@ -44,6 +58,19 @@ content:
         type: number
       - name: warranty
         label: Bảo hành
+        type: select
+        options:
+          values:
+            - Không bảo hành
+            - 3 tháng
+            - 6 tháng
+            - 12 tháng
+            - 18 tháng
+            - 24 tháng
+            - 36 tháng
+            - Khác / thêm mới
+      - name: warranty_new
+        label: Bảo hành mới (chỉ nhập khi chưa có trong danh sách)
         type: string
       - name: shopee_link
         label: Link Shopee Affiliate
@@ -70,6 +97,8 @@ content:
       - name: description
         label: Mô tả
         type: text
+        options:
+          rows: 6
       - name: specs
         label: Thông số kỹ thuật
         type: text
