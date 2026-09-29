@@ -1,13 +1,16 @@
 [
   {
+    "id": "nha-hang-tiec-cuoi",
     "title": "Nhà Hàng Tiệc Cưới",
     "project_type": "Mạng LAN / WiFi",
     "location": "Phú Thọ",
     "images": [
       "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack011.jpg",
-      "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack012.jpg"
+      "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack012.jpg",
+      "/media/mangturack013.jpg",
+      "/media/mangsodohethong001.jpg",
+      "/media/mangphongmaychu001.jpg"
     ],
-    "featured": true,
-    "id": "nha-hang-tiec-cuoi"
+    "featured": true
   }
 ]
