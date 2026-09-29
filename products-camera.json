@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "name": "CAMERA IMOU A32",
+    "camera_brand": "IMOU",
+    "camera_model": "A32",
+    "camera_type": "Camera WiFi trong nhà",
+    "camera_resolution": "3MP / 2K",
+    "camera_connection": [
+      "WiFi 2.4GHz",
+      "LAN RJ45"
+    ],
+    "camera_lens": "2.8mm",
+    "camera_night": "Hồng ngoại IR",
+    "camera_audio": "Mic + Loa / Đàm thoại 2 chiều",
+    "camera_storage": [
+      "MicroSD tối đa 256GB",
+      "NVR",
+      "Cloud"
+    ],
+    "camera_ai": [
+      "Phát hiện chuyển động",
+      "Phát hiện người",
+      "Theo dõi thông minh",
+      "Auto Tracking"
+    ],
+    "price": 550000,
+    "old_price": 650000,
+    "warranty": "24 tháng",
+    "shopee_link": "https://s.shopee.vn/1Lg8cHElYw",
+    "images": [
+      "/media/camera-wifi-trong-nha-quay-quet-3mp-imou-ipc-a32ep-l-1.jpg",
+      "/media/a32.webp",
+      "/media/a322.webp",
+      "/media/a323.webp"
+    ],
+    "featured": false,
+    "description": "• Thông số cơ bản: Độ phân giải 3MP (2K) cho hình ảnh sắc nét vượt trội so với chuẩn Full HD thông thường.\n• Góc nhìn & Quay quét: Có khả năng xoay ngang 355° và xoay dọc lên đến 80°–90°, giúp bạn quan sát toàn cảnh 360 độ không điểm mù.\n• Tính năng thông minh: Tích hợp công nghệ AI phát hiện con người để giảm báo động giả, tự động theo dõi chuyển động (Smart Tracking) và cảnh báo âm thanh bất thường.\n• Tiện ích khác: Hỗ trợ đàm thoại 2 chiều (loa to rõ), tầm nhìn hồng ngoại ban đêm 10m và lưu trữ qua thẻ nhớ MicroSD lên đến 256GB"
+  },
+  {
+    "name": "CAMERA IMOU A52P ",
+    "camera_brand": "IMOU",
+    "camera_model": "A52",
+    "camera_type": "Camera WiFi trong nhà",
+    "camera_resolution": "5MP",
+    "camera_connection": [
+      "LAN RJ45",
+      "WiFi 2.4GHz"
+    ],
+    "camera_lens": "2.8mm",
+    "camera_night": "Hồng ngoại IR",
+    "camera_audio": "Mic + Loa / Đàm thoại 2 chiều",
+    "camera_storage": [
+      "MicroSD tối đa 256GB",
+      "Cloud",
+      "NVR"
+    ],
+    "camera_ai": [
+      "Phát hiện chuyển động",
+      "Phát hiện người",
+      "Theo dõi thông minh",
+      "Hàng rào ảo / Xâm nhập",
+      "Auto Tracking"
+    ],
+    "price": 650000,
+    "old_price": 750000,
+    "warranty": "24 tháng",
+    "shopee_link": "https://s.shopee.vn/9V1qLdjrcM",
+    "images": [
+      "/media/camera-wifi-trong-nha-quay-quet-3mp-imou-ipc-a32ep-l-1-1.jpg",
+      "/media/a523.jpg",
+      "/media/a52-1.jpg"
+    ],
+    "featured": false,
+    "description": "• Độ phân giải: 5.0 Megapixel (2688 × 1664 pixels) cung cấp hình ảnh chi tiết và sắc nét chuẩn 3K.\n• Góc quay quét: Hỗ trợ xoay ngang 355° và quét dọc từ -5° đến 80°, giúp bao quát toàn bộ không gian, không góc chết.\n• Tầm nhìn ban đêm: Hồng ngoại ban đêm thông minh với khoảng cách lên tới 10m.\n• Kết nối: Hỗ trợ Wi-Fi băng tần 2.4GHz (một số phiên bản nâng cấp A52P-PRO hỗ trợ Wi-Fi 6 băng tần kép) và trang bị thêm cổng mạng LAN RJ45 giúp đường truyền ổn định.\n• Lưu trữ: Tích hợp khe cắm thẻ nhớ MicroSD dung lượng tối đa 256GB\n• Đàm thoại 2 chiều: Tích hợp sẵn Mic và Loa công suất lớn, hỗ trợ trò chuyện trực tiếp theo thời gian thực.\n• Công nghệ AI nhận diện người (Human Detection): Tự động phát hiện dáng người di chuyển để gửi cảnh báo ngay lập tức về điện thoại, giúp lọc và giảm thiểu các báo động giả từ thú cưng hay lá cây.\n• Theo dõi thông minh (Smart Tracking): Camera tự động xoay và ghi hình đi theo đối tượng đang di chuyển trong tầm mắt.\n• Cảnh báo chủ động: Khi phát hiện có người đột nhập, camera sẽ hú còi báo động để răn đe kẻ gian.\n• Chế độ riêng tư (Privacy Mode): Cho phép giấu ống kính xuống chỉ bằng một chạm trên ứng dụng di động để bảo vệ không gian riêng tư của gia đình.\n"
+  }
+]
