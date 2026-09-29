@@ -3,700 +3,367 @@ media:
   output: /media
 
 content:
-  - name: products
-    label: Sản phẩm
+  - name: cameras
+    label: Camera
     type: file
-    path: products.json
+    path: products-camera.json
     format: json
     list: true
     fields:
-      - name: id
-        label: Mã sản phẩm / đường dẫn
-        type: string
-        hidden: true
-      - name: name
-        label: Tên sản phẩm
-        type: string
-        required: true
-      - name: category
-        label: Danh mục
+      - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
+      - { name: name, label: Tên sản phẩm, type: string, required: true }
+      - name: camera_brand
+        label: Hãng Camera
         type: select
         required: true
         options:
-          values:
-            - Camera
-            - Máy tính
-            - Máy in
-            - Thiết bị mạng
-      - name: subcategory
-        label: Nhóm con
-        type: string
-        hidden: true
-      - name: brand
-        label: Thương hiệu
-        type: string
-        hidden: true
-      - name: model
-        label: Mã / Model
-        type: string
-        hidden: true
-
-      - name: quick_specs
-        label: Chọn nhóm sản phẩm và thông số nhanh
-        type: block
-        list:
-          min: 1
-          max: 1
-          collapsible:
-            collapsed: false
-            summary: "{kind}"
-        blockKey: kind
-        blocks:
-          - name: camera
-            label: Camera
-            fields:
-              - name: camera_brand
-                label: Hãng Camera
-                type: select
-                required: true
-                options:
-                  values:
-                    - "IMOU"
-                    - "EZVIZ"
-                    - "Hikvision"
-                    - "Dahua"
-                    - "KBVision"
-                    - "TP-Link / Tapo"
-                    - "Xiaomi"
-                    - "Reolink"
-                    - "Uniview"
-                    - "Vantech"
-                    - "Yoosee"
-                    - "Axis"
-                    - "Bosch"
-                    - "Hanwha Vision"
-                    - "Tiandy"
-                    - "TVT"
-                    - "Khác / thêm mới"
-              - name: camera_model
-                label: Mã / Model Camera
-                type: string
-                description: "Ví dụ: IPC-A32EP-L, DS-2CD1043G2-LIU..."
-              - name: camera_type
-                label: Loại Camera
-                type: select
-                options:
-                  values:
-                    - "Camera WiFi trong nhà"
-                    - "Camera WiFi ngoài trời"
-                    - "Camera IP PoE"
-                    - "Camera IP LAN"
-                    - "Camera 4G"
-                    - "Camera PTZ / Speed Dome"
-                    - "Camera 360 độ"
-                    - "Camera Dome"
-                    - "Camera Bullet / Thân trụ"
-                    - "Camera Analog HD"
-                    - "Camera hành trình"
-                    - "Chuông cửa Camera"
-                    - "Khác / thêm mới"
-              - name: camera_resolution
-                label: Độ phân giải
-                type: select
-                options:
-                  values:
-                    - "2MP / Full HD 1080p"
-                    - "3MP / 2K"
-                    - "4MP / 2K+"
-                    - "5MP"
-                    - "6MP"
-                    - "8MP / 4K"
-                    - "12MP"
-                    - "Khác / thêm mới"
-              - name: camera_connection
-                label: Kết nối
-                type: select
-                options:
-                  multiple: true
-                  values:
-                    - "WiFi 2.4GHz"
-                    - "WiFi 2.4GHz / 5GHz"
-                    - "LAN RJ45"
-                    - "PoE"
-                    - "4G LTE"
-                    - "Bluetooth"
-                    - "Khác / thêm mới"
-              - name: camera_lens
-                label: Ống kính
-                type: select
-                options:
-                  values:
-                    - "2.8mm"
-                    - "3.6mm"
-                    - "4mm"
-                    - "6mm"
-                    - "8mm"
-                    - "12mm"
-                    - "Varifocal / Thay đổi tiêu cự"
-                    - "Dual Lens / 2 ống kính"
-                    - "Khác / thêm mới"
-              - name: camera_night
-                label: Quan sát ban đêm
-                type: select
-                options:
-                  values:
-                    - "Hồng ngoại IR"
-                    - "Có màu ban đêm"
-                    - "Smart Dual Light"
-                    - "Starlight"
-                    - "Không hỗ trợ"
-                    - "Khác / thêm mới"
-              - name: camera_audio
-                label: Âm thanh
-                type: select
-                options:
-                  values:
-                    - "Không Mic"
-                    - "Mic tích hợp"
-                    - "Mic + Loa / Đàm thoại 2 chiều"
-                    - "Mic rời"
-                    - "Khác / thêm mới"
-              - name: camera_storage
-                label: Lưu trữ
-                type: select
-                options:
-                  multiple: true
-                  values:
-                    - "MicroSD tối đa 64GB"
-                    - "MicroSD tối đa 128GB"
-                    - "MicroSD tối đa 256GB"
-                    - "MicroSD tối đa 512GB"
-                    - "NVR"
-                    - "DVR / XVR"
-                    - "NAS"
-                    - "Cloud"
-                    - "Khác / thêm mới"
-              - name: camera_ai
-                label: Tính năng AI
-                type: select
-                options:
-                  multiple: true
-                  values:
-                    - Phát hiện chuyển động
-                    - Phát hiện người
-                    - Phát hiện phương tiện
-                    - Theo dõi thông minh
-                    - Phát hiện âm thanh bất thường
-                    - Nhận diện khuôn mặt
-                    - Hàng rào ảo / Xâm nhập
-                    - Cảnh báo còi / đèn
-                    - Auto Tracking
-
-          - name: computer
-            label: Máy tính / Laptop / Linh kiện
-            fields:
-              - name: computer_brand
-                label: Hãng Máy tính / Linh kiện
-                type: select
-                required: true
-                options:
-                  values:
-                    - "Acer"
-                    - "ASUS"
-                    - "Dell"
-                    - "HP"
-                    - "Lenovo"
-                    - "MSI"
-                    - "Gigabyte"
-                    - "Apple"
-                    - "Intel"
-                    - "AMD"
-                    - "NVIDIA"
-                    - "Kingston"
-                    - "Corsair"
-                    - "G.Skill"
-                    - "Crucial"
-                    - "Samsung"
-                    - "Western Digital"
-                    - "Seagate"
-                    - "Lexar"
-                    - "TeamGroup"
-                    - "Cooler Master"
-                    - "DeepCool"
-                    - "Thermaltake"
-                    - "Antec"
-                    - "Logitech"
-                    - "Razer"
-                    - "Rapoo"
-                    - "AOC"
-                    - "LG"
-                    - "ViewSonic"
-                    - "BenQ"
-                    - "Philips"
-                    - "Khác / thêm mới"
-              - name: computer_model
-                label: Mã / Model
-                type: string
-              - name: computer_type
-                label: Loại sản phẩm
-                type: select
-                options:
-                  values:
-                    - "Laptop"
-                    - "PC Văn phòng"
-                    - "PC Gaming"
-                    - "Mini PC"
-                    - "All-in-One"
-                    - "Màn hình"
-                    - "Mainboard"
-                    - "CPU"
-                    - "RAM"
-                    - "SSD"
-                    - "HDD"
-                    - "VGA / Card đồ họa"
-                    - "Nguồn / PSU"
-                    - "Case"
-                    - "Tản nhiệt"
-                    - "Bàn phím"
-                    - "Chuột"
-                    - "Webcam"
-                    - "Tai nghe"
-                    - "Khác / thêm mới"
-              - name: computer_cpu
-                label: CPU / Dòng CPU
-                type: select
-                options:
-                  values:
-                    - "Intel Core i3"
-                    - "Intel Core i5"
-                    - "Intel Core i7"
-                    - "Intel Core i9"
-                    - "Intel Core Ultra 5"
-                    - "Intel Core Ultra 7"
-                    - "Intel Core Ultra 9"
-                    - "AMD Ryzen 3"
-                    - "AMD Ryzen 5"
-                    - "AMD Ryzen 7"
-                    - "AMD Ryzen 9"
-                    - "Apple M1"
-                    - "Apple M2"
-                    - "Apple M3"
-                    - "Apple M4"
-                    - "Khác / thêm mới"
-              - name: computer_ram
-                label: RAM
-                type: select
-                options:
-                  values:
-                    - "4GB"
-                    - "8GB"
-                    - "16GB"
-                    - "24GB"
-                    - "32GB"
-                    - "48GB"
-                    - "64GB"
-                    - "128GB"
-                    - "Khác / thêm mới"
-              - name: computer_storage
-                label: SSD / Lưu trữ
-                type: select
-                options:
-                  values:
-                    - "128GB"
-                    - "256GB"
-                    - "512GB"
-                    - "1TB"
-                    - "2TB"
-                    - "4TB"
-                    - "8TB"
-                    - "Khác / thêm mới"
-              - name: computer_gpu
-                label: Card đồ họa
-                type: select
-                options:
-                  values:
-                    - "Đồ họa tích hợp"
-                    - "NVIDIA GeForce GTX"
-                    - "NVIDIA GeForce RTX 20 Series"
-                    - "NVIDIA GeForce RTX 30 Series"
-                    - "NVIDIA GeForce RTX 40 Series"
-                    - "NVIDIA GeForce RTX 50 Series"
-                    - "AMD Radeon RX 6000 Series"
-                    - "AMD Radeon RX 7000 Series"
-                    - "Intel Arc"
-                    - "Apple GPU"
-                    - "Khác / thêm mới"
-              - name: computer_screen
-                label: Kích thước màn hình
-                type: select
-                options:
-                  values:
-                    - "13.3 inch"
-                    - "14 inch"
-                    - "15.6 inch"
-                    - "16 inch"
-                    - "17.3 inch"
-                    - "21.5 inch"
-                    - "23.8 inch"
-                    - "24 inch"
-                    - "27 inch"
-                    - "32 inch"
-                    - "34 inch"
-                    - "49 inch"
-                    - "Khác / thêm mới"
-              - name: computer_refresh
-                label: Tần số quét
-                type: select
-                options:
-                  values:
-                    - "60Hz"
-                    - "75Hz"
-                    - "100Hz"
-                    - "120Hz"
-                    - "144Hz"
-                    - "165Hz"
-                    - "180Hz"
-                    - "240Hz"
-                    - "360Hz"
-                    - "Khác / thêm mới"
-          - name: printer
-            label: Máy in / Máy scan
-            fields:
-              - name: printer_brand
-                label: Hãng Máy in
-                type: select
-                required: true
-                options:
-                  values:
-                    - "Canon"
-                    - "HP"
-                    - "Brother"
-                    - "Epson"
-                    - "Pantum"
-                    - "Ricoh"
-                    - "Xerox"
-                    - "Fujifilm Business Innovation"
-                    - "Kyocera"
-                    - "Konica Minolta"
-                    - "Lexmark"
-                    - "Samsung"
-                    - "Oki"
-                    - "Zebra"
-                    - "Godex"
-                    - "Xprinter"
-                    - "Khác / thêm mới"
-              - name: printer_model
-                label: Mã / Model Máy in
-                type: string
-                description: "Ví dụ: LBP2900, HL-L2321D, L3250..."
-              - name: printer_type
-                label: Loại Máy in
-                type: select
-                options:
-                  values:
-                    - "Laser đen trắng"
-                    - "Laser màu"
-                    - "Phun màu"
-                    - "In phun tiếp mực liên tục"
-                    - "Máy in đa năng"
-                    - "Máy in kim"
-                    - "Máy in nhiệt / hóa đơn"
-                    - "Máy in tem / mã vạch"
-                    - "Máy in ảnh"
-                    - "Máy Scan"
-                    - "Khác / thêm mới"
-              - name: printer_paper
-                label: Khổ giấy hỗ trợ
-                type: select
-                options:
-                  multiple: true
-                  values:
-                    - "A3"
-                    - "A4"
-                    - "A5"
-                    - "A6"
-                    - "B5"
-                    - "Letter"
-                    - "Legal"
-                    - "Executive"
-                    - "10x15cm"
-                    - "13x18cm"
-                    - "Khác / thêm mới"
-              - name: printer_color
-                label: Kiểu in
-                type: select
-                options:
-                  values:
-                    - "Đen trắng"
-                    - "Màu"
-                    - "Khác / thêm mới"
-              - name: printer_functions
-                label: Chức năng
-                type: select
-                options:
-                  multiple: true
-                  values:
-                    - "In"
-                    - "Scan"
-                    - "Copy"
-                    - "Fax"
-                    - "ADF"
-                    - "In ảnh"
-                    - "In tem / mã vạch"
-                    - "Khác / thêm mới"
-              - name: printer_duplex
-                label: In hai mặt
-                type: select
-                options:
-                  values:
-                    - "Tự động"
-                    - "Thủ công"
-                    - "Không hỗ trợ"
-                    - "Khác / thêm mới"
-              - name: printer_connection
-                label: Kết nối
-                type: select
-                options:
-                  multiple: true
-                  values:
-                    - "USB"
-                    - "LAN RJ45"
-                    - "WiFi"
-                    - "WiFi Direct"
-                    - "Bluetooth"
-                    - "NFC"
-                    - "Khác / thêm mới"
-              - name: printer_speed
-                label: Tốc độ in
-                type: select
-                options:
-                  values:
-                    - "Dưới 20 trang/phút"
-                    - "20 - 29 trang/phút"
-                    - "30 - 39 trang/phút"
-                    - "40 - 49 trang/phút"
-                    - "Từ 50 trang/phút"
-                    - "Khác / thêm mới"
-          - name: network
-            label: Thiết bị mạng
-            fields:
-              - name: network_brand
-                label: Hãng Thiết bị mạng
-                type: select
-                required: true
-                options:
-                  values:
-                    - "TP-Link"
-                    - "Tenda"
-                    - "Ruijie / Reyee"
-                    - "MikroTik"
-                    - "Ubiquiti / UniFi"
-                    - "Cisco"
-                    - "Aruba"
-                    - "D-Link"
-                    - "Mercusys"
-                    - "Totolink"
-                    - "H3C"
-                    - "Huawei"
-                    - "ZTE"
-                    - "Netgear"
-                    - "DrayTek"
-                    - "Grandstream"
-                    - "Fortinet"
-                    - "Sophos"
-                    - "Khác / thêm mới"
-              - name: network_model
-                label: Mã / Model
-                type: string
-              - name: network_type
-                label: Loại thiết bị
-                type: select
-                options:
-                  values:
-                    - "Router"
-                    - "Firewall"
-                    - "Gateway"
-                    - "Switch"
-                    - "PoE Switch"
-                    - "Access Point"
-                    - "Mesh WiFi"
-                    - "Controller"
-                    - "Modem / ONT"
-                    - "Bộ phát 4G / 5G"
-                    - "SFP / SFP+"
-                    - "Media Converter"
-                    - "Cáp mạng"
-                    - "Patch Panel"
-                    - "Tủ Rack"
-                    - "Phụ kiện mạng"
-                    - "Khác / thêm mới"
-              - name: network_wifi
-                label: Chuẩn WiFi
-                type: select
-                options:
-                  values:
-                    - "Không WiFi"
-                    - "WiFi 4 / 802.11n"
-                    - "WiFi 5 / 802.11ac"
-                    - "WiFi 6 / 802.11ax"
-                    - "WiFi 6E"
-                    - "WiFi 7 / 802.11be"
-                    - "Khác / thêm mới"
-              - name: network_speed
-                label: Tốc độ cổng mạng
-                type: select
-                options:
-                  values:
-                    - "10/100Mbps"
-                    - "Gigabit 1Gbps"
-                    - "2.5Gbps"
-                    - "5Gbps"
-                    - "10Gbps"
-                    - "25Gbps"
-                    - "40Gbps"
-                    - "100Gbps"
-                    - "Khác / thêm mới"
-              - name: network_ports
-                label: Số cổng
-                type: select
-                options:
-                  values:
-                    - "1 cổng"
-                    - "2 cổng"
-                    - "4 cổng"
-                    - "5 cổng"
-                    - "8 cổng"
-                    - "16 cổng"
-                    - "24 cổng"
-                    - "48 cổng"
-                    - "52 cổng"
-                    - "Khác / thêm mới"
-              - name: network_poe
-                label: PoE
-                type: select
-                options:
-                  values:
-                    - "Không PoE"
-                    - "Passive PoE"
-                    - "PoE 802.3af"
-                    - "PoE+ 802.3at"
-                    - "PoE++ 802.3bt"
-                    - "Khác / thêm mới"
-              - name: network_management
-                label: Quản lý
-                type: select
-                options:
-                  values:
-                    - "Unmanaged"
-                    - "Easy Smart"
-                    - "Smart Managed"
-                    - "Managed L2"
-                    - "Managed L2+"
-                    - "Managed L3"
-                    - "Cloud Managed"
-                    - "Controller Managed"
-                    - "Khác / thêm mới"
-      - name: price
-        label: Giá bán
-        type: number
-        required: true
-      - name: old_price
-        label: Giá cũ
-        type: number
-      - name: warranty
+          values: [IMOU, EZVIZ, Hikvision, Dahua, KBVision, "TP-Link / Tapo", Xiaomi, Reolink, Uniview, Vantech, Yoosee, Axis, Bosch, "Hanwha Vision", Tiandy, TVT, "Khác / thêm mới"]
+      - { name: camera_model, label: Mã / Model Camera, type: string }
+      - name: camera_type
+        label: Loại Camera
+        type: select
+        options:
+          values: ["Camera WiFi trong nhà", "Camera WiFi ngoài trời", "Camera IP PoE", "Camera IP LAN", "Camera 4G", "Camera PTZ / Speed Dome", "Camera 360 độ", "Camera Dome", "Camera Bullet / Thân trụ", "Camera Analog HD", "Camera hành trình", "Chuông cửa Camera", "Khác / thêm mới"]
+      - name: camera_resolution
+        label: Độ phân giải
+        type: select
+        options:
+          values: ["2MP / Full HD 1080p", "3MP / 2K", "4MP / 2K+", 5MP, 6MP, "8MP / 4K", 12MP, "Khác / thêm mới"]
+      - name: camera_connection
+        label: Kết nối
+        type: select
+        options:
+          multiple: true
+          values: ["WiFi 2.4GHz", "WiFi 2.4GHz / 5GHz", "LAN RJ45", PoE, "4G LTE", Bluetooth, "Khác / thêm mới"]
+      - name: camera_lens
+        label: Ống kính
+        type: select
+        options:
+          values: [2.8mm, 3.6mm, 4mm, 6mm, 8mm, 12mm, "Varifocal / Thay đổi tiêu cự", "Dual Lens / 2 ống kính", "Khác / thêm mới"]
+      - name: camera_night
+        label: Quan sát ban đêm
+        type: select
+        options:
+          values: ["Hồng ngoại IR", "Có màu ban đêm", "Smart Dual Light", Starlight, "Không hỗ trợ", "Khác / thêm mới"]
+      - name: camera_audio
+        label: Âm thanh
+        type: select
+        options:
+          values: ["Không Mic", "Mic tích hợp", "Mic + Loa / Đàm thoại 2 chiều", "Mic rời", "Khác / thêm mới"]
+      - name: camera_storage
+        label: Lưu trữ
+        type: select
+        options:
+          multiple: true
+          values: ["MicroSD tối đa 64GB", "MicroSD tối đa 128GB", "MicroSD tối đa 256GB", "MicroSD tối đa 512GB", NVR, "DVR / XVR", NAS, Cloud, "Khác / thêm mới"]
+      - name: camera_ai
+        label: Tính năng AI
+        type: select
+        options:
+          multiple: true
+          values: ["Phát hiện chuyển động", "Phát hiện người", "Phát hiện phương tiện", "Theo dõi thông minh", "Phát hiện âm thanh bất thường", "Nhận diện khuôn mặt", "Hàng rào ảo / Xâm nhập", "Cảnh báo còi / đèn", "Auto Tracking"]
+      - &price { name: price, label: Giá bán, type: number, required: true }
+      - &old_price { name: old_price, label: Giá cũ, type: number }
+      - &warranty
+        name: warranty
         label: Bảo hành
         type: select
         options:
-          values:
-            - "Không bảo hành"
-            - "1 tháng"
-            - "3 tháng"
-            - "6 tháng"
-            - "12 tháng"
-            - "18 tháng"
-            - "24 tháng"
-            - "36 tháng"
-            - "60 tháng"
-            - "Khác / thêm mới"
-      - name: shopee_link
-        label: Link Shopee Affiliate
-        type: string
-      - name: images
+          values: ["Không bảo hành", "1 tháng", "3 tháng", "6 tháng", "12 tháng", "18 tháng", "24 tháng", "36 tháng", "60 tháng", "Khác / thêm mới"]
+      - &shopee { name: shopee_link, label: Link Shopee Affiliate, type: string }
+      - &images
+        name: images
         label: Ảnh sản phẩm
         type: image
         options:
-          multiple:
-            max: 10
+          multiple: { max: 10 }
           unique: true
           extensions: [jpg, jpeg, png, webp]
           rename: safe
-      - name: video
+      - &video
+        name: video
         label: Video sản phẩm
         type: file
         options:
           categories: [video]
           extensions: [mp4, webm]
           rename: safe
-      - name: custom_options
-        label: Thêm lựa chọn mới (chỉ dùng khi danh sách chưa có)
-        type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{field}: {value}"
-        fields:
-          - name: field
-            label: Muốn thêm vào danh sách nào?
-            type: select
-            options:
-              values:
-                - camera_brand
-                - camera_type
-                - camera_resolution
-                - camera_connection
-                - camera_lens
-                - camera_night
-                - camera_audio
-                - camera_storage
-                - computer_brand
-                - computer_type
-                - computer_cpu
-                - computer_ram
-                - computer_storage
-                - computer_gpu
-                - computer_screen
-                - computer_refresh
-                - printer_brand
-                - printer_type
-                - printer_paper
-                - printer_color
-                - printer_functions
-                - printer_duplex
-                - printer_connection
-                - printer_speed
-                - network_brand
-                - network_type
-                - network_wifi
-                - network_speed
-                - network_ports
-                - network_poe
-                - network_management
-                - warranty
-          - name: value
-            label: Giá trị mới
-            type: string
-
-      - name: featured
-        label: Sản phẩm nổi bật
-        type: boolean
-      - name: description
+      - &featured { name: featured, label: Sản phẩm nổi bật, type: boolean }
+      - &description
+        name: description
         label: Mô tả
         type: text
-        options:
-          rows: 6
-      - name: specs
+        options: { rows: 6 }
+      - &specs
+        name: specs
         label: Thông số bổ sung / Ghi chú kỹ thuật
         type: text
-        description: Chỉ nhập thêm những thông số chưa có trong phần chọn nhanh phía trên.
+        options: { rows: 8 }
+      - name: custom_options
+        label: Thêm lựa chọn mới
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{field}: {value}" }
+        fields:
+          - name: field
+            label: Thêm vào danh sách nào?
+            type: select
+            options:
+              values: [camera_brand, camera_type, camera_resolution, camera_connection, camera_lens, camera_night, camera_audio, camera_storage, warranty]
+          - { name: value, label: Giá trị mới, type: string }
+
+  - name: computers
+    label: Máy tính
+    type: file
+    path: products-computer.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
+      - { name: name, label: Tên sản phẩm, type: string, required: true }
+      - name: computer_brand
+        label: Hãng Máy tính / Linh kiện
+        type: select
+        required: true
         options:
-          rows: 8
+          values: [Acer, ASUS, Dell, HP, Lenovo, MSI, Gigabyte, Apple, Intel, AMD, NVIDIA, Kingston, Corsair, "G.Skill", Crucial, Samsung, "Western Digital", Seagate, Lexar, TeamGroup, "Cooler Master", DeepCool, Thermaltake, Antec, Logitech, Razer, Rapoo, AOC, LG, ViewSonic, BenQ, Philips, "Khác / thêm mới"]
+      - { name: computer_model, label: Mã / Model, type: string }
+      - name: computer_type
+        label: Loại sản phẩm
+        type: select
+        options:
+          values: [Laptop, "PC Văn phòng", "PC Gaming", "Mini PC", All-in-One, "Màn hình", Mainboard, CPU, RAM, SSD, HDD, "VGA / Card đồ họa", "Nguồn / PSU", Case, "Tản nhiệt", "Bàn phím", Chuột, Webcam, "Tai nghe", "Khác / thêm mới"]
+      - name: computer_cpu
+        label: CPU / Dòng CPU
+        type: select
+        options:
+          values: ["Intel Core i3", "Intel Core i5", "Intel Core i7", "Intel Core i9", "Intel Core Ultra 5", "Intel Core Ultra 7", "Intel Core Ultra 9", "AMD Ryzen 3", "AMD Ryzen 5", "AMD Ryzen 7", "AMD Ryzen 9", "Apple M1", "Apple M2", "Apple M3", "Apple M4", "Khác / thêm mới"]
+      - name: computer_ram
+        label: RAM
+        type: select
+        options:
+          values: [4GB, 8GB, 16GB, 24GB, 32GB, 48GB, 64GB, 128GB, "Khác / thêm mới"]
+      - name: computer_storage
+        label: SSD / Lưu trữ
+        type: select
+        options:
+          values: [128GB, 256GB, 512GB, 1TB, 2TB, 4TB, 8TB, "Khác / thêm mới"]
+      - name: computer_gpu
+        label: Card đồ họa
+        type: select
+        options:
+          values: ["Đồ họa tích hợp", "NVIDIA GeForce GTX", "NVIDIA GeForce RTX 20 Series", "NVIDIA GeForce RTX 30 Series", "NVIDIA GeForce RTX 40 Series", "NVIDIA GeForce RTX 50 Series", "AMD Radeon RX 6000 Series", "AMD Radeon RX 7000 Series", "Intel Arc", "Apple GPU", "Khác / thêm mới"]
+      - name: computer_screen
+        label: Kích thước màn hình
+        type: select
+        options:
+          values: ["13.3 inch", "14 inch", "15.6 inch", "16 inch", "17.3 inch", "21.5 inch", "23.8 inch", "24 inch", "27 inch", "32 inch", "34 inch", "49 inch", "Khác / thêm mới"]
+      - name: computer_refresh
+        label: Tần số quét
+        type: select
+        options:
+          values: [60Hz, 75Hz, 100Hz, 120Hz, 144Hz, 165Hz, 180Hz, 240Hz, 360Hz, "Khác / thêm mới"]
+      - *price
+      - *old_price
+      - *warranty
+      - *shopee
+      - *images
+      - *video
+      - *featured
+      - *description
+      - *specs
+      - name: custom_options
+        label: Thêm lựa chọn mới
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{field}: {value}" }
+        fields:
+          - name: field
+            label: Thêm vào danh sách nào?
+            type: select
+            options:
+              values: [computer_brand, computer_type, computer_cpu, computer_ram, computer_storage, computer_gpu, computer_screen, computer_refresh, warranty]
+          - { name: value, label: Giá trị mới, type: string }
+
+  - name: printers
+    label: Máy in
+    type: file
+    path: products-printer.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
+      - { name: name, label: Tên sản phẩm, type: string, required: true }
+      - name: printer_brand
+        label: Hãng Máy in
+        type: select
+        required: true
+        options:
+          values: [Canon, HP, Brother, Epson, Pantum, Ricoh, Xerox, "Fujifilm Business Innovation", Kyocera, "Konica Minolta", Lexmark, Samsung, Oki, Zebra, Godex, Xprinter, "Khác / thêm mới"]
+      - { name: printer_model, label: Mã / Model Máy in, type: string }
+      - name: printer_type
+        label: Loại Máy in
+        type: select
+        options:
+          values: ["Laser đen trắng", "Laser màu", "Phun màu", "In phun tiếp mực liên tục", "Máy in đa năng", "Máy in kim", "Máy in nhiệt / hóa đơn", "Máy in tem / mã vạch", "Máy in ảnh", "Máy Scan", "Khác / thêm mới"]
+      - name: printer_paper
+        label: Khổ giấy hỗ trợ
+        type: select
+        options:
+          multiple: true
+          values: [A3, A4, A5, A6, B5, Letter, Legal, Executive, 10x15cm, 13x18cm, "Khác / thêm mới"]
+      - name: printer_color
+        label: Kiểu in
+        type: select
+        options:
+          values: ["Đen trắng", Màu, "Khác / thêm mới"]
+      - name: printer_functions
+        label: Chức năng
+        type: select
+        options:
+          multiple: true
+          values: [In, Scan, Copy, Fax, ADF, "In ảnh", "In tem / mã vạch", "Khác / thêm mới"]
+      - name: printer_duplex
+        label: In hai mặt
+        type: select
+        options:
+          values: ["Tự động", "Thủ công", "Không hỗ trợ", "Khác / thêm mới"]
+      - name: printer_connection
+        label: Kết nối
+        type: select
+        options:
+          multiple: true
+          values: [USB, "LAN RJ45", WiFi, "WiFi Direct", Bluetooth, NFC, "Khác / thêm mới"]
+      - name: printer_speed
+        label: Tốc độ in
+        type: select
+        options:
+          values: ["Dưới 20 trang/phút", "20 - 29 trang/phút", "30 - 39 trang/phút", "40 - 49 trang/phút", "Từ 50 trang/phút", "Khác / thêm mới"]
+      - *price
+      - *old_price
+      - *warranty
+      - *shopee
+      - *images
+      - *video
+      - *featured
+      - *description
+      - *specs
+      - name: custom_options
+        label: Thêm lựa chọn mới
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{field}: {value}" }
+        fields:
+          - name: field
+            label: Thêm vào danh sách nào?
+            type: select
+            options:
+              values: [printer_brand, printer_type, printer_paper, printer_color, printer_functions, printer_duplex, printer_connection, printer_speed, warranty]
+          - { name: value, label: Giá trị mới, type: string }
+
+  - name: networks
+    label: Thiết bị mạng
+    type: file
+    path: products-network.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
+      - { name: name, label: Tên sản phẩm, type: string, required: true }
+      - name: network_brand
+        label: Hãng Thiết bị mạng
+        type: select
+        required: true
+        options:
+          values: [TP-Link, Tenda, "Ruijie / Reyee", MikroTik, "Ubiquiti / UniFi", Cisco, Aruba, D-Link, Mercusys, Totolink, H3C, Huawei, ZTE, Netgear, DrayTek, Grandstream, Fortinet, Sophos, "Khác / thêm mới"]
+      - { name: network_model, label: Mã / Model, type: string }
+      - name: network_type
+        label: Loại thiết bị
+        type: select
+        options:
+          values: [Router, Firewall, Gateway, Switch, "PoE Switch", "Access Point", "Mesh WiFi", Controller, "Modem / ONT", "Bộ phát 4G / 5G", "SFP / SFP+", "Media Converter", "Cáp mạng", "Patch Panel", "Tủ Rack", "Phụ kiện mạng", "Khác / thêm mới"]
+      - name: network_wifi
+        label: Chuẩn WiFi
+        type: select
+        options:
+          values: ["Không WiFi", "WiFi 4 / 802.11n", "WiFi 5 / 802.11ac", "WiFi 6 / 802.11ax", "WiFi 6E", "WiFi 7 / 802.11be", "Khác / thêm mới"]
+      - name: network_speed
+        label: Tốc độ cổng mạng
+        type: select
+        options:
+          values: [10/100Mbps, "Gigabit 1Gbps", 2.5Gbps, 5Gbps, 10Gbps, 25Gbps, 40Gbps, 100Gbps, "Khác / thêm mới"]
+      - name: network_ports
+        label: Số cổng
+        type: select
+        options:
+          values: ["1 cổng", "2 cổng", "4 cổng", "5 cổng", "8 cổng", "16 cổng", "24 cổng", "48 cổng", "52 cổng", "Khác / thêm mới"]
+      - name: network_poe
+        label: PoE
+        type: select
+        options:
+          values: ["Không PoE", "Passive PoE", "PoE 802.3af", "PoE+ 802.3at", "PoE++ 802.3bt", "Khác / thêm mới"]
+      - name: network_management
+        label: Quản lý
+        type: select
+        options:
+          values: [Unmanaged, "Easy Smart", "Smart Managed", "Managed L2", "Managed L2+", "Managed L3", "Cloud Managed", "Controller Managed", "Khác / thêm mới"]
+      - *price
+      - *old_price
+      - *warranty
+      - *shopee
+      - *images
+      - *video
+      - *featured
+      - *description
+      - *specs
+      - name: custom_options
+        label: Thêm lựa chọn mới
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{field}: {value}" }
+        fields:
+          - name: field
+            label: Thêm vào danh sách nào?
+            type: select
+            options:
+              values: [network_brand, network_type, network_wifi, network_speed, network_ports, network_poe, network_management, warranty]
+          - { name: value, label: Giá trị mới, type: string }
+  - name: projects
+    label: Công trình tiêu biểu
+    type: file
+    path: projects.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: Mã công trình / đường dẫn, type: string, hidden: true }
+      - { name: title, label: Tên công trình, type: string, required: true }
+      - name: project_type
+        label: Loại công trình
+        type: select
+        required: true
+        options:
+          values: ["Hệ thống Camera", "Mạng LAN / WiFi", "Phòng máy / Máy tính", "Hệ thống Máy in", "Hệ thống tổng hợp", "Khác"]
+      - { name: location, label: Địa điểm, type: string }
+      - { name: customer, label: Khách hàng / Đơn vị, type: string }
+      - { name: completed, label: Thời gian hoàn thành, type: string }
+      - name: images
+        label: Hình ảnh công trình
+        type: image
+        options:
+          multiple: { max: 20 }
+          unique: true
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: video
+        label: Video công trình
+        type: file
+        options:
+          categories: [video]
+          extensions: [mp4, webm]
+          rename: safe
+      - { name: featured, label: Hiển thị trên trang chủ, type: boolean }
+      - name: description
+        label: Giới thiệu công trình
+        type: text
+        options: { rows: 10 }
+
