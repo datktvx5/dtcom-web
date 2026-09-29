@@ -31,13 +31,14 @@
       "project_type": "Hệ thống Camera",
       "location": "Hòa Bình",
       "images": [
-        "/media/cameratrungtamgiamsat001.jpg",
-        "/media/cameragiaothonglapdat001-1.jpg",
-        "/media/cameragiaothonglapdat003.jpg",
-        "/media/cameragiaothonglapdat004.jpg",
-        "/media/cameragiaothonglapdat005.jpg"
+        "/media/cong-trinh/camera-giao-thong/cameratrungtamgiamsat001.jpg",
+        "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat001-1.jpg",
+        "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat003.jpg",
+        "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat004.jpg",
+        "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat005.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "camera-giao-thong"
     }
   ]
 }
