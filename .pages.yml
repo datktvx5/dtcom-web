@@ -13,7 +13,7 @@ content:
       - name: id
         label: Mã sản phẩm / đường dẫn
         type: string
-        required: true
+        hidden: true
       - name: name
         label: Tên sản phẩm
         type: string
@@ -31,6 +31,7 @@ content:
       - name: subcategory
         label: Nhóm con
         type: string
+        hidden: true
       - name: brand
         label: Thương hiệu
         type: string
