@@ -27,3 +27,41 @@
 
 /* Featured projects */
 .projects{background:#fff}.section-note{max-width:430px;color:#748299;line-height:1.6;margin:0}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project-card{background:#fff;border:1px solid #dfe7f0;border-radius:18px;overflow:hidden;box-shadow:0 8px 24px rgba(20,58,105,.05);transition:.2s}.project-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(20,58,105,.12)}.project-image{display:block;aspect-ratio:16/10;background:#f2f5f9;overflow:hidden}.project-image img{width:100%;height:100%;object-fit:cover}.project-body{padding:18px}.project-body h3{font-size:19px;margin:10px 0 7px;line-height:1.35}.project-body p{color:#66758c;line-height:1.6;font-size:14px;min-height:44px}.project-view{display:inline-flex;text-decoration:none;padding:10px 14px;border-radius:9px;font-weight:800;font-size:13px}.project-customer{margin:18px 0;color:#46556c}.project-description{margin-top:24px;line-height:1.8;color:#53627a;white-space:normal}.detail-image.gallery{min-height:520px}@media(max-width:900px){.project-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.project-grid{grid-template-columns:1fr}.detail-image.gallery{min-height:320px}}
+
+/* Fixed media frame: prevent product/project gallery from stretching with text content */
+#productDetail.detail-card,
+#projectDetail.detail-card{
+  align-items:start;
+}
+
+#productDetail .detail-image.gallery{
+  width:100%;
+  aspect-ratio:1 / 1;
+  height:auto;
+  min-height:0;
+  align-self:start;
+}
+
+#projectDetail .detail-image.gallery{
+  width:100%;
+  aspect-ratio:16 / 10;
+  height:auto;
+  min-height:0;
+  align-self:start;
+}
+
+#productDetail .gallery-stage,
+#projectDetail .gallery-stage{
+  width:100%;
+  height:100%;
+  min-height:0;
+}
+
+#productDetail .gallery-main,
+#productDetail .gallery-video,
+#projectDetail .gallery-main,
+#projectDetail .gallery-video{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
