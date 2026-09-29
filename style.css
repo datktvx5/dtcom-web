@@ -3,22 +3,58 @@
 @media(max-width:1180px){.product-grid{grid-template-columns:repeat(4,1fr)}.hero-grid{grid-template-columns:50% 50%}.hero-features{display:none}.why-inner{grid-template-columns:1fr}.why-grid{grid-template-columns:repeat(3,1fr)}.why-cta{grid-column:span 2}.links a{padding-left:8px;padding-right:8px}}
 @media(max-width:900px){.topbar-right span:not(:first-child){display:none}.nav-inner{height:66px}.brand img{width:175px}.links{display:none}.menu-btn{display:block;margin-left:auto}.search-dot,.hotline{display:none}.hero-grid{grid-template-columns:1fr}.hero-copy{padding-bottom:10px}.hero-visual{min-height:320px}.hero-points{grid-template-columns:1fr}.category-strip{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:repeat(2,1fr)}.project-grid{grid-template-columns:1fr}.why-grid{grid-template-columns:repeat(2,1fr)}.why-cta{grid-column:span 2}.controls{width:100%;flex-direction:column}.title-with-controls{align-items:flex-start;flex-direction:column}.detail-card{grid-template-columns:1fr}.contact-grid{flex-direction:column;align-items:flex-start}}
 @media(max-width:560px){.wrap{width:min(94%,1480px)}.topbar{display:none}.brand img{width:160px}.hero h1{font-size:42px}.hero p{font-size:15px}.hero-visual{min-height:250px}.hero-actions{flex-wrap:wrap}.category-strip,.product-grid,.why-grid{grid-template-columns:1fr}.category-tile{grid-template-columns:70px 1fr 36px}.cat-art{font-size:38px}.why-cta{grid-column:auto}.project-card{grid-template-columns:1fr}.project-image{height:165px}.showcase-title{align-items:flex-start}.showcase-title a{display:none}.contact-actions{flex-wrap:wrap}.footer-grid{grid-template-columns:1fr}.detail-card{padding:16px}.detail-content h1{font-size:28px}}
-/* ===== DTCOM HERO POSTER MODE =====
-   The hero is rendered as one high-resolution design image so it matches the approved mockup exactly. */
+/* ===== DTCOM HERO POSTER MODE ===== */
 .hero-poster{position:relative;background:#031a3c;border-bottom:1px solid rgba(65,163,255,.35);overflow:hidden}
-.hero-poster-stage{position:relative;width:100%;line-height:0;background:#031a3c;overflow:hidden}
+.hero-poster-stage{position:relative;width:100%;line-height:0;background:#031a3c}
 .hero-poster-stage>img{display:block;width:100%;height:auto;max-width:none;user-select:none;-webkit-user-drag:none}
-.hero-hotspot{position:absolute;z-index:4;display:block;border-radius:10px;cursor:pointer;outline:none}
-.hero-hotspot:focus-visible{box-shadow:0 0 0 3px rgba(40,198,255,.9)}
-/* hotspots align with the two CTA buttons baked into the hero image */
-.hero-hotspot-products{left:13.7%;top:61.3%;width:10.8%;height:14.7%}
-.hero-hotspot-contact{left:25.0%;top:61.3%;width:10.3%;height:14.7%}
-
 @media(max-width:900px){
-  .hero-poster-stage{overflow:hidden}
-  .hero-poster-stage>img{width:150%;max-width:none;transform:translateX(-7%)}
-  .hero-hotspot{display:none}
+  .hero-poster-stage>img{width:145%;max-width:none;transform:translateX(-8%)}
 }
 @media(max-width:560px){
-  .hero-poster-stage>img{width:210%;transform:translateX(-11%)}
+  .hero-poster-stage>img{width:200%;transform:translateX(-12%)}
+}
+
+
+/* ===== PRODUCT CARD COMPACT + FULL IMAGE ===== */
+.product-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.product-card.compact{display:flex;flex-direction:column;min-width:0}
+.product-card.compact .product-image{
+  width:100%;
+  height:auto;
+  aspect-ratio:4/3;
+  padding:12px;
+  background:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.product-card.compact .product-image img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  display:block;
+}
+.product-card.compact .product-body{padding:10px 12px 12px}
+.product-card.compact .product-body h3{margin:0 0 8px;min-height:0;font-size:15px;line-height:1.32}
+.product-name-link{color:#10213d;text-decoration:none}
+.product-name-link:hover{color:var(--blue)}
+.product-card.compact .price{margin:0;font-size:18px}
+.product-card.compact .old-price{font-size:11px}
+
+/* Keep the full hero artwork visible on phones/tablets instead of cropping it. */
+@media(max-width:1180px){.product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:900px){
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero-poster-stage{overflow:visible}
+  .hero-poster-stage>img{width:100%;max-width:100%;height:auto;transform:none}
+}
+@media(max-width:560px){
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .product-card.compact .product-image{aspect-ratio:1/1;padding:8px}
+  .product-card.compact .product-body{padding:9px 9px 10px}
+  .product-card.compact .product-body h3{font-size:13px;line-height:1.28;margin-bottom:6px}
+  .product-card.compact .price{font-size:16px}
+  .hero-poster-stage>img{width:100%;max-width:100%;height:auto;transform:none}
 }
