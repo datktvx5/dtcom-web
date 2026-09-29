@@ -44,9 +44,25 @@ const getSlides=p=>{
 
   document.title=p.name+' | DTCOM';
   const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[ch]));
-  const specsText=Array.isArray(p.specs)
+  const profile=Array.isArray(p.quick_specs)&&p.quick_specs[0]&&typeof p.quick_specs[0]==='object'?p.quick_specs[0]:null;
+  const profileMaps={
+    camera:[['camera_model','Model'],['camera_type','Loại camera'],['camera_resolution','Độ phân giải'],['camera_connection','Kết nối'],['camera_lens','Ống kính'],['camera_night','Ban đêm'],['camera_audio','Âm thanh'],['camera_storage','Lưu trữ'],['camera_ai','AI / Cảnh báo']],
+    computer:[['computer_model','Model'],['computer_type','Loại sản phẩm'],['computer_cpu','CPU'],['computer_ram','RAM'],['computer_storage','Lưu trữ'],['computer_gpu','Card đồ họa'],['computer_screen','Màn hình'],['computer_refresh','Tần số quét']],
+    printer:[['printer_model','Model'],['printer_type','Loại máy'],['printer_paper','Khổ giấy'],['printer_color','Kiểu in'],['printer_functions','Chức năng'],['printer_duplex','In hai mặt'],['printer_connection','Kết nối'],['printer_speed','Tốc độ in']],
+    network:[['network_model','Model'],['network_type','Loại thiết bị'],['network_wifi','Chuẩn WiFi'],['network_speed','Tốc độ cổng'],['network_ports','Số cổng'],['network_poe','PoE'],['network_management','Quản lý']]
+  };
+  const profileLines=[];
+  if(profile&&profileMaps[profile.kind]){
+    for(const [key,label] of profileMaps[profile.kind]){
+      const raw=profile[key];
+      const value=Array.isArray(raw)?raw.filter(Boolean).join(', '):String(raw||'').trim();
+      if(value) profileLines.push(`${label}: ${value}`);
+    }
+  }
+  const manualSpecs=Array.isArray(p.specs)
     ? p.specs.map(s=>`${s?.name||''}${s?.name&&s?.value?': ':''}${s?.value||''}`).filter(Boolean).join('\n')
     : String(p.specs||'').trim();
+  const specsText=[profileLines.join('\n'),manualSpecs].filter(Boolean).join('\n');
   const specs=specsText?`<div class="specs-text">${escapeHtml(specsText)}</div>`:'';
   const slides=getSlides(p);
   const arrows=slides.length>1?`<button class="gallery-arrow gallery-prev" type="button" aria-label="Nội dung trước">‹</button><button class="gallery-arrow gallery-next" type="button" aria-label="Nội dung tiếp theo">›</button><div class="gallery-count"><span class="gallery-current">1</span> / ${slides.length}</div>`:'';
