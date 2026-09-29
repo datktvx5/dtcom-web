@@ -44,9 +44,22 @@ content:
       - name: warranty
         label: Bảo hành
         type: string
-      - name: image
+      - name: images
         label: Ảnh sản phẩm
         type: image
+        options:
+          multiple:
+            max: 10
+          unique: true
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: video
+        label: Video sản phẩm
+        type: file
+        options:
+          categories: [video]
+          extensions: [mp4, webm]
+          rename: safe
       - name: featured
         label: Sản phẩm nổi bật
         type: boolean
