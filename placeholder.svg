@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a66ff"/><stop offset="1" stop-color="#00b7d9"/></linearGradient></defs><rect width="800" height="600" fill="#eef4fb"/><rect x="90" y="90" width="620" height="420" rx="40" fill="url(#g)"/><text x="400" y="325" text-anchor="middle" font-family="Arial" font-size="92" font-weight="700" fill="white">DTCOM</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="No image">
+  <rect width="1200" height="900" fill="#eef4fb"/>
+  <rect x="120" y="120" width="960" height="660" rx="36" fill="#d9e7f7" stroke="#b9d1ee" stroke-width="16"/>
+  <circle cx="380" cy="360" r="88" fill="#b7d4f5"/>
+  <path d="M220 650l180-170 120 115 145-140 260 195H220z" fill="#9fc4f0"/>
+  <text x="600" y="802" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" fill="#5c84b5">DTCOM</text>
+</svg>

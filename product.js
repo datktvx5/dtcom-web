@@ -1,6 +1,6 @@
 const money=n=>Number(n||0).toLocaleString('vi-VN')+'đ';
 const safeExternalUrl=value=>{const s=String(value||'').trim();return /^https?:\/\//i.test(s)?s:'';};
-const normalizeMedia=src=>{if(!src)return'placeholder.svg';let s=String(src).trim().replace(/\\/g,'/');if(!s)return'placeholder.svg';if(/^(https?:|data:|blob:)/i.test(s))return s;if(s.startsWith('./'))s=s.slice(2);if(s==='placeholder.svg'||s.endsWith('/placeholder.svg'))return'placeholder.svg';if(s.startsWith('/'))return s;if(s.startsWith('media/'))return'/'+s;return'/media/'+s;};
+const normalizeMedia=src=>{if(!src)return'placeholder.svg';let s=String(src).trim().replace(/\\/g,'/');if(!s)return'placeholder.svg';if(/^(https?:|data:|blob:)/i.test(s))return s;if(s.startsWith('./'))s=s.slice(2);if(s==='placeholder.svg'||s.endsWith('/placeholder.svg'))return'placeholder.svg';if(s.startsWith('/'))return s;if(s.startsWith('media/'))return s;return 'media/'+s;};
 const getImages=p=>{let a=[];if(Array.isArray(p.images))a=p.images;else if(typeof p.images==='string'&&p.images.trim())a=[p.images];else if(p.image)a=[p.image];a=a.filter(Boolean).map(normalizeMedia);return a.length?a:['placeholder.svg'];};
 const getSlides=p=>{const s=getImages(p).map(src=>({type:'image',src}));if(p.video)s.push({type:'video',src:normalizeMedia(p.video)});return s;};
 const sources=[['products-camera.json','Camera','camera'],['products-computer.json','Máy tính','computer'],['products-printer.json','Máy in','printer'],['products-network.json','Thiết bị mạng','network']];
