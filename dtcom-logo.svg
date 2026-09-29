@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 72" role="img" aria-labelledby="t d">
+<title id="t">DTCOM</title><desc id="d">DTCOM Technology and Security</desc>
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f7cff"/><stop offset="1" stop-color="#00c2ff"/></linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2d61"/><stop offset="1" stop-color="#144c98"/></linearGradient>
+</defs>
+<g transform="translate(4 4)">
+  <rect width="64" height="64" rx="18" fill="url(#g2)"/>
+  <path d="M14 15h18c12.7 0 23 7.8 23 17.5S44.7 50 32 50H14V15Z" fill="url(#g1)"/>
+  <path d="M24 24h8.5c7.1 0 12.5 3.6 12.5 8.5S39.6 41 32.5 41H24V24Z" fill="#fff" opacity=".96"/>
+  <circle cx="51" cy="15" r="4" fill="#8fe8ff"/>
+</g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="82" y="35" font-size="30" font-weight="900" fill="#0a2c5f" letter-spacing="1">DTCOM</text>
+  <text x="84" y="54" font-size="10" font-weight="800" fill="#1785ff" letter-spacing="2.4">TECHNOLOGY &amp; SECURITY</text>
+</g>
+</svg>
