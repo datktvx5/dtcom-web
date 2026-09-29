@@ -19,3 +19,8 @@
 .gallery-video{background:#000}
 .gallery-main[hidden],.gallery-video[hidden]{display:none!important}
 .product-image img{object-fit:contain;background:#f2f5f9}
+
+
+/* Technical specs as free-form multiline text */
+.specs{margin:20px 0}
+.specs-text{white-space:pre-wrap;line-height:1.75;color:#34445d;background:#f8fafc;border:1px solid #e5ebf2;border-radius:12px;padding:16px 18px;font-size:14px}

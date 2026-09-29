@@ -43,7 +43,11 @@ const getSlides=p=>{
   }
 
   document.title=p.name+' | DTCOM';
-  const specs=(p.specs||[]).map(s=>`<div class="spec-row"><b>${s.name}</b><span>${s.value}</span></div>`).join('');
+  const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[ch]));
+  const specsText=Array.isArray(p.specs)
+    ? p.specs.map(s=>`${s?.name||''}${s?.name&&s?.value?': ':''}${s?.value||''}`).filter(Boolean).join('\n')
+    : String(p.specs||'').trim();
+  const specs=specsText?`<div class="specs-text">${escapeHtml(specsText)}</div>`:'';
   const slides=getSlides(p);
   const arrows=slides.length>1?`<button class="gallery-arrow gallery-prev" type="button" aria-label="Nội dung trước">‹</button><button class="gallery-arrow gallery-next" type="button" aria-label="Nội dung tiếp theo">›</button><div class="gallery-count"><span class="gallery-current">1</span> / ${slides.length}</div>`:'';
 

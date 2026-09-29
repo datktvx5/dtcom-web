@@ -71,16 +71,7 @@ content:
         label: Mô tả
         type: text
       - name: specs
-        label: Thông số
-        type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{name}: {value}"
-        fields:
-          - name: name
-            label: Tên thông số
-            type: string
-          - name: value
-            label: Giá trị
-            type: string
+        label: Thông số kỹ thuật
+        type: text
+        options:
+          rows: 10
