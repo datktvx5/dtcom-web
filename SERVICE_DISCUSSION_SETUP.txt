@@ -1,0 +1,9 @@
+DTCOM - KICH HOAT THAO LUAN DICH VU
+
+1) Website da chen Utterances vao 4 trang dich vu.
+2) De phan thao luan hoat dong:
+   - Trong GitHub repo datktvx5/dtcom-web, vao Settings > General > Features va bat Issues.
+   - Cai GitHub App Utterances cho repo dtcom-web tai https://github.com/apps/utterances
+3) Moi trang dich vu se tu tao mot chu de Issues rieng theo pathname.
+4) Khach muon binh luan cong khai can dang nhap GitHub.
+5) Neu khach khong dung GitHub, ho van co the dat cau hoi bang nut "Gui cau hoi qua Zalo".
