@@ -85,6 +85,17 @@
         "/media/cong-trinh/camera-nha-san/cameralapdatptz002.jpg"
       ],
       "featured": false
+    },
+    {
+      "title": "Phòng Máy Cho Học Sinh",
+      "project_type": "Phòng máy / Máy tính",
+      "images": [
+        "/media/maytinhphongmay002.jpg",
+        "/media/maytinhphongmay003.jpg",
+        "/media/maytinhphongmay004.jpg",
+        "/media/maytinhphongmay005.jpg"
+      ],
+      "featured": false
     }
   ]
 }
