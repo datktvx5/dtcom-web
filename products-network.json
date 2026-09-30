@@ -221,7 +221,9 @@
       "product_type": "Core Switch",
       "brand": "Reyee",
       "shopee_link": "",
-      "images": [],
+      "images": [
+        "media/reyee/rg-nbf6002m/main.png"
+      ],
       "video": "",
       "featured": false,
       "description": "Switch core Layer 3 quản lý, kiêm OLT, hỗ trợ PON; có 2 khe line card và 2 khe nguồn.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 7."
