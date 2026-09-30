@@ -47,10 +47,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+
+      - name: Sync latest main BEFORE generating changes
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Download all successful group results
         uses: actions/download-artifact@v4
@@ -65,11 +73,13 @@ jobs:
           import os, shutil
           root='downloaded-master'
           for name in list(os.listdir(root)):
-              if not name.startswith('official-'): continue
+              if not name.startswith('official-'):
+                  continue
               group=name[len('official-'):]
               src=os.path.join(root,name)
               dst=os.path.join(root,group)
-              if os.path.exists(dst): shutil.rmtree(dst)
+              if os.path.exists(dst):
+                  shutil.rmtree(dst)
               shutil.move(src,dst)
           PY
 
@@ -80,11 +90,29 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
+
           git add products-camera.json products-network.json products-computer.json products-printer.json media/official-2025plus-master reports/official-2025plus-master
+
           if git diff --cached --quiet; then
             echo "No catalog changes"
-          else
-            git commit -m "Publish DTCOM official-only 2025+ catalog"
-            git push
+            exit 0
           fi
+
+          git commit -m "Publish DTCOM official-only 2025+ catalog"
+
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push conflict, retrying..."
+            git fetch origin main
+            git rebase origin/main || {
+              git rebase --abort || true
+              echo "Could not safely rebase generated catalog."
+              exit 1
+            }
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
