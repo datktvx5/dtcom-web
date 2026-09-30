@@ -1,0 +1,499 @@
+{
+  "max_products_per_brand": 2,
+  "min_specs": 3,
+  "max_images": 5,
+  "years": [
+    2025,
+    2026
+  ],
+  "categories": [
+    {
+      "key": "camera",
+      "target": "camera",
+      "subcategory": "Camera",
+      "brands": [
+        {
+          "name": "Hikvision",
+          "domains": [
+            "hikvision.com"
+          ],
+          "query": "2025 camera product"
+        },
+        {
+          "name": "Dahua",
+          "domains": [
+            "dahuasecurity.com"
+          ],
+          "query": "2025 camera product"
+        },
+        {
+          "name": "Imou",
+          "domains": [
+            "imoulife.com"
+          ],
+          "query": "2025 camera product"
+        },
+        {
+          "name": "EZVIZ",
+          "domains": [
+            "ezviz.com"
+          ],
+          "query": "2025 camera product"
+        },
+        {
+          "name": "TP-Link VIGI",
+          "domains": [
+            "tp-link.com"
+          ],
+          "query": "2025 VIGI camera"
+        }
+      ]
+    },
+    {
+      "key": "network",
+      "target": "network",
+      "subcategory": "Thiết bị mạng",
+      "brands": [
+        {
+          "name": "Reyee",
+          "domains": [
+            "reyee.ruijie.com"
+          ],
+          "query": "2025 access point switch router"
+        },
+        {
+          "name": "TP-Link Omada",
+          "domains": [
+            "tp-link.com"
+          ],
+          "query": "2025 Omada access point switch router"
+        },
+        {
+          "name": "Ubiquiti",
+          "domains": [
+            "ui.com"
+          ],
+          "query": "2025 UniFi access point switch gateway"
+        },
+        {
+          "name": "MikroTik",
+          "domains": [
+            "mikrotik.com"
+          ],
+          "query": "2025 router switch wireless"
+        },
+        {
+          "name": "HPE Aruba Networking",
+          "domains": [
+            "hpe.com"
+          ],
+          "query": "2025 Aruba access point switch"
+        }
+      ]
+    },
+    {
+      "key": "laptop",
+      "target": "computer",
+      "subcategory": "Laptop",
+      "brands": [
+        {
+          "name": "Dell",
+          "domains": [
+            "dell.com"
+          ],
+          "query": "2025 Dell Pro laptop"
+        },
+        {
+          "name": "HP",
+          "domains": [
+            "hp.com"
+          ],
+          "query": "2025 EliteBook laptop"
+        },
+        {
+          "name": "Lenovo",
+          "domains": [
+            "lenovo.com"
+          ],
+          "query": "2025 ThinkPad laptop"
+        },
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "query": "2025 ExpertBook laptop"
+        },
+        {
+          "name": "Acer",
+          "domains": [
+            "acer.com"
+          ],
+          "query": "2025 TravelMate laptop"
+        }
+      ]
+    },
+    {
+      "key": "desktop",
+      "target": "computer",
+      "subcategory": "Máy tính để bàn",
+      "brands": [
+        {
+          "name": "Dell",
+          "domains": [
+            "dell.com"
+          ],
+          "query": "2025 Dell Pro desktop"
+        },
+        {
+          "name": "HP",
+          "domains": [
+            "hp.com"
+          ],
+          "query": "2025 EliteDesk desktop"
+        },
+        {
+          "name": "Lenovo",
+          "domains": [
+            "lenovo.com"
+          ],
+          "query": "2025 ThinkCentre desktop"
+        },
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "query": "2025 ExpertCenter desktop"
+        },
+        {
+          "name": "Acer",
+          "domains": [
+            "acer.com"
+          ],
+          "query": "2025 Veriton desktop"
+        }
+      ]
+    },
+    {
+      "key": "printer",
+      "target": "printer",
+      "subcategory": "Máy in",
+      "brands": [
+        {
+          "name": "HP",
+          "domains": [
+            "hp.com"
+          ],
+          "query": "2025 printer LaserJet"
+        },
+        {
+          "name": "Canon",
+          "domains": [
+            "canon-europe.com",
+            "canon.com"
+          ],
+          "query": "2025 printer imageFORCE"
+        },
+        {
+          "name": "Epson",
+          "domains": [
+            "epson.com"
+          ],
+          "query": "2025 printer EcoTank WorkForce"
+        },
+        {
+          "name": "Brother",
+          "domains": [
+            "brother.com",
+            "brother.com.vn"
+          ],
+          "query": "2025 printer"
+        },
+        {
+          "name": "Lexmark",
+          "domains": [
+            "lexmark.com"
+          ],
+          "query": "2025 printer"
+        }
+      ]
+    },
+    {
+      "key": "scanner",
+      "target": "printer",
+      "subcategory": "Máy scan",
+      "brands": [
+        {
+          "name": "Canon",
+          "domains": [
+            "canon-europe.com",
+            "canon.com"
+          ],
+          "query": "2025 scanner imageFORMULA"
+        },
+        {
+          "name": "Epson",
+          "domains": [
+            "epson.com"
+          ],
+          "query": "2025 document scanner"
+        },
+        {
+          "name": "Brother",
+          "domains": [
+            "brother.com",
+            "brother.com.vn"
+          ],
+          "query": "2025 scanner"
+        },
+        {
+          "name": "Ricoh/PFU",
+          "domains": [
+            "pfu.ricoh.com",
+            "ricoh.com"
+          ],
+          "query": "2025 scanner fi ScanSnap"
+        },
+        {
+          "name": "Kodak Alaris",
+          "domains": [
+            "kodakalaris.com"
+          ],
+          "query": "2025 document scanner"
+        }
+      ]
+    },
+    {
+      "key": "ram",
+      "target": "computer",
+      "subcategory": "RAM",
+      "brands": [
+        {
+          "name": "Kingston",
+          "domains": [
+            "kingston.com"
+          ],
+          "query": "2025 DDR5 CUDIMM memory"
+        },
+        {
+          "name": "Crucial",
+          "domains": [
+            "crucial.com"
+          ],
+          "query": "2025 DDR5 memory"
+        },
+        {
+          "name": "Corsair",
+          "domains": [
+            "corsair.com"
+          ],
+          "query": "2025 DDR5 memory"
+        },
+        {
+          "name": "G.Skill",
+          "domains": [
+            "gskill.com"
+          ],
+          "query": "2025 DDR5 memory"
+        },
+        {
+          "name": "TeamGroup",
+          "domains": [
+            "teamgroupinc.com"
+          ],
+          "query": "2025 DDR5 memory"
+        }
+      ]
+    },
+    {
+      "key": "mainboard",
+      "target": "computer",
+      "subcategory": "Mainboard",
+      "brands": [
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "query": "2025 motherboard B850 Z890"
+        },
+        {
+          "name": "MSI",
+          "domains": [
+            "msi.com"
+          ],
+          "query": "2025 motherboard B850 Z890"
+        },
+        {
+          "name": "GIGABYTE",
+          "domains": [
+            "gigabyte.com"
+          ],
+          "query": "2025 motherboard B850 Z890"
+        },
+        {
+          "name": "ASRock",
+          "domains": [
+            "asrock.com"
+          ],
+          "query": "2025 motherboard B850 Z890"
+        },
+        {
+          "name": "BIOSTAR",
+          "domains": [
+            "biostar.com.tw"
+          ],
+          "query": "2025 motherboard B850 Z890"
+        }
+      ]
+    },
+    {
+      "key": "cpu",
+      "target": "computer",
+      "subcategory": "CPU",
+      "brands": [
+        {
+          "name": "Intel",
+          "domains": [
+            "intel.com"
+          ],
+          "query": "2025 2026 desktop processor Core Ultra"
+        },
+        {
+          "name": "AMD",
+          "domains": [
+            "amd.com"
+          ],
+          "query": "2025 desktop processor Ryzen"
+        }
+      ]
+    },
+    {
+      "key": "ssd",
+      "target": "computer",
+      "subcategory": "SSD",
+      "brands": [
+        {
+          "name": "Samsung",
+          "domains": [
+            "samsung.com"
+          ],
+          "query": "2025 SSD 9100 PRO"
+        },
+        {
+          "name": "Kingston",
+          "domains": [
+            "kingston.com"
+          ],
+          "query": "2025 SSD"
+        },
+        {
+          "name": "Crucial",
+          "domains": [
+            "crucial.com"
+          ],
+          "query": "2025 SSD"
+        },
+        {
+          "name": "Western Digital",
+          "domains": [
+            "westerndigital.com"
+          ],
+          "query": "2025 WD_BLACK SSD"
+        },
+        {
+          "name": "Seagate",
+          "domains": [
+            "seagate.com"
+          ],
+          "query": "2025 FireCuda SSD"
+        }
+      ]
+    },
+    {
+      "key": "vga",
+      "target": "computer",
+      "subcategory": "Card đồ họa",
+      "brands": [
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "query": "2025 graphics card RTX 50"
+        },
+        {
+          "name": "MSI",
+          "domains": [
+            "msi.com"
+          ],
+          "query": "2025 graphics card RTX 50"
+        },
+        {
+          "name": "GIGABYTE",
+          "domains": [
+            "gigabyte.com"
+          ],
+          "query": "2025 graphics card RTX 50"
+        },
+        {
+          "name": "ZOTAC",
+          "domains": [
+            "zotac.com"
+          ],
+          "query": "2025 graphics card RTX 50"
+        },
+        {
+          "name": "PNY",
+          "domains": [
+            "pny.com"
+          ],
+          "query": "2025 graphics card RTX 50"
+        }
+      ]
+    },
+    {
+      "key": "psu",
+      "target": "computer",
+      "subcategory": "Nguồn máy tính",
+      "brands": [
+        {
+          "name": "Corsair",
+          "domains": [
+            "corsair.com"
+          ],
+          "query": "2025 power supply ATX 3.1"
+        },
+        {
+          "name": "Seasonic",
+          "domains": [
+            "seasonic.com"
+          ],
+          "query": "2025 power supply ATX 3.1"
+        },
+        {
+          "name": "Cooler Master",
+          "domains": [
+            "coolermaster.com"
+          ],
+          "query": "2025 power supply ATX 3.1"
+        },
+        {
+          "name": "Thermaltake",
+          "domains": [
+            "thermaltake.com"
+          ],
+          "query": "2025 power supply ATX 3.1"
+        },
+        {
+          "name": "MSI",
+          "domains": [
+            "msi.com"
+          ],
+          "query": "2025 power supply ATX 3.1"
+        }
+      ]
+    }
+  ]
+}
