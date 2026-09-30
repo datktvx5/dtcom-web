@@ -112,13 +112,14 @@
       "title": "Wifi Cho Tòa Nhà",
       "project_type": "Mạng LAN / WiFi",
       "images": [
-        "/media/mangturack004.jpg",
-        "/media/mangturack005.jpg",
-        "/media/mangturack006.jpg",
-        "/media/mangwifiaccesspoint001.jpg",
-        "/media/mangwifiaccesspoint001-1.jpg"
+        "/media/cong-trinh/wifi-cho-toa-nha/mangturack004.jpg",
+        "/media/cong-trinh/wifi-cho-toa-nha/mangturack005.jpg",
+        "/media/cong-trinh/wifi-cho-toa-nha/mangturack006.jpg",
+        "/media/cong-trinh/wifi-cho-toa-nha/mangwifiaccesspoint001.jpg",
+        "/media/cong-trinh/wifi-cho-toa-nha/mangwifiaccesspoint001-1.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "wifi-cho-toa-nha"
     }
   ]
 }
