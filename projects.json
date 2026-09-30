@@ -90,12 +90,13 @@
       "title": "Phòng Máy Cho Học Sinh",
       "project_type": "Phòng máy / Máy tính",
       "images": [
-        "/media/maytinhphongmay002.jpg",
-        "/media/maytinhphongmay003.jpg",
-        "/media/maytinhphongmay004.jpg",
-        "/media/maytinhphongmay005.jpg"
+        "/media/cong-trinh/phong-may-cho-hoc-sinh/maytinhphongmay002.jpg",
+        "/media/cong-trinh/phong-may-cho-hoc-sinh/maytinhphongmay003.jpg",
+        "/media/cong-trinh/phong-may-cho-hoc-sinh/maytinhphongmay004.jpg",
+        "/media/cong-trinh/phong-may-cho-hoc-sinh/maytinhphongmay005.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "phong-may-cho-hoc-sinh"
     }
   ]
 }
