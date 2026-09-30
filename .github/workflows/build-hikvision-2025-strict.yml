@@ -1,0 +1,27 @@
+name: Build Hikvision 2025 official strict
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Build Hikvision official-only catalog
+        run: node scripts/build-hikvision-2025-strict.js
+      - name: Commit staging
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imports/official-2025plus-v4 media/official-2025plus-v4 reports/official-2025plus-v4
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Build Hikvision 2025 official strict catalog"
+            git push
+          fi
