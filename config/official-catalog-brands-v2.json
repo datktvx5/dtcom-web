@@ -1,0 +1,832 @@
+{
+  "max_products_per_brand": 2,
+  "min_specs": 3,
+  "max_images": 5,
+  "fresh_after": "2025-01-01",
+  "categories": [
+    {
+      "key": "camera",
+      "target": "camera",
+      "subcategory": "Camera",
+      "brands": [
+        {
+          "name": "Hikvision",
+          "domains": [
+            "hikvision.com"
+          ],
+          "keywords": [
+            "camera",
+            "network-camera",
+            "ptz",
+            "turret",
+            "bullet",
+            "dome",
+            "tandemvu",
+            "colorvu"
+          ]
+        },
+        {
+          "name": "Dahua",
+          "domains": [
+            "dahuasecurity.com"
+          ],
+          "keywords": [
+            "camera",
+            "network-camera",
+            "ptz",
+            "wizsense",
+            "wizcolor",
+            "tioc"
+          ]
+        },
+        {
+          "name": "Imou",
+          "domains": [
+            "imoulife.com"
+          ],
+          "keywords": [
+            "camera",
+            "cruiser",
+            "ranger",
+            "bullet",
+            "cell",
+            "rex"
+          ]
+        },
+        {
+          "name": "EZVIZ",
+          "domains": [
+            "ezviz.com"
+          ],
+          "keywords": [
+            "camera",
+            "h9c",
+            "h8c",
+            "h6c",
+            "eb8",
+            "cb8"
+          ]
+        },
+        {
+          "name": "TP-Link VIGI",
+          "domains": [
+            "tp-link.com"
+          ],
+          "keywords": [
+            "vigi",
+            "camera",
+            "in-sight",
+            "c5",
+            "c4",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "network",
+      "target": "network",
+      "subcategory": "Thiết bị mạng",
+      "brands": [
+        {
+          "name": "Reyee",
+          "domains": [
+            "reyee.ruijie.com"
+          ],
+          "keywords": [
+            "products",
+            "access-point",
+            "switch",
+            "router",
+            "gateway",
+            "rap",
+            "nbs",
+            "eg"
+          ]
+        },
+        {
+          "name": "TP-Link Omada",
+          "domains": [
+            "tp-link.com"
+          ],
+          "keywords": [
+            "omada",
+            "access-point",
+            "switch",
+            "router",
+            "gateway",
+            "eap",
+            "sg",
+            "er"
+          ]
+        },
+        {
+          "name": "Ubiquiti",
+          "domains": [
+            "ui.com"
+          ],
+          "keywords": [
+            "unifi",
+            "access-point",
+            "switch",
+            "gateway",
+            "dream-machine",
+            "cloud-gateway"
+          ]
+        },
+        {
+          "name": "MikroTik",
+          "domains": [
+            "mikrotik.com"
+          ],
+          "keywords": [
+            "product",
+            "router",
+            "switch",
+            "wifi",
+            "wireless",
+            "hap",
+            "rb",
+            "crs",
+            "ccr"
+          ]
+        },
+        {
+          "name": "HPE Aruba Networking",
+          "domains": [
+            "hpe.com"
+          ],
+          "keywords": [
+            "aruba",
+            "access-point",
+            "switch",
+            "instant-on",
+            "campus-ap"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "laptop",
+      "target": "computer",
+      "subcategory": "Laptop",
+      "brands": [
+        {
+          "name": "Dell",
+          "domains": [
+            "dell.com"
+          ],
+          "keywords": [
+            "laptop",
+            "dell-pro",
+            "latitude",
+            "xps",
+            "pro-max"
+          ]
+        },
+        {
+          "name": "HP",
+          "domains": [
+            "hp.com"
+          ],
+          "keywords": [
+            "laptop",
+            "elitebook",
+            "probook",
+            "zbook",
+            "omnibook"
+          ]
+        },
+        {
+          "name": "Lenovo",
+          "domains": [
+            "lenovo.com"
+          ],
+          "keywords": [
+            "laptop",
+            "thinkpad",
+            "thinkbook",
+            "yoga",
+            "legion"
+          ]
+        },
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "keywords": [
+            "laptop",
+            "expertbook",
+            "zenbook",
+            "vivobook",
+            "rog"
+          ]
+        },
+        {
+          "name": "Acer",
+          "domains": [
+            "acer.com"
+          ],
+          "keywords": [
+            "laptop",
+            "travelmate",
+            "swift",
+            "aspire",
+            "predator"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "desktop",
+      "target": "computer",
+      "subcategory": "Máy tính để bàn",
+      "brands": [
+        {
+          "name": "Dell",
+          "domains": [
+            "dell.com"
+          ],
+          "keywords": [
+            "desktop",
+            "dell-pro",
+            "optiplex",
+            "pro-max"
+          ]
+        },
+        {
+          "name": "HP",
+          "domains": [
+            "hp.com"
+          ],
+          "keywords": [
+            "desktop",
+            "elitedesk",
+            "prodesk",
+            "z2",
+            "z4"
+          ]
+        },
+        {
+          "name": "Lenovo",
+          "domains": [
+            "lenovo.com"
+          ],
+          "keywords": [
+            "desktop",
+            "thinkcentre",
+            "thinkstation"
+          ]
+        },
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "keywords": [
+            "desktop",
+            "expertcenter",
+            "rog-desktop"
+          ]
+        },
+        {
+          "name": "Acer",
+          "domains": [
+            "acer.com"
+          ],
+          "keywords": [
+            "desktop",
+            "veriton",
+            "predator-orion"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "printer",
+      "target": "printer",
+      "subcategory": "Máy in",
+      "brands": [
+        {
+          "name": "HP",
+          "domains": [
+            "hp.com"
+          ],
+          "keywords": [
+            "printer",
+            "laserjet",
+            "officejet",
+            "smart-tank"
+          ]
+        },
+        {
+          "name": "Canon",
+          "domains": [
+            "canon-europe.com",
+            "canon.com"
+          ],
+          "keywords": [
+            "printer",
+            "imageforce",
+            "i-sensys",
+            "maxify",
+            "pixma"
+          ]
+        },
+        {
+          "name": "Epson",
+          "domains": [
+            "epson.com"
+          ],
+          "keywords": [
+            "printer",
+            "ecotank",
+            "workforce",
+            "surecolor"
+          ]
+        },
+        {
+          "name": "Brother",
+          "domains": [
+            "brother.com",
+            "brother.com.vn"
+          ],
+          "keywords": [
+            "printer",
+            "mfc",
+            "dcp",
+            "hl-"
+          ]
+        },
+        {
+          "name": "Lexmark",
+          "domains": [
+            "lexmark.com"
+          ],
+          "keywords": [
+            "printer",
+            "multifunction",
+            "cx",
+            "mx",
+            "cs",
+            "ms"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "scanner",
+      "target": "printer",
+      "subcategory": "Máy scan",
+      "brands": [
+        {
+          "name": "Canon",
+          "domains": [
+            "canon-europe.com",
+            "canon.com"
+          ],
+          "keywords": [
+            "scanner",
+            "imageformula",
+            "dr-",
+            "rs40"
+          ]
+        },
+        {
+          "name": "Epson",
+          "domains": [
+            "epson.com"
+          ],
+          "keywords": [
+            "scanner",
+            "document-scanner",
+            "ds-",
+            "es-"
+          ]
+        },
+        {
+          "name": "Brother",
+          "domains": [
+            "brother.com",
+            "brother.com.vn"
+          ],
+          "keywords": [
+            "scanner",
+            "ads-"
+          ]
+        },
+        {
+          "name": "Ricoh/PFU",
+          "domains": [
+            "pfu.ricoh.com",
+            "ricoh.com"
+          ],
+          "keywords": [
+            "scanner",
+            "scansnap",
+            "fi-"
+          ]
+        },
+        {
+          "name": "Kodak Alaris",
+          "domains": [
+            "kodakalaris.com"
+          ],
+          "keywords": [
+            "scanner",
+            "s2000",
+            "s3000",
+            "e1000"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ram",
+      "target": "computer",
+      "subcategory": "RAM",
+      "brands": [
+        {
+          "name": "Kingston",
+          "domains": [
+            "kingston.com"
+          ],
+          "keywords": [
+            "memory",
+            "ddr5",
+            "fury",
+            "cudimm",
+            "udimm"
+          ]
+        },
+        {
+          "name": "Crucial",
+          "domains": [
+            "crucial.com"
+          ],
+          "keywords": [
+            "memory",
+            "ddr5",
+            "pro-overclocking",
+            "cudimm"
+          ]
+        },
+        {
+          "name": "Corsair",
+          "domains": [
+            "corsair.com"
+          ],
+          "keywords": [
+            "memory",
+            "ddr5",
+            "vengeance",
+            "dominator"
+          ]
+        },
+        {
+          "name": "G.Skill",
+          "domains": [
+            "gskill.com"
+          ],
+          "keywords": [
+            "ddr5",
+            "trident",
+            "flare",
+            "ripjaws"
+          ]
+        },
+        {
+          "name": "TeamGroup",
+          "domains": [
+            "teamgroupinc.com"
+          ],
+          "keywords": [
+            "ddr5",
+            "t-force",
+            "vulcan",
+            "delta"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mainboard",
+      "target": "computer",
+      "subcategory": "Mainboard",
+      "brands": [
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "keywords": [
+            "motherboard",
+            "b850",
+            "x870",
+            "z890",
+            "b860"
+          ]
+        },
+        {
+          "name": "MSI",
+          "domains": [
+            "msi.com"
+          ],
+          "keywords": [
+            "motherboard",
+            "b850",
+            "x870",
+            "z890",
+            "b860"
+          ]
+        },
+        {
+          "name": "GIGABYTE",
+          "domains": [
+            "gigabyte.com"
+          ],
+          "keywords": [
+            "motherboard",
+            "b850",
+            "x870",
+            "z890",
+            "b860"
+          ]
+        },
+        {
+          "name": "ASRock",
+          "domains": [
+            "asrock.com"
+          ],
+          "keywords": [
+            "motherboard",
+            "b850",
+            "x870",
+            "z890",
+            "b860"
+          ]
+        },
+        {
+          "name": "BIOSTAR",
+          "domains": [
+            "biostar.com.tw"
+          ],
+          "keywords": [
+            "motherboard",
+            "b850",
+            "x870",
+            "z890",
+            "b860"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cpu",
+      "target": "computer",
+      "subcategory": "CPU",
+      "brands": [
+        {
+          "name": "Intel",
+          "domains": [
+            "intel.com"
+          ],
+          "keywords": [
+            "processor",
+            "core-ultra",
+            "285k",
+            "265k",
+            "245k",
+            "arrow-lake"
+          ]
+        },
+        {
+          "name": "AMD",
+          "domains": [
+            "amd.com"
+          ],
+          "keywords": [
+            "processor",
+            "ryzen",
+            "9950x3d",
+            "9900x3d",
+            "9800x3d",
+            "9000"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ssd",
+      "target": "computer",
+      "subcategory": "SSD",
+      "brands": [
+        {
+          "name": "Samsung",
+          "domains": [
+            "samsung.com"
+          ],
+          "keywords": [
+            "ssd",
+            "9100-pro",
+            "990-evo",
+            "nvme"
+          ]
+        },
+        {
+          "name": "Kingston",
+          "domains": [
+            "kingston.com"
+          ],
+          "keywords": [
+            "ssd",
+            "nv3",
+            "fury-renegade",
+            "nvme"
+          ]
+        },
+        {
+          "name": "Crucial",
+          "domains": [
+            "crucial.com"
+          ],
+          "keywords": [
+            "ssd",
+            "t710",
+            "t705",
+            "p310",
+            "nvme"
+          ]
+        },
+        {
+          "name": "Western Digital",
+          "domains": [
+            "westerndigital.com"
+          ],
+          "keywords": [
+            "ssd",
+            "wd-black",
+            "sn8100",
+            "nvme"
+          ]
+        },
+        {
+          "name": "Seagate",
+          "domains": [
+            "seagate.com"
+          ],
+          "keywords": [
+            "ssd",
+            "firecuda",
+            "530r",
+            "nvme"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vga",
+      "target": "computer",
+      "subcategory": "Card đồ họa",
+      "brands": [
+        {
+          "name": "ASUS",
+          "domains": [
+            "asus.com"
+          ],
+          "keywords": [
+            "graphics-card",
+            "rtx-50",
+            "geforce-rtx-50",
+            "5070",
+            "5080",
+            "5090"
+          ]
+        },
+        {
+          "name": "MSI",
+          "domains": [
+            "msi.com"
+          ],
+          "keywords": [
+            "graphics-card",
+            "rtx-50",
+            "5070",
+            "5080",
+            "5090"
+          ]
+        },
+        {
+          "name": "GIGABYTE",
+          "domains": [
+            "gigabyte.com"
+          ],
+          "keywords": [
+            "graphics-card",
+            "rtx-50",
+            "5070",
+            "5080",
+            "5090"
+          ]
+        },
+        {
+          "name": "ZOTAC",
+          "domains": [
+            "zotac.com"
+          ],
+          "keywords": [
+            "graphics-card",
+            "rtx-50",
+            "5070",
+            "5080",
+            "5090"
+          ]
+        },
+        {
+          "name": "PNY",
+          "domains": [
+            "pny.com"
+          ],
+          "keywords": [
+            "graphics-card",
+            "rtx-50",
+            "5070",
+            "5080",
+            "5090"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "psu",
+      "target": "computer",
+      "subcategory": "Nguồn máy tính",
+      "brands": [
+        {
+          "name": "Corsair",
+          "domains": [
+            "corsair.com"
+          ],
+          "keywords": [
+            "power-supply",
+            "psu",
+            "atx-3-1",
+            "rmx",
+            "hx"
+          ]
+        },
+        {
+          "name": "Seasonic",
+          "domains": [
+            "seasonic.com"
+          ],
+          "keywords": [
+            "power-supply",
+            "psu",
+            "vertex",
+            "prime",
+            "focus"
+          ]
+        },
+        {
+          "name": "Cooler Master",
+          "domains": [
+            "coolermaster.com"
+          ],
+          "keywords": [
+            "power-supply",
+            "psu",
+            "mwe",
+            "x-mighty",
+            "gx"
+          ]
+        },
+        {
+          "name": "Thermaltake",
+          "domains": [
+            "thermaltake.com"
+          ],
+          "keywords": [
+            "power-supply",
+            "psu",
+            "toughpower"
+          ]
+        },
+        {
+          "name": "MSI",
+          "domains": [
+            "msi.com"
+          ],
+          "keywords": [
+            "power-supply",
+            "psu",
+            "meg",
+            "mpg",
+            "mag"
+          ]
+        }
+      ]
+    }
+  ]
+}
