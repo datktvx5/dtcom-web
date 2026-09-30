@@ -1,5 +1,0 @@
-model,status,image_count,spec_count,datasheet_status,official_datasheet
-"DS-2CD1027G3-LIU","ACCEPTED","3","16","HTTP_200","https://assets.hikvision.com/prd/public/all/doc/sm000098632/DS-2CD1027G3-LIU_Datasheet_20250709.pdf"
-"DS-2CD1127G3-LIU(F)","DROPPED_DATASHEET_ERROR","0","0","HTTP_403","https://assets.hikvision.com/prd/normal/all/doc/m000172324/DS-2CD1127G3-LIUF_Datasheet_20251009.pdf"
-"DS-2CD3H46G3-LIZSU(Y)/SL","ACCEPTED","3","16","HTTP_200","https://assets.hikvision.com/prd/normal/all/doc/m000163178/DS-2CD3H46G3-LIZSUY_SL_Datasheet_20250925.pdf"
-"DS-2CD3783G2-LIZSU/SL","ACCEPTED","1","16","HTTP_200","https://assets.hikvision.com/prd/public/all/doc/m000135462/DS-2CD3783G2-LIZSU_SL_Datasheet_20250212.pdf"
