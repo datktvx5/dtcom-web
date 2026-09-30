@@ -109,6 +109,7 @@
       "featured": false
     },
     {
+      "id": "wifi-cho-toa-nha",
       "title": "Wifi Cho Tòa Nhà",
       "project_type": "Mạng LAN / WiFi",
       "images": [
@@ -118,8 +119,19 @@
         "/media/cong-trinh/wifi-cho-toa-nha/mangwifiaccesspoint001.jpg",
         "/media/cong-trinh/wifi-cho-toa-nha/mangwifiaccesspoint001-1.jpg"
       ],
-      "featured": false,
-      "id": "wifi-cho-toa-nha"
+      "featured": false
+    },
+    {
+      "title": "Mạng Lan Cơ Quan Huyện",
+      "project_type": "Mạng LAN / WiFi",
+      "images": [
+        "/media/mangturack002.jpg",
+        "/media/mangturack014.jpg",
+        "/media/mangturack003.jpg",
+        "/media/mangturack013.jpg",
+        "/media/mangdaycap001.jpg"
+      ],
+      "featured": false
     }
   ]
 }
