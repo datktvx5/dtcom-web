@@ -27,7 +27,8 @@
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh011.jpg",
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh009.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "description": "Kính chào Quý Khách hàng và Đối tác,\n\nCông ty DTCOM trân trọng giới thiệu đến Quý vị một trong những dự án tiêu biểu mà chúng tôi đã tư vấn, thiết kế và triển khai thành công. Với bề dày kinh nghiệm trong việc xây dựng hạ tầng CNTT, DTCOM luôn cam kết mang đến những hệ thống hoạt động ổn định, bảo mật và tối ưu nhất cho doanh nghiệp. \n\nDưới đây là các tính năng kỹ thuật nổi bật của giải pháp mạng Camera an ninh mà DTCOM đã thực hiện:\n\n**GIẢI PHÁP HẠ TẦNG MẠNG CAMERA AN NINH TÒA NHÀ**\n\n🎥 **Phân khu mạng độc lập (VLAN Dedicated)**\n* Hệ thống camera được quy hoạch trên các dải mạng hoàn toàn riêng biệt (VLAN 90 và VLAN 300), cách ly tuyệt đối khỏi mạng Internet người dùng và mạng nội bộ doanh nghiệp[cite: 1].\n* Thiết kế này bảo vệ camera khỏi các cuộc tấn công mạng nội bộ và đảm bảo không bị nghẽn băng thông khi tòa nhà có đông người sử dụng Wi-Fi\n\n🖧 **Hạ tầng truyền dẫn quang học chuyên biệt**\n* Dữ liệu hình ảnh được xử lý bởi một thiết bị chuyển mạch (Switch) phân phối riêng biệt, liên kết qua cáp quang trực tiếp tới bộ định tuyến lõi\n* Sử dụng công nghệ gộp đa luồng cáp quang (Bonding 802.3ad) giữa các tầng để gom toàn bộ dữ liệu video độ nét cao, đảm bảo tín hiệu luôn thông suốt và có khả năng tự động dự phòng đứt cáp\n\n🌍 **Truy cập từ xa bảo mật & Tốc độ cao**\n* Hệ thống tường lửa trung tâm được cấu hình dịch vụ chuyển tiếp cổng (NAT Port) chi tiết cho từng thiết bị camera và đầu ghi[cite: 1].\n* Chủ đầu tư có thể giám sát an ninh sắc nét từ bất kỳ đâu qua Internet mà vẫn được rào chắn tường lửa bảo vệ trước các truy cập trái phép\n\n⚡ **Tối ưu hóa xem trực tiếp nội bộ (Hairpin NAT)\n* Tích hợp cơ chế điều hướng thông minh (Hairpin NAT), tự động nhận diện người dùng đang ở trong tòa nhà\n* Khi quản lý sử dụng Wi-Fi nội bộ để mở ứng dụng xem camera, dữ liệu sẽ đi thẳng qua hệ thống mạng LAN siêu tốc thay vì phải vòng ra ngoài Internet, mang lại trải nghiệm xem mượt mà không độ trễ\n\n🔗 **Đồng bộ đa hệ thống an ninh**\n* Dù chia tách riêng biệt, các cụm camera khác nhau (hệ thống Camera giám sát các tầng và hệ thống Camera Vàng tầng 1) vẫn được định tuyến cấp quyền giao tiếp hai chiều, giúp kết nối đồng bộ tới hệ thống lưu trữ tập trung\n\n***\nĐể được tư vấn giải pháp mạng và camera an ninh phù hợp nhất với quy mô của Quý doanh nghiệp, xin vui lòng liên hệ đội ngũ kỹ thuật của DTCOM. Rất hân hạnh được hợp tác!"
     },
     {
       "id": "camera-giao-thong",
@@ -45,26 +46,27 @@
       "featured": false
     },
     {
+      "id": "camera-biet-thu",
       "title": "Camera Biệt Thự",
       "project_type": "Hệ thống Camera",
       "images": [
         "/media/cong-trinh/camera-biet-thu/khaccongtrinh001-1.jpg",
         "/media/cong-trinh/camera-biet-thu/cameragiamsatmanhinh002.jpg"
       ],
-      "featured": false,
-      "id": "camera-biet-thu"
+      "featured": false
     },
     {
+      "id": "camera-truong-hoc",
       "title": "Camera TRường Học",
       "project_type": "Hệ thống Camera",
       "images": [
         "/media/cong-trinh/camera-truong-hoc/cameragiamsathethong001.jpg",
         "/media/cong-trinh/camera-truong-hoc/cameragiamsatmanhinh003.jpg"
       ],
-      "featured": false,
-      "id": "camera-truong-hoc"
+      "featured": false
     },
     {
+      "id": "camera-trang-trai",
       "title": "Camera Trang Trại",
       "project_type": "Hệ thống Camera",
       "images": [
@@ -72,18 +74,17 @@
         "/media/cong-trinh/camera-trang-trai/camerangoaitroilapdat002.jpg",
         "/media/cong-trinh/camera-trang-trai/camerangoaitroilapdat001.jpg"
       ],
-      "featured": false,
-      "id": "camera-trang-trai"
+      "featured": false
     },
     {
+      "id": "camera-nha-san",
       "title": "Camera Nhà Sàn",
       "project_type": "Hệ thống Camera",
       "images": [
         "/media/cong-trinh/camera-nha-san/cameralapdatptz001.jpg",
         "/media/cong-trinh/camera-nha-san/cameralapdatptz002.jpg"
       ],
-      "featured": false,
-      "id": "camera-nha-san"
+      "featured": false
     }
   ]
 }
