@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "model": "DS-2CD1027G3-LIU",
+      "brand": "Hikvision",
+      "subcategory": "Camera",
+      "product_type": "Camera IP Bullet",
+      "release_year": 2025,
+      "official_url": "https://pro-av.hikvision.com/vn/products/IP-Products/Network-Cameras/Value-Series/ds-2cd1027g3-liu-f---sl---srb-/",
+      "official_datasheet": "https://assets.hikvision.com/prd/public/all/doc/sm000098632/DS-2CD1027G3-LIU_Datasheet_20250709.pdf"
+    },
+    {
+      "model": "DS-2CD1127G3-LIU(F)",
+      "brand": "Hikvision",
+      "subcategory": "Camera",
+      "product_type": "Camera IP Dome",
+      "release_year": 2025,
+      "official_url": "https://hsrc.hikvision.com/en/products/IP-Products/Network-Cameras/value-series/ds-2cd1127g3-liu-f---sx-/",
+      "official_datasheet": "https://assets.hikvision.com/prd/normal/all/doc/m000172324/DS-2CD1127G3-LIUF_Datasheet_20251009.pdf"
+    },
+    {
+      "model": "DS-2CD3H46G3-LIZSU(Y)/SL",
+      "brand": "Hikvision",
+      "subcategory": "Camera",
+      "product_type": "Camera IP Turret Varifocal",
+      "release_year": 2025,
+      "official_url": "https://hsrc.hikvision.com/en/products/IP-Products/Network-Cameras/Ultra-Series-SmartIP-/ds-2cd3h46g3-lizsu-y--sl/",
+      "official_datasheet": "https://assets.hikvision.com/prd/normal/all/doc/m000163178/DS-2CD3H46G3-LIZSUY_SL_Datasheet_20250925.pdf"
+    },
+    {
+      "model": "DS-2CD3783G2-LIZSU/SL",
+      "brand": "Hikvision",
+      "subcategory": "Camera",
+      "product_type": "Camera IP Dome Varifocal",
+      "release_year": 2025,
+      "official_url": "https://hsrc.hikvision.com/en/products/IP-Products/Network-Cameras/Ultra-Series-SmartIP-/ds-2cd3783g2-lizsu-sl/",
+      "official_datasheet": "https://assets.hikvision.com/prd/public/all/doc/m000135462/DS-2CD3783G2-LIZSU_SL_Datasheet_20250212.pdf"
+    }
+  ]
+}
