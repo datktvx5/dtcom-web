@@ -1,0 +1,11 @@
+category,brand,name,spec_count,official_url,status
+"printer","HP","","0","","NO_VALID_PRODUCT_FOUND"
+"printer","Canon","","0","","NO_VALID_PRODUCT_FOUND"
+"printer","Epson","","0","","NO_VALID_PRODUCT_FOUND"
+"printer","Brother","","0","","NO_VALID_PRODUCT_FOUND"
+"printer","Lexmark","","0","","NO_VALID_PRODUCT_FOUND"
+"scanner","Canon","","0","","NO_VALID_PRODUCT_FOUND"
+"scanner","Epson","","0","","NO_VALID_PRODUCT_FOUND"
+"scanner","Brother","","0","","NO_VALID_PRODUCT_FOUND"
+"scanner","Ricoh/PFU","","0","","NO_VALID_PRODUCT_FOUND"
+"scanner","Kodak Alaris","","0","","NO_VALID_PRODUCT_FOUND"
