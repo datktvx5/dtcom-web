@@ -1,0 +1,53 @@
+name: Import Dahua KBVision TP-Link HPE Cisco Aruba ONE SHOT
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-products:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Import official products
+        run: node scripts/import-multibrand-one-shot.js
+
+      - name: Show QA report
+        run: |
+          cat reports/multibrand-import-final.csv
+          echo
+          echo "New media folders:"
+          git status --short media | head -300 || true
+
+      - name: Commit accepted products
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add products-camera.json products-network.json media reports/multibrand-import-final.csv
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+
+          git commit -m "Add official Dahua KBVision and network catalog"
+          git push origin HEAD:main
