@@ -125,13 +125,14 @@
       "title": "Mạng Lan Cơ Quan Huyện",
       "project_type": "Mạng LAN / WiFi",
       "images": [
-        "/media/mangturack002.jpg",
-        "/media/mangturack014.jpg",
-        "/media/mangturack003.jpg",
-        "/media/mangturack013.jpg",
-        "/media/mangdaycap001.jpg"
+        "/media/cong-trinh/mang-lan-co-quan-huyen/mangturack002.jpg",
+        "/media/cong-trinh/mang-lan-co-quan-huyen/mangturack014.jpg",
+        "/media/cong-trinh/mang-lan-co-quan-huyen/mangturack003.jpg",
+        "/media/cong-trinh/mang-lan-co-quan-huyen/mangturack013.jpg",
+        "/media/cong-trinh/mang-lan-co-quan-huyen/mangdaycap001.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "mang-lan-co-quan-huyen"
     }
   ]
 }
