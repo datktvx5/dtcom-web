@@ -99,14 +99,26 @@
       "featured": false
     },
     {
+      "id": "sever-cho-doanh-nghiep",
       "title": "Sever Cho Doanh Nghiệp",
       "project_type": "Phòng máy / Máy tính",
       "images": [
         "/media/cong-trinh/sever-cho-doanh-nghiep/maytinhserver001-1.jpg",
         "/media/cong-trinh/sever-cho-doanh-nghiep/maytinhserversuachua001.jpg"
       ],
-      "featured": false,
-      "id": "sever-cho-doanh-nghiep"
+      "featured": false
+    },
+    {
+      "title": "Wifi Cho Tòa Nhà",
+      "project_type": "Mạng LAN / WiFi",
+      "images": [
+        "/media/mangturack004.jpg",
+        "/media/mangturack005.jpg",
+        "/media/mangturack006.jpg",
+        "/media/mangwifiaccesspoint001.jpg",
+        "/media/mangwifiaccesspoint001-1.jpg"
+      ],
+      "featured": false
     }
   ]
 }
