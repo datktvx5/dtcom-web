@@ -213,6 +213,1396 @@
       ],
       "featured": false,
       "category": "Thiết bị mạng"
+    },
+    {
+      "id": "rg-nbf6002m",
+      "name": "Reyee RG-NBF6002M - Switch core Layer 3 + OLT",
+      "subcategory": "Switch",
+      "product_type": "Core Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch core Layer 3 quản lý, kiêm OLT, hỗ trợ PON; có 2 khe line card và 2 khe nguồn.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 7."
+    },
+    {
+      "id": "rg-nbf5200m-8fs16gt4xs",
+      "name": "Reyee RG-NBF5200M-8FS16GT4XS - Switch core PON Layer 3",
+      "subcategory": "Switch",
+      "product_type": "Core Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbf5200m-8fs16gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch core Layer 3 quản lý có khả năng PON, 8 cổng 1G PON/SFP, 16 cổng Gigabit Ethernet và 4 cổng 10G SFP+.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 8."
+    },
+    {
+      "id": "rg-nbf2100s-8gt1sc",
+      "name": "Reyee RG-NBF2100S-8GT1SC - Switch quang 8GE",
+      "subcategory": "Switch",
+      "product_type": "Optical Access Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbf2100s-8gt1sc/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quang Gigabit quản lý không PoE (ONU), hỗ trợ PON, 8 cổng Gigabit RJ45 và 1 cổng SC 1G.\nThiết kế cho hệ thống mạng doanh nghiệp và SMB, tập trung vào khả năng kết nối ổn định và triển khai thuận tiện.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 8."
+    },
+    {
+      "id": "rg-nbf2100s-8gt1sc-p",
+      "name": "Reyee RG-NBF2100S-8GT1SC-P - Switch quang PoE 8GE",
+      "subcategory": "Switch",
+      "product_type": "Optical PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbf2100s-8gt1sc-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quang Gigabit PoE+ quản lý (ONU), hỗ trợ PON, 8 cổng Gigabit RJ45 và 1 cổng SC 1G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 8."
+    },
+    {
+      "id": "rg-nbf2100s-16gt1sc-p",
+      "name": "Reyee RG-NBF2100S-16GT1SC-P - Switch quang PoE 16GE",
+      "subcategory": "Switch",
+      "product_type": "Optical PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbf2100s-16gt1sc-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quang Gigabit PoE+ quản lý (ONU), hỗ trợ PON, 16 cổng Gigabit RJ45 và 1 cổng SC 1G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 8."
+    },
+    {
+      "id": "rg-apf1250",
+      "name": "Reyee RG-APF1250 - Access Point quang AC1200",
+      "subcategory": "Access Point",
+      "product_type": "Optical Access Point",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Access Point quang gắn tường AC1200 hai băng tần, tích hợp anten, hỗ trợ PON; 3 cổng Gigabit Ethernet, 1 cổng SC 1G và 1 cổng RJ11.\nHỗ trợ quản lý tập trung qua hệ sinh thái Ruijie Reyee, giúp cấu hình và giám sát thiết bị từ xa.\nThiết kế tích hợp nhiều dịch vụ trên cùng hạ tầng quang, phù hợp các hệ thống cần kết hợp Wi-Fi, mạng có dây và thoại.\nHỗ trợ triển khai nhanh và bảo trì thuận tiện thông qua nền tảng quản lý Reyee.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 9."
+    },
+    {
+      "id": "rg-rap1200-p",
+      "name": "Reyee RG-RAP1200(P) - AC1300 dual-band Gigabit Wall-plate AP",
+      "subcategory": "Access Point",
+      "product_type": "Wall-Plate AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap1200p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band Gigabit Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện cấu hình và giám sát từ xa.\nHỗ trợ roaming trong hệ thống nhiều AP và cơ chế SON giúp tự phát hiện, tự kết nối và đơn giản hóa quá trình triển khai.\nThiết kế gắn tường phù hợp các khu vực cần phủ Wi-Fi theo từng phòng hoặc từng khu vực độc lập.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap1200-f",
+      "name": "Reyee RG-RAP1200(F) - AC1300 dual-band Wall-plate AP",
+      "subcategory": "Access Point",
+      "product_type": "Wall-Plate AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap1200f/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện cấu hình và giám sát từ xa.\nHỗ trợ roaming trong hệ thống nhiều AP và cơ chế SON giúp tự phát hiện, tự kết nối và đơn giản hóa quá trình triển khai.\nThiết kế gắn tường phù hợp các khu vực cần phủ Wi-Fi theo từng phòng hoặc từng khu vực độc lập.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap1201",
+      "name": "Reyee RG-RAP1201 - AC1300 dual-band Gigabit Wall-plate AP",
+      "subcategory": "Access Point",
+      "product_type": "Wall-Plate AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band Gigabit Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện cấu hình và giám sát từ xa.\nHỗ trợ roaming trong hệ thống nhiều AP và cơ chế SON giúp tự phát hiện, tự kết nối và đơn giản hóa quá trình triển khai.\nThiết kế gắn tường phù hợp các khu vực cần phủ Wi-Fi theo từng phòng hoặc từng khu vực độc lập.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap1260",
+      "name": "Reyee RG-RAP1260 - AX3000 dual-band wall-plate AP",
+      "subcategory": "Access Point",
+      "product_type": "Wall-Plate AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX3000 dual-band wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện cấu hình và giám sát từ xa.\nHỗ trợ roaming trong hệ thống nhiều AP và cơ chế SON giúp tự phát hiện, tự kết nối và đơn giản hóa quá trình triển khai.\nThiết kế gắn tường phù hợp các khu vực cần phủ Wi-Fi theo từng phòng hoặc từng khu vực độc lập.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap1261",
+      "name": "Reyee RG-RAP1261 - AX3000 dual-band wall-plate AP",
+      "subcategory": "Access Point",
+      "product_type": "Wall-Plate AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX3000 dual-band wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện cấu hình và giám sát từ xa.\nHỗ trợ roaming trong hệ thống nhiều AP và cơ chế SON giúp tự phát hiện, tự kết nối và đơn giản hóa quá trình triển khai.\nThiết kế gắn tường phù hợp các khu vực cần phủ Wi-Fi theo từng phòng hoặc từng khu vực độc lập.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2200-e",
+      "name": "Reyee RG-RAP2200(E) - AC1300 dual-band ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap2200e/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2200-f",
+      "name": "Reyee RG-RAP2200(F) - AC1300 dual-band ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap2200f/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2260-g",
+      "name": "Reyee RG-RAP2260(G) - Wi-Fi 6 AX1800 dual-band Gigabit ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap2260g/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 6 AX1800 dual-band Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap62",
+      "name": "Reyee RG-RAP62 - Wi-Fi 6 AX1800 dual-band ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap62/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 6 AX1800 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2266",
+      "name": "Reyee RG-RAP2266 - AX3000 ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX3000 ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2260",
+      "name": "Reyee RG-RAP2260 - Wi-Fi 6 AX3000 high-performance multi-Gigabit ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap2260/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 6 AX3000 high-performance multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2260-e",
+      "name": "Reyee RG-RAP2260(E) - Wi-Fi 6 AX3200 dual-band multi-Gigabit ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap2260e/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 6 AX3200 dual-band multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap2260-h",
+      "name": "Reyee RG-RAP2260(H) - Wi-Fi 6 AX6000 high-density multi-Gigabit ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap2260h/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 6 AX6000 high-density multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap72",
+      "name": "Reyee RG-RAP72 - Wi-Fi 7 BE3600 dual-band ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap72/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 7 BE3600 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap72pro",
+      "name": "Reyee RG-RAP72Pro - Wi-Fi 7 BE5040 dual-band ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap72pro/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 7 BE5040 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap73hd",
+      "name": "Reyee RG-RAP73HD - Wi-Fi 7 BE19000 tri-band ceiling mount AP",
+      "subcategory": "Access Point",
+      "product_type": "Ceiling AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 7 BE19000 tri-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb và quản lý tập trung cho hệ thống nhiều Access Point.\nHỗ trợ roaming giữa các AP và SON giúp tự phát hiện, tự kết nối, rút ngắn thời gian triển khai.\nThiết kế gắn trần phù hợp môi trường văn phòng, cửa hàng, khách sạn và các khu vực cần vùng phủ Wi-Fi ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap52-od",
+      "name": "Reyee RG-RAP52-OD - AC1300 dual-band outdoor AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap6202-g",
+      "name": "Reyee RG-RAP6202(G) - AC1300 dual-band outdoor AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AC1300 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap6262-g",
+      "name": "Reyee RG-RAP6262(G) - AX1800 Wi-Fi 6 outdoor AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap6262g/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "AX1800 Wi-Fi 6 outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap6260-g",
+      "name": "Reyee RG-RAP6260(G) - AX1800 Wi-Fi 6 outdoor AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX1800 Wi-Fi 6 outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap6262",
+      "name": "Reyee RG-RAP6262 - AX3000 high-performance outdoor omni-directional AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX3000 high-performance outdoor omni-directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap62-od",
+      "name": "Reyee RG-RAP62-OD - AX3000 dual-band outdoor AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap62-od/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "AX3000 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap6260-h",
+      "name": "Reyee RG-RAP6260(H) - AX6000 high-density outdoor omni-directional AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX6000 high-density outdoor omni-directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap6260-h-d",
+      "name": "Reyee RG-RAP6260(H)-D - AX6000 high-performance outdoor directional AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "AX6000 high-performance outdoor directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-rap72pro-od",
+      "name": "Reyee RG-RAP72Pro-OD - Wi-Fi 7 BE5040 dual-band outdoor/indoor versatile AP",
+      "subcategory": "Access Point",
+      "product_type": "Outdoor AP",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-rap72pro-od/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 7 BE5040 dual-band outdoor/indoor versatile access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\nHỗ trợ quản lý Cloud qua Ruijie Reyee App/eWeb, thuận tiện theo dõi và tối ưu hệ thống từ xa.\nHỗ trợ roaming và SON cho hệ thống nhiều AP, giúp đơn giản hóa cấu hình và vận hành.\nThiết kế ngoài trời, phù hợp các khu vực cần phủ sóng Wi-Fi rộng và yêu cầu độ bền môi trường cao.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 12."
+    },
+    {
+      "id": "rg-nbs7006",
+      "name": "Reyee RG-NBS7006",
+      "subcategory": "Switch",
+      "product_type": "Modular Layer 3 Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch modular Layer 3, 9U, 6 khe line card.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 22."
+    },
+    {
+      "id": "rg-nbs7003",
+      "name": "Reyee RG-NBS7003",
+      "subcategory": "Switch",
+      "product_type": "Modular Layer 3 Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch modular Layer 3, 4U, 3 khe line card.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 22."
+    },
+    {
+      "id": "rg-nbs6002",
+      "name": "Reyee RG-NBS6002",
+      "subcategory": "Switch",
+      "product_type": "Modular Core Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch core modular 2 khe, dòng Layer 3.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 22."
+    },
+    {
+      "id": "rg-nbs5300-8mg2xs-up",
+      "name": "Reyee RG-NBS5300-8MG2XS-UP",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 Multi-Gigabit Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 10 cổng multi-Gigabit, 8 cổng PoE++ 2.5G và 2 uplink SFP+.\nThiết kế cho hệ thống mạng doanh nghiệp và SMB, tập trung vào khả năng kết nối ổn định và triển khai thuận tiện.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5100-24gt4sfp",
+      "name": "Reyee RG-NBS5100-24GT4SFP",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5100-24gt4sfp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 28 cổng Gigabit: 24 RJ45 + 4 SFP.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5100-24gt4sfp-p",
+      "name": "Reyee RG-NBS5100-24GT4SFP-P",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5100-24gt4sfp-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 Gigabit PoE: 24 RJ45 + 4 SFP.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5100-48gt4sfp",
+      "name": "Reyee RG-NBS5100-48GT4SFP",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5100-48gt4sfp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 52 cổng Gigabit: 48 RJ45 + 4 SFP.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5200-24sfp-8gt4xs",
+      "name": "Reyee RG-NBS5200-24SFP/8GT4XS",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5200-24sfp-8gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 36 cổng: 24 SFP + 8 Gigabit RJ45 + 4 SFP+ 10G.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5200-24gt4xs-p-v2",
+      "name": "Reyee RG-NBS5200-24GT4XS-P-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5200-24gt4xs-p-v2/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 Gigabit PoE: 24 RJ45 + 4 uplink 10G SFP+.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5200-24gt4xs",
+      "name": "Reyee RG-NBS5200-24GT4XS",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5200-24gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3: 24 Gigabit RJ45 + 4 uplink 10G SFP+.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5200-48gt4xs-up",
+      "name": "Reyee RG-NBS5200-48GT4XS-UP",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 48 cổng Gigabit PoE với uplink 10G SFP+.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs5200-48gt4xs",
+      "name": "Reyee RG-NBS5200-48GT4XS",
+      "subcategory": "Switch",
+      "product_type": "Layer 3 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs5200-48gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 3 48 cổng Gigabit với uplink 10G SFP+.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 23."
+    },
+    {
+      "id": "rg-nbs3200-24gt4xs",
+      "name": "Reyee RG-NBS3200-24GT4XS",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-24gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2+ 24 cổng Gigabit với uplink 10G.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3200-24sfp-8gt4xs",
+      "name": "Reyee RG-NBS3200-24SFP/8GT4XS",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-24sfp-8gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2+ với 24 SFP, 8 Gigabit RJ45 và uplink 10G.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3200-24gt4xs-p",
+      "name": "Reyee RG-NBS3200-24GT4XS-P",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-24gt4xs-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 2+ PoE 24 cổng Gigabit với uplink 10G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3200-48gt4xs",
+      "name": "Reyee RG-NBS3200-48GT4XS",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-48gt4xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 2+ 48 cổng Gigabit với uplink 10G.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3200-48gt4xs-p",
+      "name": "Reyee RG-NBS3200-48GT4XS-P",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-48gt4xs-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 2+ PoE 48 cổng Gigabit với uplink 10G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3200-24gt4xs-p-v2",
+      "name": "Reyee RG-NBS3200-24GT4XS-P-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-24gt4xs-p-v2/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 2+ PoE 24 cổng Gigabit, phiên bản V2, uplink 10G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3200-48gt4xs-p-v2",
+      "name": "Reyee RG-NBS3200-48GT4XS-P-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 2+ PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3200-48gt4xs-p-v2/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch Layer 2+ PoE 48 cổng Gigabit, phiên bản V2, uplink 10G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 24."
+    },
+    {
+      "id": "rg-nbs3100-8gt2sfp",
+      "name": "Reyee RG-NBS3100-8GT2SFP",
+      "subcategory": "Switch",
+      "product_type": "Layer 2 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3100-8gt2sfp/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2 Gigabit, 8 cổng RJ45 + 2 SFP.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 25."
+    },
+    {
+      "id": "rg-nbs3100-8gt2sfp-p-v2",
+      "name": "Reyee RG-NBS3100-8GT2SFP-P-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 2 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 8 cổng RJ45 + 2 SFP.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 25."
+    },
+    {
+      "id": "rg-nbs3100-24gt4sfp-v2",
+      "name": "Reyee RG-NBS3100-24GT4SFP-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 2 Managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2 Gigabit, 24 cổng RJ45 + 4 SFP.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 25."
+    },
+    {
+      "id": "rg-nbs3100-24gt4sfp-p-v2",
+      "name": "Reyee RG-NBS3100-24GT4SFP-P-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 2 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 24 cổng RJ45 + 4 SFP.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 25."
+    },
+    {
+      "id": "rg-nbs3100-48gt4sfp-p",
+      "name": "Reyee RG-NBS3100-48GT4SFP-P",
+      "subcategory": "Switch",
+      "product_type": "Layer 2 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3100-48gt4sfp-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 48 cổng RJ45 + 4 SFP.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 25."
+    },
+    {
+      "id": "rg-nbs3100-48gt4sfp-p-v2",
+      "name": "Reyee RG-NBS3100-48GT4SFP-P-V2",
+      "subcategory": "Switch",
+      "product_type": "Layer 2 PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nbs3100-48gt4sfp-p-v2/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 48 cổng RJ45 + 4 SFP, phiên bản V2.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 25."
+    },
+    {
+      "id": "rg-nis3100-8gt4sfp-hp",
+      "name": "Reyee RG-NIS3100-8GT4SFP-HP",
+      "subcategory": "Switch",
+      "product_type": "Industrial Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch công nghiệp quản lý Layer 2, 8 cổng Gigabit + 4 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nHỗ trợ quản lý tập trung qua nền tảng Reyee đối với các model cloud-managed, thuận tiện giám sát và bảo trì từ xa.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 26."
+    },
+    {
+      "id": "rg-nis3100-8gt2sfp-hp",
+      "name": "Reyee RG-NIS3100-8GT2SFP-HP",
+      "subcategory": "Switch",
+      "product_type": "Industrial Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch công nghiệp quản lý Layer 2, 8 cổng Gigabit + 2 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nHỗ trợ quản lý tập trung qua nền tảng Reyee đối với các model cloud-managed, thuận tiện giám sát và bảo trì từ xa.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 26."
+    },
+    {
+      "id": "rg-nis3100-4gt2sfp-hp",
+      "name": "Reyee RG-NIS3100-4GT2SFP-HP",
+      "subcategory": "Switch",
+      "product_type": "Industrial Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Switch công nghiệp quản lý Layer 2, 4 cổng Gigabit + 2 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nHỗ trợ quản lý tập trung qua nền tảng Reyee đối với các model cloud-managed, thuận tiện giám sát và bảo trì từ xa.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 26."
+    },
+    {
+      "id": "rg-nis2100-8gt2sfp-hp",
+      "name": "Reyee RG-NIS2100-8GT2SFP-HP",
+      "subcategory": "Switch",
+      "product_type": "Industrial Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nis2100-8gt2sfp-hp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch công nghiệp Gigabit quản lý, 1 cổng PoE++, 7 cổng PoE+ và 2 uplink SFP.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nHỗ trợ quản lý tập trung qua nền tảng Reyee đối với các model cloud-managed, thuận tiện giám sát và bảo trì từ xa.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-nis2100-4gt2sfp-hp",
+      "name": "Reyee RG-NIS2100-4GT2SFP-HP",
+      "subcategory": "Switch",
+      "product_type": "Industrial Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-nis2100-4gt2sfp-hp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Switch công nghiệp Gigabit quản lý, 1 cổng PoE++, 3 cổng PoE+ và 2 uplink SFP.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nHỗ trợ quản lý tập trung qua nền tảng Reyee đối với các model cloud-managed, thuận tiện giám sát và bảo trì từ xa.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es205gc-p",
+      "name": "Reyee RG-ES205GC-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "5-port Gigabit smart cloud-managed PoE switch; 4 cổng PoE+, PoE budget 54 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es206gs-p",
+      "name": "Reyee RG-ES206GS-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "6-port Gigabit smart cloud-managed PoE switch; 4 cổng PoE+ và 1 combo port, PoE budget 54 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es209gc-p",
+      "name": "Reyee RG-ES209GC-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "9-port Gigabit smart cloud-managed PoE switch; 8 cổng PoE+, PoE budget 120 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es210gs-p",
+      "name": "Reyee RG-ES210GS-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "10-port Gigabit smart cloud-managed PoE switch; 8 cổng PoE+ và 1 combo port, PoE budget 120 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es220gs-lp",
+      "name": "Reyee RG-ES220GS-LP",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es220gs-lp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "20-port Gigabit smart cloud-managed PoE switch; 16 cổng PoE+, 2 SFP, PoE budget 130 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es220gs-p",
+      "name": "Reyee RG-ES220GS-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "20-port Gigabit smart cloud-managed PoE switch; 16 cổng PoE+, 2 SFP, PoE budget 250 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es228gs-lp",
+      "name": "Reyee RG-ES228GS-LP",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es228gs-lp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "28-port Gigabit smart cloud-managed PoE switch; 24 cổng PoE+, 2 SFP, PoE budget 250 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es228gs-p",
+      "name": "Reyee RG-ES228GS-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "28-port Gigabit smart cloud-managed PoE switch; 24 cổng PoE+, 2 SFP, PoE budget 370 W.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es206mg-p",
+      "name": "Reyee RG-ES206MG-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es206mg-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "6-port 2.5 Gigabit smart cloud-managed PoE switch; 4 cổng PoE+ và 1 SFP+ 10G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es209mg-p",
+      "name": "Reyee RG-ES209MG-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es209mg-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "9-port 2.5 Gigabit smart cloud-managed PoE switch; 8 cổng PoE+ và 1 SFP+ 10G.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 27."
+    },
+    {
+      "id": "rg-es205gc",
+      "name": "Reyee RG-ES205GC",
+      "subcategory": "Switch",
+      "product_type": "Cloud-managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es205gc/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "5-port Gigabit cloud-managed switch, vỏ thép để bàn.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 29."
+    },
+    {
+      "id": "rg-es208gc",
+      "name": "Reyee RG-ES208GC",
+      "subcategory": "Switch",
+      "product_type": "Cloud-managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "8-port Gigabit cloud-managed switch, vỏ thép để bàn.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 29."
+    },
+    {
+      "id": "rg-es216gc-v2",
+      "name": "Reyee RG-ES216GC-V2",
+      "subcategory": "Switch",
+      "product_type": "Cloud-managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es216gc-v2/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "16-port Gigabit cloud-managed switch, vỏ thép rack 19 inch.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 29."
+    },
+    {
+      "id": "rg-es224gc-v2",
+      "name": "Reyee RG-ES224GC-V2",
+      "subcategory": "Switch",
+      "product_type": "Cloud-managed Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es224gc-v2/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "24-port Gigabit cloud-managed switch, vỏ thép rack 19 inch.\nHỗ trợ quản lý tập trung qua Ruijie Reyee App/eWeb, cho phép theo dõi trạng thái và cấu hình thiết bị từ xa.\nHỗ trợ các tính năng quản lý mạng như VLAN, giám sát cổng và SON trên các dòng được hỗ trợ.\nPhù hợp triển khai mạng doanh nghiệp và SMB cần quản lý tập trung, mở rộng linh hoạt.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 29."
+    },
+    {
+      "id": "rg-es105d",
+      "name": "Reyee RG-ES105D",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "5-port Fast Ethernet unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es108d",
+      "name": "Reyee RG-ES108D",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "8-port Fast Ethernet unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es105gd",
+      "name": "Reyee RG-ES105GD",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "5-port Gigabit unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es108gd",
+      "name": "Reyee RG-ES108GD",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "8-port Gigabit unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es116g-l",
+      "name": "Reyee RG-ES116G-L",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es116g-l/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "16-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es124g-l",
+      "name": "Reyee RG-ES124G-L",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es124g-l/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "24-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es106f-p",
+      "name": "Reyee RG-ES106F-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es106f-p/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "6-port 10/100 Mbps unmanaged PoE switch.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es110f-p",
+      "name": "Reyee RG-ES110F-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es110f-p/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "10-port 10/100 Mbps unmanaged PoE switch.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 30."
+    },
+    {
+      "id": "rg-es110fg-p",
+      "name": "Reyee RG-ES110FG-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es110fg-p/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Unmanaged PoE switch với 8 cổng 10/100BASE-T và 2 cổng Gigabit.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es110gs-p-l",
+      "name": "Reyee RG-ES110GS-P-L",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es110gs-p-l/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "10-port 10/100/1000 Mbps unmanaged PoE switch.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es118fgs-lp",
+      "name": "Reyee RG-ES118FGS-LP",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es118fgs-lp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Unmanaged PoE switch với 16 cổng 10/100BASE-T và 2 cổng Gigabit.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es118gs-p-l",
+      "name": "Reyee RG-ES118GS-P-L",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es118gs-p-l/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "18-port 10/100/1000 Mbps unmanaged PoE switch.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es126fgs-lp",
+      "name": "Reyee RG-ES126FGS-LP",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es126fgs-lp/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Unmanaged PoE switch với 24 cổng 10/100BASE-T và 2 cổng Gigabit.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es126fgs-p",
+      "name": "Reyee RG-ES126FGS-P",
+      "subcategory": "Switch",
+      "product_type": "PoE Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es126fgs-p/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Unmanaged PoE switch với 24 cổng 10/100BASE-T và 2 cổng Gigabit.\nHỗ trợ cấp nguồn PoE cho thiết bị đầu cuối tương thích, giúp giảm số lượng dây nguồn khi triển khai.\nCác model quản lý hỗ trợ giám sát và cấu hình qua Ruijie Reyee App/eWeb; có thể quản lý cổng và hỗ trợ vận hành hệ thống camera/IP.\nPhù hợp hệ thống camera IP, Access Point và thiết bị mạng cần cấp nguồn trực tiếp qua cáp Ethernet.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es05f",
+      "name": "Reyee RG-ES05F",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es05f/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "5-port 10/100 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es08f",
+      "name": "Reyee RG-ES08F",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es08f/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "8-port 10/100 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es05g-l",
+      "name": "Reyee RG-ES05G-L",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es05g-l/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "5-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-es08g-l",
+      "name": "Reyee RG-ES08G-L",
+      "subcategory": "Switch",
+      "product_type": "Unmanaged Switch",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-es08g-l/main.jpg"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "8-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.\nPhù hợp hệ thống mạng cần mở rộng số lượng cổng Ethernet với cách triển khai đơn giản và chi phí hợp lý.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 31."
+    },
+    {
+      "id": "rg-eg105g-v3",
+      "name": "Reyee RG-EG105G-V3",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "5-port Gigabit cloud-managed router, khuyến nghị tới 100 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 33."
+    },
+    {
+      "id": "rg-eg105g-p-v3",
+      "name": "Reyee RG-EG105G-P-V3",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "5-port Gigabit cloud-managed PoE router, khuyến nghị tới 100 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 33."
+    },
+    {
+      "id": "rg-eg105gw-t",
+      "name": "Reyee RG-EG105GW(T)",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg105gwt/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 5 all-in-one cloud-managed router, tốc độ không dây tới 1.267 Mbps, khoảng 150 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 33."
+    },
+    {
+      "id": "rg-eg105gw-x",
+      "name": "Reyee RG-EG105GW-X",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "Wi-Fi 6 AX3000 high-performance all-in-one cloud-managed router, khoảng 180 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 33."
+    },
+    {
+      "id": "rg-eg210g-e",
+      "name": "Reyee RG-EG210G-E",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg210g-e/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "10-port Gigabit cloud-managed router, khoảng 200 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg210g-p-v3",
+      "name": "Reyee RG-EG210G-P-V3",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "10-port Gigabit cloud-managed PoE router, khoảng 200 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg209gs",
+      "name": "Reyee RG-EG209GS",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg209gs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "9-port Gigabit cloud-managed SFP router, khoảng 200 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg305gh-p-e",
+      "name": "Reyee RG-EG305GH-P-E",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg305gh-p-e/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "5-port Gigabit cloud-managed PoE router, khoảng 300 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg310gh-e",
+      "name": "Reyee RG-EG310GH-E",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg310gh-e/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "10-port Gigabit cloud-managed router, khoảng 300 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg310gh-p-e",
+      "name": "Reyee RG-EG310GH-P-E",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg310gh-p-e/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "10-port Gigabit cloud-managed router/PoE gateway, khoảng 300 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg710xs",
+      "name": "Reyee RG-EG710XS",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [
+        "media/reyee/rg-eg710xs/main.png"
+      ],
+      "video": "",
+      "featured": false,
+      "description": "10-port high-performance cloud-managed router với 4 cổng 2.5G và 2 cổng 10G SFP+, khoảng 700 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
+    },
+    {
+      "id": "rg-eg1510xs",
+      "name": "Reyee RG-EG1510XS",
+      "subcategory": "Router",
+      "product_type": "Cloud-managed Router",
+      "brand": "Reyee",
+      "shopee_link": "",
+      "images": [],
+      "video": "",
+      "featured": false,
+      "description": "10-port high-performance cloud-managed router với 4 cổng 2.5G và 2 cổng 10G SFP+, khoảng 1.500 client.\nHỗ trợ quản lý Cloud, giúp cấu hình, giám sát và bảo trì hệ thống từ xa qua nền tảng Ruijie Reyee.\nHỗ trợ nhiều WAN với cân bằng tải và dự phòng đường truyền, giúp duy trì kết nối Internet ổn định.\nTích hợp các chức năng gateway như quản lý băng thông, kiểm soát truy cập, VPN và quản lý thiết bị mạng trong hệ thống.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\nNguồn thông số: Reyee Product Catalog 2025, trang PDF 34."
     }
   ]
 }
