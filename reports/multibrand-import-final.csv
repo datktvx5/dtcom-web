@@ -1,0 +1,72 @@
+"kind","brand","model","status","image_count","detail_count","official_page","note"
+"camera","Dahua","IPC-HFW3449T1-AS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/vi/products/network-products/network-cameras/wizsense-3-series/tioc-pro-wizcolor/ipc-hfw3449t1-as-pv-pro",""
+"camera","Dahua","IPC-HFW3449T1-ZAS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/vi/products/network-products/network-cameras/WizSense-3-Series/TiOC-PRO-WizColor/IPC-HFW3449T1-ZAS-PV-PRO",""
+"camera","Dahua","IPC-HFW3849T1-AS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/3-Series/WizColor/IPC-HFW3849T1-AS-PV-PRO",""
+"camera","Dahua","IPC-HDW3449H-AS-PV-PRO","DROPPED","0","0","","No official product URL discovered"
+"camera","Dahua","IPC-HDW3449H-ZAS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/vi/products/network-products/network-cameras/wizsense-3-series/tioc-pro-wizcolor/ipc-hdw3449h-zas-pv-pro",""
+"camera","Dahua","IPC-HDW3849H-AS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/vi/products/network-products/network-cameras/WizSense-3-Series/TiOC-PRO-WizColor/IPC-HDW3849H-AS-PV-PRO",""
+"camera","Dahua","IPC-HDBW3449R1-ZAS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/vi/products/network-products/network-cameras/wizsense-3-series/tioc-pro-wizcolor/ipc-hdbw3449r1-zas-pv-pro",""
+"camera","Dahua","IPC-HDBW3849R1-ZAS-PV-PRO","ACCEPTED","5","23","https://www.dahuasecurity.com/vi/products/network-products/network-cameras/wizsense-3-series/tioc-pro-wizcolor/ipc-hdbw3849r1-zas-pv-pro",""
+"camera","KBVision","KX-A5W","DROPPED","0","0","https://kbvisiongroup.com/product/kx-a5w.html","No usable official product image"
+"camera","KBVision","KX-A3W","DROPPED","0","0","https://kbvisiongroup.com/product/kx-a3w.html","Official page HTTP 403"
+"camera","KBVision","KX-C4W","DROPPED","0","0","https://kbvisiongroup.com/product/kx-c4w.html","Official page HTTP 403"
+"camera","KBVision","KX-C2W","DROPPED","0","0","https://kbvisiongroup.com/product/kx-c2w.html","Official page HTTP 403"
+"camera","KBVision","KX-Y4001SN3","DROPPED","0","0","https://kbvisiongroup.com/product/kx-y4001sn3.html","Official page HTTP 403"
+"camera","KBVision","KX-Y4002SN3","DROPPED","0","0","https://kbvisiongroup.com/product/kx-y4002sn3.html","Official page HTTP 403"
+"camera","KBVision","KX-Y4002AN3","DROPPED","0","0","https://kbvisiongroup.com/product/kx-y4002an3.html","Official page HTTP 403"
+"camera","KBVision","KX-CAi4204N2-AB","DROPPED","0","0","","No official product URL discovered"
+"network","TP-Link","EAP723","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap723/",""
+"network","TP-Link","EAP772","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap772/",""
+"network","TP-Link","EAP773","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-wifi-ceiling-mount/eap773/",""
+"network","TP-Link","EAP725-Outdoor","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-wifi-outdoor/eap725-outdoor/",""
+"network","TP-Link","EAP775-Outdoor","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-wifi-outdoor/eap775-outdoor/",""
+"network","TP-Link","SG2210P","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-switch-access/sg2210p/",""
+"network","TP-Link","SG2210XMP-M2","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-switch-access-pro/sg2210xmp-m2/",""
+"network","TP-Link","SG3428XPP-M2","ACCEPTED","5","23","https://www.tp-link.com/vn/business-networking/omada-sdn-switch/tl-sg3428xpp-m2/v1/",""
+"network","TP-Link","SG3210X-M2","ACCEPTED","1","23","https://www.tp-link.com/vn/business-networking/omada-sdn-switch/sg3210x-m2/v1/",""
+"network","TP-Link","ER707-M2","ACCEPTED","5","23","https://www.omadanetworks.com/us/business-networking/omada-router-wired-router/er707-m2/",""
+"network","HPE Instant On","AP22","DROPPED","0","0","","No official product URL discovered"
+"network","HPE Instant On","AP25","DROPPED","0","0","","No official product URL discovered"
+"network","HPE Instant On","AP27","DROPPED","0","0","","No official product URL discovered"
+"network","HPE Instant On","AP32","DROPPED","0","0","","No official product URL discovered"
+"network","HPE Instant On","1930 Switch Series","DROPPED","0","0","https://www.hpe.com/us/en/instant-on/switches.html","page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hpe.com/us/en/instant-on/switches.html
+Call log:
+  - navigating to ""https://www.hpe.com/us/en/instant-on/switches.html"", waiting until ""domcontentloaded""
+"
+"network","HPE Instant On","1960 Switch Series","DROPPED","0","0","https://www.hpe.com/us/en/collaterals/collateral.a50002593enw.html","page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hpe.com/us/en/collaterals/collateral.a50002593enw.html
+Call log:
+  - navigating to ""https://www.hpe.com/us/en/collaterals/collateral.a50002593enw.html"", waiting until ""domcontentloaded""
+"
+"network","Cisco","C1300-8P-E-2G","DROPPED","0","0","https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html","page.goto: Navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+Call log:
+  - navigating to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"", waiting until ""domcontentloaded""
+"
+"network","Cisco","C1300-16P-2G","DROPPED","0","0","https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html","page.goto: Navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"" is interrupted by another navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html""
+Call log:
+  - navigating to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"", waiting until ""domcontentloaded""
+"
+"network","Cisco","C1300-24P-4G","DROPPED","0","0","https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html","page.goto: Navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"" is interrupted by another navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html""
+Call log:
+  - navigating to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"", waiting until ""domcontentloaded""
+"
+"network","Cisco","C1300-24P-4X","DROPPED","0","0","https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html","page.goto: Navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"" is interrupted by another navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html""
+Call log:
+  - navigating to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"", waiting until ""domcontentloaded""
+"
+"network","Cisco","C1300-24MGP-4X","DROPPED","0","0","https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html","page.goto: Navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"" is interrupted by another navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html""
+Call log:
+  - navigating to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html"", waiting until ""domcontentloaded""
+"
+"network","Aruba","CX 6000 Switch Series","DROPPED","0","0","https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6000-switch-series/p/1014098570","page.goto: Navigation to ""https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6000-switch-series/p/1014098570"" is interrupted by another navigation to ""https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html""
+Call log:
+  - navigating to ""https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6000-switch-series/p/1014098570"", waiting until ""domcontentloaded""
+"
+"network","Aruba","CX 6100 Switch Series","DROPPED","0","0","https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6100-switch-series/p/1013114991","page.goto: Navigation to ""https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6100-switch-series/p/1013114991"" is interrupted by another navigation to ""https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6000-switch-series/p/1014098570""
+Call log:
+  - navigating to ""https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/hpe-aruba-networking-cx-6100-switch-series/p/1013114991"", waiting until ""domcontentloaded""
+"
+"network","Aruba","650 Series Campus AP","DROPPED","0","0","https://www.hpe.com/psnow/partner/doc/a50004266enw","page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hpe.com/psnow/partner/doc/a50004266enw
+Call log:
+  - navigating to ""https://www.hpe.com/psnow/partner/doc/a50004266enw"", waiting until ""domcontentloaded""
+"
+"network","Aruba","740 Series Campus AP","DROPPED","0","0","","No official product URL discovered"
