@@ -232,7 +232,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX3000; 573Mbps at 2.4GHz; 2401Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 3dBi\n• Số người dùng đồng thời: Max: 256; Recommend: 110\n• Cổng mạng: 1*GE(POE-IN); 4*GE RJ45\n• Nguồn cấp: 802.3af/802.3at\n• Công suất tiêu thụ: <14W\n• Kích thước: 124 mm x 86 mm x 24 mm; (4.88 in. x 3.39 in. x 0.94 in.)\n• Khối lượng: ≤ 0.26 kg (0.57 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap62",
@@ -252,7 +253,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX1800; 573Mbps at 2.4GHz; 1201Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3.13dBi; 5 GHz: 4.58dBi\n• Số người dùng đồng thời: Max:256; Recommend:100\n• Cổng mạng: 1*GE RJ45; (supporting IEEE 802.3at/af PoE)\n• Nguồn cấp: 802.3af/at; DC 12V/1.5A\n• Công suất tiêu thụ: <12.95W\n• Kích thước: Ø175 mm x 39 mm\n• Khối lượng: ≤ 0.4 kg (0.88 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2266",
@@ -272,7 +274,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX3000; 573Mbps at 2.4GHz; 2401Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 3dBi\n• Số người dùng đồng thời: Max:511; Recommend:110\n• Cổng mạng: 1*GE RJ45; (supports 802.3at PoE)\n• Nguồn cấp: 802.3at; DC 12V/2.0A\n• Công suất tiêu thụ: <18W\n• Kích thước: Ø220 mm x 52.6 mm; (8.66 in. x 8.66 in. x 2.07 in.)\n• Khối lượng: ≤ 0.5 kg (1.10 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260",
@@ -292,7 +295,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX3000; 573Mbps at 2.4GHz; 2401Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 3dBi\n• Số người dùng đồng thời: Max:511; Recommend:110\n• Cổng mạng: 1*GE RJ45; 2.5GE RJ45; (supports 802.3at PoE)\n• Nguồn cấp: 802.3at; DC 12V/2.0A\n• Công suất tiêu thụ: <18W\n• Kích thước: 194 mm x 194 mm x 45.1 mm; (7.64 in. x 7.64 in. x 1.78 in.)\n• Khối lượng: ≤ 0.65 kg (1.43 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260-e",
@@ -312,7 +316,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX3200; 800Mbps at 2.4GHz; 2401Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 3dBi\n• Số người dùng đồng thời: Max:256; Recommend:120\n• Cổng mạng: 1*GE RJ45; 2.5GE RJ45; (supports 802.3at PoE)\n• Nguồn cấp: 802.3at; DC 12V/2.5A\n• Công suất tiêu thụ: < 25.4W\n• Kích thước: 220 mm x 220 mm x 35 mm; (8.66 in. x 8.66 in. x 1.38 in.)\n• Khối lượng: ≤ 0.55 kg (1.21 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260-h",
@@ -332,7 +337,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX6000; 1147Mbps at 2.4GHz; 4803Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 4dBi\n• Số người dùng đồng thời: Max:511; Recommend:130\n• Cổng mạng: 2*2.5GE RJ45; (1 port supports 802.3at PoE)\n• Nguồn cấp: 802.3at/802.3bt; DC 48V/1.0A\n• Công suất tiêu thụ: < 40W\n• Kích thước: 230 mm x 230 mm x 49.5 mm; (9.06 in. x 9.06 in. x 1.95 in.)\n• Khối lượng: ≤ 1.8 kg (3.97 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap72",
@@ -352,7 +358,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: BE3600; 688Mbps at 2.4GHz; 2882Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3.23 dBi; 5 GHz: 4.44 dBi\n• Số người dùng đồng thời: Max:511; Recommend:100\n• Cổng mạng: 1*2.5GE RJ45\n• Nguồn cấp: 802.3af/802.3at; DC 12V/1.5A\n• Công suất tiêu thụ: <14W\n• Kích thước: Ø195 mm x 41 mm\n• Khối lượng: ≤ 0.6 kg (1.32 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap72pro",
@@ -372,7 +379,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: BE5040; 688Mbps at 2.4GHz; 4323Mbps at 5GHz\n• Băng thông kênh: 2.4G: Auto/20 MHz/40 MHz; 5G: Auto/20 MHz/40 MHz/80 MHz/160 MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3 dBi; 5 GHz: 4 dBi\n• Số người dùng đồng thời: Max:511; Recommend:110\n• Cổng mạng: 1*GE RJ45; 2.5GE RJ45\n• Nguồn cấp: 802.3at; DC 12V/2.5A\n• Công suất tiêu thụ: < 30W\n• Kích thước: 208 mm x 208 mm x 40 mm; (8.19 in. x 8.19 in. x 1.57 in.)\n• Khối lượng: ≤ 0.75 kg (1.65 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap73hd",
@@ -392,7 +400,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: BE19000; 1376Mbps at 2.4GHz,; 5764Mbps at 5GHz,; 11528Mbps at 6GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz; 6G:20/40/80/160/320MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 4dBi; 6 GHz: 5dBi\n• Số người dùng đồng thời: 1500+; Recommend:250\n• Cổng mạng: 1*GE RJ45; 10GE RJ45; (supports 802.3bt PoE); 10GE SFP+\n• Nguồn cấp: 802.3bt; DC 48V/1.25A\n• Công suất tiêu thụ: < 60W\n• Kích thước: 258 mm x 258 mm x 59.5 mm; (10.16 in. x 10.16 in. x 2.34 in.)\n• Khối lượng: ≤ 2.0kg (4.41 lbs.)\n• Chuẩn bảo vệ: IP41\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6260-g",
@@ -412,7 +421,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX1800; 573Mbps at 2.4GHz; 1201Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4G: 4dBi; 5G: 6dBi\n• Số người dùng đồng thời: Max:256; Recommend: 100\n• Cổng mạng: 1*GE RJ45; (supports 802.3at PoE); 1*GE SFP\n• Nguồn cấp: 802.3at PoE\n• Công suất tiêu thụ: < 18W\n• Kích thước: 298 mm x 298 mm x 65 mm; (11.73 in. x 11.73 in. x 2.56 in.); (excluding mounting kits)\n• Khối lượng: ≤ 1.35 kg (2.98 lbs.)\n• Chuẩn bảo vệ: IP68\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6260-h",
@@ -432,7 +442,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX6000; 1147Mbps at 2.4GHz; 4803Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: OmniDirectional; 2.4GHz: 3dBi; 5 GHz: 4dBi\n• Số người dùng đồng thời: Max:511; Recommend: 130\n• Cổng mạng: 1*2.5GE RJ45; (supports 802.3bt PoE); 1*GE SFP\n• Nguồn cấp: 802.3bt PoE; DC 48V/1A\n• Công suất tiêu thụ: 40W\n• Kích thước: 298 mm x 298 mm x 65 mm; (11.73 in. x 11.73 in. x 2.56 in.); (excluding mounting kits)\n• Khối lượng: ≤ 3.5 kg (7.72 lbs.)\n• Chuẩn bảo vệ: IP68\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6260-h-d",
@@ -452,7 +463,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Tốc độ Wi-Fi tối đa: AX6000; 1147Mbps at 2.4GHz; 4803Mbps at 5GHz\n• Băng thông kênh: 2.4G:20/40MHz; 5G:20/40/80/160MHz\n• Ăng-ten: Directional; 2.4G: 10dBi,; 5G: 9dBi\n• Số người dùng đồng thời: Max:511; Recommend: 130\n• Cổng mạng: 1*2.5GE RJ45; (supports 802.3bt PoE); 1*GE SFP\n• Nguồn cấp: 802.3bt PoE; DC 48V/1A\n• Công suất tiêu thụ: 40W\n• Kích thước: 298 mm x 298 mm x 65 mm; (11.73 in. x 11.73 in. x 2.56 in.); (excluding mounting kits)\n• Khối lượng: ≤ 3.5 kg (7.72 lbs.)\n• Chuẩn bảo vệ: IP68\n• Chế độ quản lý: Cloud Manage; Local Manage by EG\n• Roaming L2/L3: Y",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-24gt4xs-p-v2",
@@ -472,7 +484,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng Gigabit RJ45: 24\n• Cổng SFP+: 4\n• Cổng PoE/PoE+: 24\n• Ngân sách PoE tối đa: 370W\n• Lớp chuyển mạch: Layer 3\n• Khả năng chuyển mạch: 128 Gbps\n• Tốc độ chuyển tiếp: 96 Mpps\n• Số VLAN tối đa: 4094\n• Kích thước: 440 mm x 222.6 mm x 44 mm\n• MTBF: > 200,000\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-48gt4xs-up",
@@ -492,7 +505,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng Gigabit RJ45: 48\n• Cổng SFP+: 4\n• Cổng PoE/PoE+: 48\n• Ngân sách PoE tối đa: 740W\n• Lớp chuyển mạch: Layer 3\n• Khả năng chuyển mạch: 176 Gbps\n• Tốc độ chuyển tiếp: 132 Mpps\n• Số VLAN tối đa: 4094\n• Kích thước: 440 mm x 357.6 mm x 43.6 mm\n• MTBF: > 200,000\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-24gt4xs",
@@ -512,7 +526,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng Gigabit RJ45: 24\n• Cổng SFP+: 4\n• Lớp chuyển mạch: Layer 2+\n• Khả năng chuyển mạch: 128 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 95.24 Mpps\n• MTBF: 400,000 hours\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-24gt4xs-p-v2",
@@ -532,7 +547,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng Gigabit RJ45: 24\n• Cổng SFP: 0\n• Cổng SFP+: 4\n• Cổng PoE/PoE+: 24\n• Ngân sách PoE tối đa: 370 W\n• Lớp chuyển mạch: Layer 2+\n• Khả năng chuyển mạch: 128 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 96 Mpps\n• MTBF: 400,000 hours\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-48gt4xs-p-v2",
@@ -552,7 +568,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng Gigabit RJ45: 48\n• Cổng SFP: 0\n• Cổng SFP+: 4\n• Cổng PoE/PoE+: 48\n• Ngân sách PoE tối đa: 370 W\n• Lớp chuyển mạch: Layer 2+\n• Khả năng chuyển mạch: 176 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 132 Mpps\n• MTBF: 400,000 hours\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-24gt4sfp-p-v2",
@@ -572,7 +589,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng Gigabit RJ45: 24\n• Cổng SFP: 4\n• Cổng PoE/PoE+: 24\n• Ngân sách PoE tối đa: 370W\n• Lớp chuyển mạch: Layer 2\n• Khả năng chuyển mạch: 56 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 41.67 Mpps\n• Số VLAN tối đa: 4094\n• Kích thước: 440 mm x 293 mm x 44; mm\n• Khối lượng đóng gói: 4.5 kg\n• MTBF: 400,000 hours\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis3100-8gt4sfp-hp",
@@ -592,7 +610,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng SFP: 4\n• Cổng PoE/PoE+: 8\n• Ngân sách PoE tối đa: 240w\n• Lớp chuyển mạch: Layer 2\n• Khả năng chuyển mạch: 24Gbps\n• Tốc độ chuyển tiếp: 17.857Mpps\n• Số VLAN tối đa: 4094\n• Kích thước: 85*132*165\n• Khối lượng đóng gói: 1.93kg\n• MTBF: 250,000 Hours\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis3100-8gt2sfp-hp",
@@ -612,7 +631,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng SFP: 2\n• Cổng PoE/PoE+: 8\n• Ngân sách PoE tối đa: 240w\n• Lớp chuyển mạch: Layer 2\n• Khả năng chuyển mạch: 20Gbps\n• Tốc độ chuyển tiếp: 14.88Mpps\n• Số VLAN tối đa: 4094\n• Kích thước: 85*132*165\n• Khối lượng đóng gói: 1.91kg\n• MTBF: 250,000 Hours\n• Bảo hành: 5 Years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es209gc-p",
@@ -632,7 +652,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng kết nối: 8 x 10/100/1000 Base-T; ports(PoE/PoE+); 1 x 10/100/1000 Base-T uplink; port\n• Khả năng chuyển mạch: 18 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 13.4 Mpps\n• Kích thước: 202 mm x 108 mm x 28 mm; (7.95 in. x 4.25 in. x 1.10 in.)\n• Khối lượng: 0.53 kg (1.17 lbs)\n• Switch bufef r size: 1.5 MB\n• PoE Power Budget: 120W\n• Maximum number of MAC address entries: 4000\n• Port Surge: 4 kV\n• Electrostatic Discharge: Air discharge: 6 kV; Contact discharge: 4 kV",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es220gs-p",
@@ -652,7 +673,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng kết nối: 16 x 10/100/1000Base-T; ports(PoE/ PoE+); 2 x 10/100/1000Base-T; ports(Non-PoE); 2 x 1000Base-X SFP port\n• Khả năng chuyển mạch: 40 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 29.7 Mpps\n• Kích thước: 300 mm x 223 mm x 43.6 mm; (11.81 in. x 8.78 in. x 1.72 in.)\n• Khối lượng: 2.12 kg (4.67 lbs)\n• MTBF: 200,000 hours\n• Bảo hành: 3 years",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es228gs-p",
@@ -672,7 +694,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng kết nối: 24 x 10/100/1000Base-T; ports(PoE/ PoE+); 2 x 10/100/1000Base-T; ports(Non-PoE); 2 x 1000Base-X SFP port\n• Khả năng chuyển mạch: 56 Gbps(bit/s)\n• Tốc độ chuyển tiếp: 41.6 Mpps\n• Kích thước: 440 mm x 214.9 mm x 44 mm; (17.32 in. x 8.46 in. x 1.73 in.)\n• Khối lượng: 2.84 kg (6.26 lbs)\n• Switch bufef r size: 4.1 MB\n• PoE Power Budget: 370 W\n• Maximum number of MAC address entries: 8000\n• Port Surge: 6 kV\n• Electrostatic Discharge: Air discharge: 8 kV; Contact discharge: 6 kV",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es206mg-p",
@@ -692,7 +715,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng kết nối: 4 x 10/100/1000/2500Base-T; ports(PoE/PoE+); 1 x 10/100/1000/2500Base-T; port(Non-PoE); 1 x 10GE SFP+ port\n• Khả năng chuyển mạch: 45 Gbps (bit/s)\n• Tốc độ chuyển tiếp: 33.75 Mpps\n• Kích thước: 172 mm x 90.8 mm x 28 mm; (6.77 in. x 3.57 in. x 1.1 in.)\n• Khối lượng: 0.49 kg (1.08 lbs)\n• Switch bufef r size: 8 Mbit\n• PoE Power Budget: 70 W\n• Maximum number of MAC address entries: 4000\n• Port Surge: 4 kV\n• Electrostatic Discharge: Air discharge: 8 kV; Contact discharge: 6 kV",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es209mg-p",
@@ -712,7 +736,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng kết nối: 8 x 10/100/1000/2500Base-T; ports(PoE/PoE+); 1 x 10GE SFP+ port\n• Khả năng chuyển mạch: 60 Gbps (bit/s)\n• Tốc độ chuyển tiếp: 45 Mpps\n• Kích thước: 202 mm x 108 mm x 28 mm; (7.95 in. x 4.25 in. x 1.1 in.)\n• Khối lượng: 0.66 kg (1.46 lbs)\n• Switch bufef r size: 8 Mbit\n• PoE Power Budget: 130 W\n• Maximum number of MAC address entries: 4000\n• Port Surge: 4 kV\n• Electrostatic Discharge: Air discharge: 8 kV; Contact discharge: 6 kV",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg210g-e",
@@ -732,7 +757,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng cố định: 10 Gigabit ports,; supporting up to 4 WAN ports\n• RAM: 256MB\n• Flash: 16MB\n• Số client khuyến nghị: Up to 200 concurrent clients\n• Băng thông khuyến nghị: 1Gbps asymmetric bandwidth (flow control; disabled); 1Gbps asymmetric bandwidth (flow control; enabled)\n• Power consumption: <15W\n• Kích thước: 440 × 43.6 × 201.5 (mm)\n• Khối lượng: 2.35kg\n• Management capacity: In AC mode, the maximum management capacity is 500; In gateway mode, the maximum management capacity is 150",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg209gs",
@@ -752,7 +778,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng cố định: 8 Gigabit ports, 1 SFP port, support up to 4 WAN ports\n• RAM: 256MB\n• Flash: 32MB\n• Thông lượng NAT: 700Mbps/500Mbps\n• Số client khuyến nghị: 200/100\n• Băng thông khuyến nghị: 600Mbps\n• VPN: PPTP, L2tp, IPSec, OpenVPN",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg305gh-p-e",
@@ -772,7 +799,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Cổng cố định: 5 Gigabit ports, support up to 4 WAN ports\n• RAM: 512MB\n• Flash: 256MB\n• PoE: 4 PoE out, PoE budget 60W\n• Thông lượng NAT: 1.5Gbps/1Gbps\n• Số client khuyến nghị: 300/200\n• Băng thông khuyến nghị: 1Gbps",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg710xs",
@@ -792,7 +820,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Kiểu lắp đặt: Rack 1U\n• Cổng WAN cố định: 1 × 10/100/1000/2500 Base-T\n• Cổng WAN/LAN chuyển đổi: 3 × 10/100/1000 Base-T; 3 × 10/100/1000/2500 Base-T; 2x10G/1G Base-X SFP (LAN7/WAN8 port is compatible to 2.5G)\n• Cổng LAN cố định: 1 × 10/100/1000 Base-T\n• Flash: 256MB\n• Thông lượng: 3 Gbps",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg1510xs",
@@ -812,7 +841,8 @@
       "featured": false,
       "description": "Thông số chính:\n• Kiểu lắp đặt: Rack 1U\n• Cổng WAN cố định: 1 × 10/100/1000/2500 Base-T\n• Cổng WAN/LAN chuyển đổi: 3 × 10/100/1000 Base-T; 3 × 10/100/1000/2500 Base-T; 2x10G/1G Base-X SFP (LAN7/WAN8 port is compatible to 2.5G)\n• Cổng LAN cố định: 1 × 10/100/1000 Base-T\n• Flash: 128 MB NAND FLASH + 8 GB EMMC\n• Thông lượng: 4 Gbps",
       "release_year": 2025,
-      "source_policy": "reyee-official-catalog-2025-clean"
+      "source_policy": "reyee-official-catalog-2025-clean",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "tp-link-eap723",
@@ -826,11 +856,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-eap723/image-1.jpg",
-        "media/tp-link-eap723/image-2.jpg",
-        "media/tp-link-eap723/image-3.jpg",
-        "media/tp-link-eap723/image-4.jpg",
-        "media/tp-link-eap723/image-5.jpg"
+        "/media/tp-link-eap723/image-1.jpg",
+        "/media/tp-link-eap723/image-2.jpg",
+        "/media/tp-link-eap723/image-3.jpg",
+        "/media/tp-link-eap723/image-4.jpg",
+        "/media/tp-link-eap723/image-5.jpg"
       ],
       "video": "",
       "featured": false,
@@ -850,11 +880,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-eap772/image-1.png",
-        "media/tp-link-eap772/image-2.jpg",
-        "media/tp-link-eap772/image-3.jpg",
-        "media/tp-link-eap772/image-4.jpg",
-        "media/tp-link-eap772/image-5.png"
+        "/media/tp-link-eap772/image-1.png",
+        "/media/tp-link-eap772/image-2.jpg",
+        "/media/tp-link-eap772/image-3.jpg",
+        "/media/tp-link-eap772/image-4.jpg",
+        "/media/tp-link-eap772/image-5.png"
       ],
       "video": "",
       "featured": false,
@@ -874,11 +904,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-eap773/image-1.png",
-        "media/tp-link-eap773/image-2.jpg",
-        "media/tp-link-eap773/image-3.png",
-        "media/tp-link-eap773/image-4.png",
-        "media/tp-link-eap773/image-5.png"
+        "/media/tp-link-eap773/image-1.png",
+        "/media/tp-link-eap773/image-2.jpg",
+        "/media/tp-link-eap773/image-3.png",
+        "/media/tp-link-eap773/image-4.png",
+        "/media/tp-link-eap773/image-5.png"
       ],
       "video": "",
       "featured": false,
@@ -898,11 +928,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-eap725-outdoor/image-1.png",
-        "media/tp-link-eap725-outdoor/image-2.png",
-        "media/tp-link-eap725-outdoor/image-3.jpg",
-        "media/tp-link-eap725-outdoor/image-4.jpg",
-        "media/tp-link-eap725-outdoor/image-5.jpg"
+        "/media/tp-link-eap725-outdoor/image-1.png",
+        "/media/tp-link-eap725-outdoor/image-2.png",
+        "/media/tp-link-eap725-outdoor/image-3.jpg",
+        "/media/tp-link-eap725-outdoor/image-4.jpg",
+        "/media/tp-link-eap725-outdoor/image-5.jpg"
       ],
       "video": "",
       "featured": false,
@@ -922,11 +952,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-eap775-outdoor/image-1.jpg",
-        "media/tp-link-eap775-outdoor/image-2.png",
-        "media/tp-link-eap775-outdoor/image-3.png",
-        "media/tp-link-eap775-outdoor/image-4.png",
-        "media/tp-link-eap775-outdoor/image-5.jpg"
+        "/media/tp-link-eap775-outdoor/image-1.jpg",
+        "/media/tp-link-eap775-outdoor/image-2.png",
+        "/media/tp-link-eap775-outdoor/image-3.png",
+        "/media/tp-link-eap775-outdoor/image-4.png",
+        "/media/tp-link-eap775-outdoor/image-5.jpg"
       ],
       "video": "",
       "featured": false,
@@ -946,11 +976,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-sg2210p/image-1.jpg",
-        "media/tp-link-sg2210p/image-2.jpg",
-        "media/tp-link-sg2210p/image-3.jpg",
-        "media/tp-link-sg2210p/image-4.jpg",
-        "media/tp-link-sg2210p/image-5.jpg"
+        "/media/tp-link-sg2210p/image-1.jpg",
+        "/media/tp-link-sg2210p/image-2.jpg",
+        "/media/tp-link-sg2210p/image-3.jpg",
+        "/media/tp-link-sg2210p/image-4.jpg",
+        "/media/tp-link-sg2210p/image-5.jpg"
       ],
       "video": "",
       "featured": false,
@@ -970,11 +1000,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-sg2210xmp-m2/image-1.png",
-        "media/tp-link-sg2210xmp-m2/image-2.jpg",
-        "media/tp-link-sg2210xmp-m2/image-3.jpg",
-        "media/tp-link-sg2210xmp-m2/image-4.jpg",
-        "media/tp-link-sg2210xmp-m2/image-5.jpg"
+        "/media/tp-link-sg2210xmp-m2/image-1.png",
+        "/media/tp-link-sg2210xmp-m2/image-2.jpg",
+        "/media/tp-link-sg2210xmp-m2/image-3.jpg",
+        "/media/tp-link-sg2210xmp-m2/image-4.jpg",
+        "/media/tp-link-sg2210xmp-m2/image-5.jpg"
       ],
       "video": "",
       "featured": false,
@@ -994,11 +1024,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-sg3428xpp-m2/image-1.png",
-        "media/tp-link-sg3428xpp-m2/image-2.jpg",
-        "media/tp-link-sg3428xpp-m2/image-3.jpg",
-        "media/tp-link-sg3428xpp-m2/image-4.jpg",
-        "media/tp-link-sg3428xpp-m2/image-5.jpg"
+        "/media/tp-link-sg3428xpp-m2/image-1.png",
+        "/media/tp-link-sg3428xpp-m2/image-2.jpg",
+        "/media/tp-link-sg3428xpp-m2/image-3.jpg",
+        "/media/tp-link-sg3428xpp-m2/image-4.jpg",
+        "/media/tp-link-sg3428xpp-m2/image-5.jpg"
       ],
       "video": "",
       "featured": false,
@@ -1018,7 +1048,7 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-sg3210x-m2/image-1.jpg"
+        "/media/tp-link-sg3210x-m2/image-1.jpg"
       ],
       "video": "",
       "featured": false,
@@ -1038,11 +1068,11 @@
       "warranty": "",
       "shopee_link": "",
       "images": [
-        "media/tp-link-er707-m2/image-1.jpg",
-        "media/tp-link-er707-m2/image-2.jpg",
-        "media/tp-link-er707-m2/image-3.jpg",
-        "media/tp-link-er707-m2/image-4.jpg",
-        "media/tp-link-er707-m2/image-5.jpg"
+        "/media/tp-link-er707-m2/image-1.jpg",
+        "/media/tp-link-er707-m2/image-2.jpg",
+        "/media/tp-link-er707-m2/image-3.jpg",
+        "/media/tp-link-er707-m2/image-4.jpg",
+        "/media/tp-link-er707-m2/image-5.jpg"
       ],
       "video": "",
       "featured": false,
