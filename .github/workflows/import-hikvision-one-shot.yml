@@ -1,0 +1,53 @@
+name: Import Hikvision official products ONE SHOT
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-hikvision:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Build Hikvision products from official pages
+        run: node scripts/import-hikvision-one-shot.js
+
+      - name: Show QA report
+        run: |
+          cat reports/hikvision-import-final.csv
+          echo
+          echo "Downloaded Hikvision media:"
+          find media/hikvision-official -type f | sort | head -200 || true
+
+      - name: Commit Hikvision catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add products-camera.json media/hikvision-official reports/hikvision-import-final.csv
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+
+          git commit -m "Add Hikvision official camera catalog"
+          git push origin HEAD:main
