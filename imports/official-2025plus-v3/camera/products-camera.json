@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "4MP 32X Dual Light Network Panoramic PTZ Camera",
+      "brand": "Dahua",
+      "subcategory": "Camera",
+      "product_type": "Camera",
+      "images": [],
+      "featured": false,
+      "description": "Thông số chính (nguồn: trang chính hãng Dahua):\n• Image Sensor: Panorama: 1/2.8\" CMOS Detail: 1/2.8\" CMOS\n• Pixel: Panorama: 4 MP Detail: 4 MP\n• Max. Resolution: Panorama: 3840 (H) × 1080 (V) Detail: 2560 (H) × 1440 (V)\n• ROM: Panorama: 4 GB Detail: 4 GB\n• RAM: Panorama: 1 GB Detail: 1 GB\n• Electronic Shutter Speed: Panorama: 1/1 s–1/10,000s Detail: 1/1s–1/30,000s\n• Scanning System: Progressive\n• Min. Illumination: Panorama: Color: 0.001 lux@F1.0 B/W: 0.0001 lux@F1.0 Detail: Color: 0.005 lux@F1.6 (1/25 s, 30 IRE, gain 100) B/W: 0.0005 lux@F1.6 (1/25 s, 30 IRE, gain 100) 0 Lux (IR on)\n• Illumination Distance: Panorama: 30 m (98.43 ft) (White light) Detail: 200 m (656.17 ft) (IR)\n• Illuminator On/Off Control: Zoom Prio; Manual; Smart IR; Off",
+      "official_url": "https://www.dahuasecurity.com/es/products/Discontinued-Products/PTZ-Cameras/SDT6C432-4P-GB-APV-0280",
+      "release_year": "2025+",
+      "source_policy": "official-only-2025plus"
+    },
+    {
+      "name": "SD3D216NB-GNY 2MP 16x IR WizSense Network PTZ Camera - Dahua Romania",
+      "brand": "Dahua",
+      "subcategory": "Camera",
+      "product_type": "Camera",
+      "images": [],
+      "featured": false,
+      "description": "Thông số chính (nguồn: trang chính hãng Dahua):\n• Image Sensor {v.name} -->: 1/2.8\" CMOS\n• Pixel {v.name} -->: 2 MP\n• Max. Resolution {v.name} -->: 1920 (H) × 1080 (V)\n• ROM {v.name} -->: 128 MB\n• RAM {v.name} -->: 128 MB\n• Electronic Shutter Speed {v.name} -->: 1 s–1/30,000 s\n• Scanning System {v.name} -->: Progressive\n• Min. Illumination {v.name} -->: 0.005 lux@F1.6 (Color, 30 IRE); 0.0005 lux@F1.6 (B/W, 30 IRE); 0 lux (Illuminator on)\n• Illumination Distance {v.name} -->: 80 m (262.47 ft) (IR)\n• Illuminator On/Off Control {v.name} -->: Zoom Prio; Manual; Auto; Off",
+      "official_url": "https://www.dahuasecurity.com/ro/products/All-Products/PTZ-Cameras/WizSense-Series/SD3/SD3D216NB-GNY",
+      "release_year": "2025+",
+      "source_policy": "official-only-2025plus"
+    }
+  ]
+}
