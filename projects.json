@@ -23,9 +23,9 @@
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh017.jpg",
         "/media/cong-trinh/camera-tiem-vang/khaccongtrinh002.jpg",
         "/media/cong-trinh/camera-tiem-vang/zztrunglap001.jpg",
-        "/media/khaccongtrinh012.jpg",
-        "/media/khaccongtrinh011.jpg",
-        "/media/khaccongtrinh009.jpg"
+        "/media/cong-trinh/camera-tiem-vang/khaccongtrinh012.jpg",
+        "/media/cong-trinh/camera-tiem-vang/khaccongtrinh011.jpg",
+        "/media/cong-trinh/camera-tiem-vang/khaccongtrinh009.jpg"
       ],
       "featured": false
     },
@@ -40,7 +40,7 @@
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat003.jpg",
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat004.jpg",
         "/media/cong-trinh/camera-giao-thong/cameragiaothonglapdat005.jpg",
-        "/media/cameragiamsatmanhinh001.jpg"
+        "/media/cong-trinh/camera-giao-thong/cameragiamsatmanhinh001.jpg"
       ],
       "featured": false
     },
@@ -48,38 +48,42 @@
       "title": "Camera Biệt Thự",
       "project_type": "Hệ thống Camera",
       "images": [
-        "/media/khaccongtrinh001-1.jpg",
-        "/media/cameragiamsatmanhinh002.jpg"
+        "/media/cong-trinh/camera-biet-thu/khaccongtrinh001-1.jpg",
+        "/media/cong-trinh/camera-biet-thu/cameragiamsatmanhinh002.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "camera-biet-thu"
     },
     {
       "title": "Camera TRường Học",
       "project_type": "Hệ thống Camera",
       "images": [
-        "/media/cameragiamsathethong001.jpg",
-        "/media/cameragiamsatmanhinh003.jpg"
+        "/media/cong-trinh/camera-truong-hoc/cameragiamsathethong001.jpg",
+        "/media/cong-trinh/camera-truong-hoc/cameragiamsatmanhinh003.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "camera-truong-hoc"
     },
     {
       "title": "Camera Trang Trại",
       "project_type": "Hệ thống Camera",
       "images": [
-        "/media/camerangoaitroilapdat003.jpg",
-        "/media/camerangoaitroilapdat002.jpg",
-        "/media/camerangoaitroilapdat001.jpg"
+        "/media/cong-trinh/camera-trang-trai/camerangoaitroilapdat003.jpg",
+        "/media/cong-trinh/camera-trang-trai/camerangoaitroilapdat002.jpg",
+        "/media/cong-trinh/camera-trang-trai/camerangoaitroilapdat001.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "camera-trang-trai"
     },
     {
       "title": "Camera Nhà Sàn",
       "project_type": "Hệ thống Camera",
       "images": [
-        "/media/cameralapdatptz001.jpg",
-        "/media/cameralapdatptz002.jpg"
+        "/media/cong-trinh/camera-nha-san/cameralapdatptz001.jpg",
+        "/media/cong-trinh/camera-nha-san/cameralapdatptz002.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "camera-nha-san"
     }
   ]
 }
