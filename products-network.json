@@ -222,12 +222,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbf6002m/main.png",
-        "media/reyee/rg-nbf6002m/image-2.png"
+        "/media/rg-nbf6002m/main.png",
+        "/media/rg-nbf6002m/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch core Layer 3 quản lý, kiêm OLT, hỗ trợ PON; có 2 khe line card và 2 khe nguồn."
+      "description": "Switch core Layer 3 quản lý, kiêm OLT, hỗ trợ PON; có 2 khe line card và 2 khe nguồn.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbf5200m-8fs16gt4xs",
@@ -237,12 +238,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbf5200m-8fs16gt4xs/main.png",
-        "media/reyee/rg-nbf5200m-8fs16gt4xs/image-2.png"
+        "/media/rg-nbf5200m-8fs16gt4xs/main.png",
+        "/media/rg-nbf5200m-8fs16gt4xs/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch core Layer 3 quản lý có khả năng PON, 8 cổng 1G PON/SFP, 16 cổng Gigabit Ethernet và 4 cổng 10G SFP+."
+      "description": "Switch core Layer 3 quản lý có khả năng PON, 8 cổng 1G PON/SFP, 16 cổng Gigabit Ethernet và 4 cổng 10G SFP+.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbf2100s-8gt1sc",
@@ -252,12 +254,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbf2100s-8gt1sc/main.png",
-        "media/reyee/rg-nbf2100s-8gt1sc/image-2.png"
+        "/media/rg-nbf2100s-8gt1sc/main.png",
+        "/media/rg-nbf2100s-8gt1sc/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quang Gigabit quản lý không PoE (ONU), hỗ trợ PON, 8 cổng Gigabit RJ45 và 1 cổng SC 1G."
+      "description": "Switch quang Gigabit quản lý không PoE (ONU), hỗ trợ PON, 8 cổng Gigabit RJ45 và 1 cổng SC 1G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbf2100s-8gt1sc-p",
@@ -267,12 +270,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbf2100s-8gt1sc-p/main.png",
-        "media/reyee/rg-nbf2100s-8gt1sc-p/image-2.png"
+        "/media/rg-nbf2100s-8gt1sc-p/main.png",
+        "/media/rg-nbf2100s-8gt1sc-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quang Gigabit PoE+ quản lý (ONU), hỗ trợ PON, 8 cổng Gigabit RJ45 và 1 cổng SC 1G."
+      "description": "Switch quang Gigabit PoE+ quản lý (ONU), hỗ trợ PON, 8 cổng Gigabit RJ45 và 1 cổng SC 1G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbf2100s-16gt1sc-p",
@@ -282,12 +286,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbf2100s-16gt1sc-p/main.png",
-        "media/reyee/rg-nbf2100s-16gt1sc-p/image-2.png"
+        "/media/rg-nbf2100s-16gt1sc-p/main.png",
+        "/media/rg-nbf2100s-16gt1sc-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quang Gigabit PoE+ quản lý (ONU), hỗ trợ PON, 16 cổng Gigabit RJ45 và 1 cổng SC 1G."
+      "description": "Switch quang Gigabit PoE+ quản lý (ONU), hỗ trợ PON, 16 cổng Gigabit RJ45 và 1 cổng SC 1G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-apf1250",
@@ -297,11 +302,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-apf1250/image-1.png"
+        "/media/rg-apf1250/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Access Point quang gắn tường AC1200 hai băng tần, tích hợp anten, hỗ trợ PON; 3 cổng Gigabit Ethernet, 1 cổng SC 1G và 1 cổng RJ11.\nThiết kế tích hợp nhiều dịch vụ trên cùng hạ tầng quang, phù hợp các hệ thống cần kết hợp Wi-Fi, mạng có dây và thoại.\nHỗ trợ triển khai nhanh và bảo trì thuận tiện thông qua nền tảng quản lý Reyee."
+      "description": "Access Point quang gắn tường AC1200 hai băng tần, tích hợp anten, hỗ trợ PON; 3 cổng Gigabit Ethernet, 1 cổng SC 1G và 1 cổng RJ11.\nThiết kế tích hợp nhiều dịch vụ trên cùng hạ tầng quang, phù hợp các hệ thống cần kết hợp Wi-Fi, mạng có dây và thoại.\nHỗ trợ triển khai nhanh và bảo trì thuận tiện thông qua nền tảng quản lý Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap1200-p",
@@ -311,12 +317,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap1200p/main.png",
-        "media/reyee/rg-rap1200p/image-2.png"
+        "/media/rg-rap1200-p/main.png",
+        "/media/rg-rap1200-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band Gigabit Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AC1300 dual-band Gigabit Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap1200-f",
@@ -326,12 +333,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap1200f/main.png",
-        "media/reyee/rg-rap1200f/image-2.png"
+        "/media/rg-rap1200-f/main.png",
+        "/media/rg-rap1200-f/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AC1300 dual-band Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap1201",
@@ -341,11 +349,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap1201/image-1.png"
+        "/media/rg-rap1201/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band Gigabit Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AC1300 dual-band Gigabit Wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap1260",
@@ -355,15 +364,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap1260/image-1.png",
-        "media/reyee/rg-rap1260/image-2.png",
-        "media/reyee/rg-rap1260/image-3.png",
-        "media/reyee/rg-rap1260/image-4.png",
-        "media/reyee/rg-rap1260/image-5.png"
+        "/media/rg-rap1260/image-1.png",
+        "/media/rg-rap1260/image-2.png",
+        "/media/rg-rap1260/image-3.png",
+        "/media/rg-rap1260/image-4.png",
+        "/media/rg-rap1260/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX3000 dual-band wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 2974 Mbps\n• Tốc độ 5 GHz: 2401 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Kích thước: 86 mm x 24 mm x 124 mm (3.39 in. x 0.94 in. x 4.88 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 0.26 kg (0.57 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: PoE/PoE+ Local power supply Dimensions of the DC connector PoE budget\n• Công suất tiêu thụ tối đa: 12 W\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F) Mounting options Junction box"
+      "description": "AX3000 dual-band wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 2974 Mbps\n• Tốc độ 5 GHz: 2401 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Kích thước: 86 mm x 24 mm x 124 mm (3.39 in. x 0.94 in. x 4.88 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 0.26 kg (0.57 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: PoE/PoE+ Local power supply Dimensions of the DC connector PoE budget\n• Công suất tiêu thụ tối đa: 12 W\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F) Mounting options Junction box",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap1261",
@@ -373,15 +383,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap1261/image-1.png",
-        "media/reyee/rg-rap1261/image-2.png",
-        "media/reyee/rg-rap1261/image-3.png",
-        "media/reyee/rg-rap1261/image-4.png",
-        "media/reyee/rg-rap1261/image-5.jpg"
+        "/media/rg-rap1261/image-1.png",
+        "/media/rg-rap1261/image-2.png",
+        "/media/rg-rap1261/image-3.png",
+        "/media/rg-rap1261/image-4.png",
+        "/media/rg-rap1261/image-5.jpg"
       ],
       "video": "",
       "featured": false,
-      "description": "AX3000 dual-band wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 2974 Mbps\n• Tốc độ 5 GHz: 2401 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Kích thước: 86 mm x 42.4 mm x 86 mm (3.39 in. x 1.67 in. x 3.39 in.) Color White\n• Khối lượng: ≤ 0.16 kg (0.35 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: PoE/PoE+ Local power supply Dimensions of the DC connector PoE budget\n• Công suất tiêu thụ tối đa: 10.2 W\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F) Mounting options Junction box"
+      "description": "AX3000 dual-band wall-plate access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 2974 Mbps\n• Tốc độ 5 GHz: 2401 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Kích thước: 86 mm x 42.4 mm x 86 mm (3.39 in. x 1.67 in. x 3.39 in.) Color White\n• Khối lượng: ≤ 0.16 kg (0.35 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: PoE/PoE+ Local power supply Dimensions of the DC connector PoE budget\n• Công suất tiêu thụ tối đa: 10.2 W\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F) Mounting options Junction box",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2200-e",
@@ -391,12 +402,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2200e/main.png",
-        "media/reyee/rg-rap2200e/image-2.png"
+        "/media/rg-rap2200-e/main.png",
+        "/media/rg-rap2200-e/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AC1300 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2200-f",
@@ -406,12 +418,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2200f/main.png",
-        "media/reyee/rg-rap2200f/image-2.png"
+        "/media/rg-rap2200-f/main.png",
+        "/media/rg-rap2200-f/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AC1300 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260-g",
@@ -421,12 +434,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2260g/main.jpg",
-        "media/reyee/rg-rap2260g/image-2.png"
+        "/media/rg-rap2260-g/main.jpg",
+        "/media/rg-rap2260-g/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 6 AX1800 dual-band Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 6 AX1800 dual-band Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap62",
@@ -436,12 +450,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap62/main.png",
-        "media/reyee/rg-rap62/image-2.png"
+        "/media/rg-rap62/main.png",
+        "/media/rg-rap62/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 6 AX1800 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 6 AX1800 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2266",
@@ -451,15 +466,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2266/image-1.png",
-        "media/reyee/rg-rap2266/image-2.jpg",
-        "media/reyee/rg-rap2266/image-3.jpg",
-        "media/reyee/rg-rap2266/image-4.png",
-        "media/reyee/rg-rap2266/image-5.png"
+        "/media/rg-rap2266/image-1.png",
+        "/media/rg-rap2266/image-2.jpg",
+        "/media/rg-rap2266/image-3.jpg",
+        "/media/rg-rap2266/image-4.png",
+        "/media/rg-rap2266/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX3000 ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 2974 Mbps\n• Tốc độ 5 GHz: 2401 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Khối lượng: ≤ 0.5 kg (1.10 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE/PoE+ Note: If both the DC power adapter and PoE/PoE+ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (12 V, 2 A)\n• Công suất tiêu thụ tối đa: 18 W\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F) Mounting options Ceiling/Wall\n• Chuẩn bảo vệ: IP41"
+      "description": "AX3000 ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 2974 Mbps\n• Tốc độ 5 GHz: 2401 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Khối lượng: ≤ 0.5 kg (1.10 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE/PoE+ Note: If both the DC power adapter and PoE/PoE+ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (12 V, 2 A)\n• Công suất tiêu thụ tối đa: 18 W\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F) Mounting options Ceiling/Wall\n• Chuẩn bảo vệ: IP41",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260",
@@ -469,12 +485,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2260/main.png",
-        "media/reyee/rg-rap2260/image-2.png"
+        "/media/rg-rap2260/main.png",
+        "/media/rg-rap2260/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 6 AX3000 high-performance multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 6 AX3000 high-performance multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260-e",
@@ -484,12 +501,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2260e/main.jpg",
-        "media/reyee/rg-rap2260e/image-2.png"
+        "/media/rg-rap2260-e/main.jpg",
+        "/media/rg-rap2260-e/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 6 AX3200 dual-band multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 6 AX3200 dual-band multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap2260-h",
@@ -499,12 +517,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap2260h/main.png",
-        "media/reyee/rg-rap2260h/image-2.png"
+        "/media/rg-rap2260-h/main.png",
+        "/media/rg-rap2260-h/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 6 AX6000 high-density multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 6 AX6000 high-density multi-Gigabit ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap72",
@@ -514,12 +533,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap72/main.png",
-        "media/reyee/rg-rap72/image-2.png"
+        "/media/rg-rap72/main.png",
+        "/media/rg-rap72/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 7 BE3600 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 7 BE3600 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap72pro",
@@ -529,12 +549,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap72pro/main.png",
-        "media/reyee/rg-rap72pro/image-2.png"
+        "/media/rg-rap72pro/main.png",
+        "/media/rg-rap72pro/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 7 BE5040 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 7 BE5040 dual-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap73hd",
@@ -544,15 +565,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap73hd/image-1.png",
-        "media/reyee/rg-rap73hd/image-2.png",
-        "media/reyee/rg-rap73hd/image-3.png",
-        "media/reyee/rg-rap73hd/image-4.png",
-        "media/reyee/rg-rap73hd/image-5.png"
+        "/media/rg-rap73hd/image-1.png",
+        "/media/rg-rap73hd/image-2.png",
+        "/media/rg-rap73hd/image-3.png",
+        "/media/rg-rap73hd/image-4.png",
+        "/media/rg-rap73hd/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 7 BE19000 tri-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Tri-radio 12 spatial streams ● 2.4 GHz: 4 x 4, MU-MIMO ● 5 GHz: 4 x 4, MU-MIMO ● 6 GHz: 4 x 4, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 18668 Mbps\n• Tốc độ 5 GHz: 5764 Mbps\n• Tốc độ 2.4 GHz: 1376 Mbps\n• Tốc độ 6 GHz: 11528 Mbps\n• Kích thước: 258 mm x 258 mm x 59.5 mm (10.16 in. x 10.16 in. x 2.34 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 2.0 kg (4.41 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Number of 100/1000/2.5G/5G/10GBASE-T ports Number of 10GE SFP+ ports Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE+/PoE++ Note: If both the DC power adapter and PoE+/PoE++ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (48 V, 1.48 A)\n• Công suất tiêu thụ tối đa: 60 W"
+      "description": "Wi-Fi 7 BE19000 tri-band ceiling mount access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Tri-radio 12 spatial streams ● 2.4 GHz: 4 x 4, MU-MIMO ● 5 GHz: 4 x 4, MU-MIMO ● 6 GHz: 4 x 4, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 18668 Mbps\n• Tốc độ 5 GHz: 5764 Mbps\n• Tốc độ 2.4 GHz: 1376 Mbps\n• Tốc độ 6 GHz: 11528 Mbps\n• Kích thước: 258 mm x 258 mm x 59.5 mm (10.16 in. x 10.16 in. x 2.34 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 2.0 kg (4.41 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Number of 100/1000/2.5G/5G/10GBASE-T ports Number of 10GE SFP+ ports Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE+/PoE++ Note: If both the DC power adapter and PoE+/PoE++ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (48 V, 1.48 A)\n• Công suất tiêu thụ tối đa: 60 W",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap52-od",
@@ -564,7 +586,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AC1300 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6202-g",
@@ -574,15 +597,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap6202g/image-1.png",
-        "media/reyee/rg-rap6202g/image-2.png",
-        "media/reyee/rg-rap6202g/image-3.png",
-        "media/reyee/rg-rap6202g/image-4.png",
-        "media/reyee/rg-rap6202g/image-5.png"
+        "/media/rg-rap6202-g/image-1.png",
+        "/media/rg-rap6202-g/image-2.png",
+        "/media/rg-rap6202-g/image-3.png",
+        "/media/rg-rap6202-g/image-4.png",
+        "/media/rg-rap6202-g/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AC1300 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MIMO ● 5 GHz: 2 x 2, MIMO\n• Tốc độ Wi-Fi tối đa: 1266 Mbps\n• Tốc độ 5 GHz: 866 Mbps\n• Tốc độ 2.4 GHz: 400 Mbps\n• Khối lượng: ≤ 1 kg (2.20 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE/PoE+ Note: If both the DC power adapter and PoE/PoE+ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (12 V, 1.5 A)\n• Công suất tiêu thụ tối đa: 12.95 W\n• Nhiệt độ hoạt động: –30°C to +65°C (–22°F to +149°F) Mounting options Wall/Pole\n• Chuẩn bảo vệ: IP68"
+      "description": "AC1300 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MIMO ● 5 GHz: 2 x 2, MIMO\n• Tốc độ Wi-Fi tối đa: 1266 Mbps\n• Tốc độ 5 GHz: 866 Mbps\n• Tốc độ 2.4 GHz: 400 Mbps\n• Khối lượng: ≤ 1 kg (2.20 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE/PoE+ Note: If both the DC power adapter and PoE/PoE+ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (12 V, 1.5 A)\n• Công suất tiêu thụ tối đa: 12.95 W\n• Nhiệt độ hoạt động: –30°C to +65°C (–22°F to +149°F) Mounting options Wall/Pole\n• Chuẩn bảo vệ: IP68",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6262-g",
@@ -592,11 +616,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap6262g/main.jpg"
+        "/media/rg-rap6262-g/main.jpg"
       ],
       "video": "",
       "featured": false,
-      "description": "AX1800 Wi-Fi 6 outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AX1800 Wi-Fi 6 outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6260-g",
@@ -606,15 +631,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap6260g/image-1.png",
-        "media/reyee/rg-rap6260g/image-2.png",
-        "media/reyee/rg-rap6260g/image-3.png",
-        "media/reyee/rg-rap6260g/image-4.png",
-        "media/reyee/rg-rap6260g/image-5.png"
+        "/media/rg-rap6260-g/image-1.png",
+        "/media/rg-rap6260-g/image-2.png",
+        "/media/rg-rap6260-g/image-3.png",
+        "/media/rg-rap6260-g/image-4.png",
+        "/media/rg-rap6260-g/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX1800 Wi-Fi 6 outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 1774 Mbps\n• Tốc độ 5 GHz: 1201 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Kích thước: 298 mm x 298 mm x 65 mm (11.73 in. x 11.73 in. x 2.56 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 1.35 kg (2.98 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Number of 1GE SFP ports Power Supply and Consumption\n• Nguồn cấp: PoE+ Local power supply Dimensions of the DC connector PoE budget\n• Công suất tiêu thụ tối đa: 18 W\n• Nhiệt độ hoạt động: –40°C to 65°C (–40 °F to 149 °F) Signal Interference Filtered, Transmission More Stabilized Equipped with a high-quality FBAR filter, the device can effectively suppress and filter the interference from"
+      "description": "AX1800 Wi-Fi 6 outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 4 spatial streams ● 2.4 GHz: 2 x 2, MU-MIMO ● 5 GHz: 2 x 2, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 1774 Mbps\n• Tốc độ 5 GHz: 1201 Mbps\n• Tốc độ 2.4 GHz: 573 Mbps\n• Kích thước: 298 mm x 298 mm x 65 mm (11.73 in. x 11.73 in. x 2.56 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 1.35 kg (2.98 lbs.) (without packaging materials)\n• Cổng Gigabit RJ45: Number of 1GE SFP ports Power Supply and Consumption\n• Nguồn cấp: PoE+ Local power supply Dimensions of the DC connector PoE budget\n• Công suất tiêu thụ tối đa: 18 W\n• Nhiệt độ hoạt động: –40°C to 65°C (–40 °F to 149 °F) Signal Interference Filtered, Transmission More Stabilized Equipped with a high-quality FBAR filter, the device can effectively suppress and filter the interference from",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6262",
@@ -624,11 +650,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap6262/image-1.png"
+        "/media/rg-rap6262/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX3000 high-performance outdoor omni-directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AX3000 high-performance outdoor omni-directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap62-od",
@@ -638,12 +665,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap62-od/main.png",
-        "media/reyee/rg-rap62-od/image-2.png"
+        "/media/rg-rap62-od/main.png",
+        "/media/rg-rap62-od/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX3000 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "AX3000 dual-band outdoor access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6260-h",
@@ -653,15 +681,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap6260h/image-1.png",
-        "media/reyee/rg-rap6260h/image-2.png",
-        "media/reyee/rg-rap6260h/image-3.png",
-        "media/reyee/rg-rap6260h/image-4.png",
-        "media/reyee/rg-rap6260h/image-5.png"
+        "/media/rg-rap6260-h/image-1.png",
+        "/media/rg-rap6260-h/image-2.png",
+        "/media/rg-rap6260-h/image-3.png",
+        "/media/rg-rap6260-h/image-4.png",
+        "/media/rg-rap6260-h/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX6000 high-density outdoor omni-directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 8 spatial streams ● 2.4 GHz: 4 x 4, MU-MIMO ● 5 GHz: 4 x 4, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 5950 Mbps\n• Tốc độ 5 GHz: 4803 Mbps\n• Tốc độ 2.4 GHz: 1147 Mbps\n• Kích thước: 300 mm x 300 mm x 75.5 mm (11.81 in. x 11.81 in. x 2.97 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 3.5 kg (7.72 lbs.) (without packaging materials)\n• Cổng 2.5G RJ45: Number of 1GE SFP ports Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE+/PoE++ Note: If both the DC power adapter and PoE+/PoE++ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (48 V, 1 A)\n• Công suất tiêu thụ tối đa: 40 W\n• Nhiệt độ hoạt động: –40°C to +65°C (–40°F to +149°F) Mounting options Wall/Pole"
+      "description": "AX6000 high-density outdoor omni-directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 8 spatial streams ● 2.4 GHz: 4 x 4, MU-MIMO ● 5 GHz: 4 x 4, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 5950 Mbps\n• Tốc độ 5 GHz: 4803 Mbps\n• Tốc độ 2.4 GHz: 1147 Mbps\n• Kích thước: 300 mm x 300 mm x 75.5 mm (11.81 in. x 11.81 in. x 2.97 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 3.5 kg (7.72 lbs.) (without packaging materials)\n• Cổng 2.5G RJ45: Number of 1GE SFP ports Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE+/PoE++ Note: If both the DC power adapter and PoE+/PoE++ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (48 V, 1 A)\n• Công suất tiêu thụ tối đa: 40 W\n• Nhiệt độ hoạt động: –40°C to +65°C (–40°F to +149°F) Mounting options Wall/Pole",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap6260-h-d",
@@ -671,15 +700,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap6260h-d/image-1.png",
-        "media/reyee/rg-rap6260h-d/image-2.png",
-        "media/reyee/rg-rap6260h-d/image-3.png",
-        "media/reyee/rg-rap6260h-d/image-4.png",
-        "media/reyee/rg-rap6260h-d/image-5.png"
+        "/media/rg-rap6260-h-d/image-1.png",
+        "/media/rg-rap6260-h-d/image-2.png",
+        "/media/rg-rap6260-h-d/image-3.png",
+        "/media/rg-rap6260-h-d/image-4.png",
+        "/media/rg-rap6260-h-d/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "AX6000 high-performance outdoor directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 8 spatial streams ● 2.4 GHz: 4 x 4, MU-MIMO ● 5 GHz: 4 x 4, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 5950 Mbps\n• Tốc độ 5 GHz: 4803 Mbps\n• Tốc độ 2.4 GHz: 1147 Mbps\n• Kích thước: 300 mm x 300 mm x 75.5 mm (11.81 in. x 11.81 in. x 2.97 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 3.5 kg (7.72 lbs.) (without packaging materials)\n• Cổng 2.5G RJ45: Number of 1GE SFP ports Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE+/PoE++ Note: If both the DC power adapter and PoE+/PoE++ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (48 V, 1 A)\n• Công suất tiêu thụ tối đa: 40 W\n• Nhiệt độ hoạt động: –40°C to +65°C (–40°F to +149°F) Mounting options Wall/Pole"
+      "description": "AX6000 high-performance outdoor directional access point. Hỗ trợ quản lý Cloud Ruijie Reyee.\n\nThông số chính:\n• Thiết kế radio: Dual-radio 8 spatial streams ● 2.4 GHz: 4 x 4, MU-MIMO ● 5 GHz: 4 x 4, MU-MIMO\n• Tốc độ Wi-Fi tối đa: 5950 Mbps\n• Tốc độ 5 GHz: 4803 Mbps\n• Tốc độ 2.4 GHz: 1147 Mbps\n• Kích thước: 300 mm x 300 mm x 75.5 mm (11.81 in. x 11.81 in. x 2.97 in.) (excluding the mounting bracket) Color White\n• Khối lượng: ≤ 3.5 kg (7.72 lbs.) (without packaging materials)\n• Cổng 2.5G RJ45: Number of 1GE SFP ports Power Supply and Consumption\n• Nguồn cấp: ● DC power adapter ● PoE+/PoE++ Note: If both the DC power adapter and PoE+/PoE++ are available for power supply, the DC power adapter is preferred. Local power supply Yes, one DC power connector (48 V, 1 A)\n• Công suất tiêu thụ tối đa: 40 W\n• Nhiệt độ hoạt động: –40°C to +65°C (–40°F to +149°F) Mounting options Wall/Pole",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-rap72pro-od",
@@ -689,11 +719,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-rap72pro-od/main.png"
+        "/media/rg-rap72pro-od/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 7 BE5040 dual-band outdoor/indoor versatile access point. Hỗ trợ quản lý Cloud Ruijie Reyee."
+      "description": "Wi-Fi 7 BE5040 dual-band outdoor/indoor versatile access point. Hỗ trợ quản lý Cloud Ruijie Reyee.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs7006",
@@ -703,11 +734,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs7006/image-1.png"
+        "/media/rg-nbs7006/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch modular Layer 3, 9U, 6 khe line card."
+      "description": "Switch modular Layer 3, 9U, 6 khe line card.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs7003",
@@ -717,15 +749,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs7003/image-1.jpg",
-        "media/reyee/rg-nbs7003/image-2.jpg",
-        "media/reyee/rg-nbs7003/image-3.jpg",
-        "media/reyee/rg-nbs7003/image-4.jpg",
-        "media/reyee/rg-nbs7003/image-5.jpg"
+        "/media/rg-nbs7003/image-1.jpg",
+        "/media/rg-nbs7003/image-2.jpg",
+        "/media/rg-nbs7003/image-3.jpg",
+        "/media/rg-nbs7003/image-4.jpg",
+        "/media/rg-nbs7003/image-5.jpg"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch modular Layer 3, 4U, 3 khe line card.\n\nThông số chính:\n• Bảo hành: 5 years\n• Tổng cổng RJ45: Determine the quantity based on the type and number of line cards.\n• Tổng cổng quang: Number of 1GE combo ports\n• Cổng 10G SFP+: Determine the quantity based on the type and number of line cards. Number of 10/100BASE-T ports\n• Cổng Gigabit RJ45: Determine the quantity based on the type and number of line cards.\n• Cổng 2.5G RJ45: Number of 100/1000/2.5G/5G/10GBASE-T ports\n• Tốc độ chuyển tiếp: 714.24 Mpps\n• Khả năng chuyển mạch: 714.24 Mpps Packet Forwarding Rate Architecture Innovation: Higher Performance, Lower Cost New traffic & chip-intensive design, each line card can be used as a supervisor engine module\n• Nhiệt độ hoạt động: 0°C to +50°C (32°F to 122°F) Altitude Operating altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.) Storage altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.)"
+      "description": "Switch modular Layer 3, 4U, 3 khe line card.\n\nThông số chính:\n• Bảo hành: 5 years\n• Tổng cổng RJ45: Determine the quantity based on the type and number of line cards.\n• Tổng cổng quang: Number of 1GE combo ports\n• Cổng 10G SFP+: Determine the quantity based on the type and number of line cards. Number of 10/100BASE-T ports\n• Cổng Gigabit RJ45: Determine the quantity based on the type and number of line cards.\n• Cổng 2.5G RJ45: Number of 100/1000/2.5G/5G/10GBASE-T ports\n• Tốc độ chuyển tiếp: 714.24 Mpps\n• Khả năng chuyển mạch: 714.24 Mpps Packet Forwarding Rate Architecture Innovation: Higher Performance, Lower Cost New traffic & chip-intensive design, each line card can be used as a supervisor engine module\n• Nhiệt độ hoạt động: 0°C to +50°C (32°F to 122°F) Altitude Operating altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.) Storage altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.)",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs6002",
@@ -735,15 +768,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs6002/image-1.png",
-        "media/reyee/rg-nbs6002/image-2.png",
-        "media/reyee/rg-nbs6002/image-3.png",
-        "media/reyee/rg-nbs6002/image-4.png",
-        "media/reyee/rg-nbs6002/image-5.png"
+        "/media/rg-nbs6002/image-1.png",
+        "/media/rg-nbs6002/image-2.png",
+        "/media/rg-nbs6002/image-3.png",
+        "/media/rg-nbs6002/image-4.png",
+        "/media/rg-nbs6002/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch core modular 2 khe, dòng Layer 3.\n\nThông số chính:\n• Bảo hành: 5 years\n• Tổng cổng RJ45: Determine the quantity based on the type and number of line cards.\n• Tổng cổng quang: Number of 1GE combo ports\n• Cổng 10G SFP+: Determine the quantity based on the type and number of line cards. Number of 10/100BASE-T ports\n• Cổng Gigabit RJ45: Determine the quantity based on the type and number of line cards.\n• Cổng 2.5G RJ45: Number of 100/1000/2.5G/5G/10GBASE-T ports\n• Tốc độ chuyển tiếp: 130.94 Mpps\n• Khả năng chuyển mạch: 132Mpps Packet Forwarding Rate High Cost-Effective Core Switch Enjoy the performance of two with the price of one Modular Design: High performance, Scalability, and Flexibility Support 4 types of line cards,11 combinations\n• Nhiệt độ hoạt động: 0°C to +50°C (32°F to 122°F) Altitude Operating altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.) Storage altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.)"
+      "description": "Switch core modular 2 khe, dòng Layer 3.\n\nThông số chính:\n• Bảo hành: 5 years\n• Tổng cổng RJ45: Determine the quantity based on the type and number of line cards.\n• Tổng cổng quang: Number of 1GE combo ports\n• Cổng 10G SFP+: Determine the quantity based on the type and number of line cards. Number of 10/100BASE-T ports\n• Cổng Gigabit RJ45: Determine the quantity based on the type and number of line cards.\n• Cổng 2.5G RJ45: Number of 100/1000/2.5G/5G/10GBASE-T ports\n• Tốc độ chuyển tiếp: 130.94 Mpps\n• Khả năng chuyển mạch: 132Mpps Packet Forwarding Rate High Cost-Effective Core Switch Enjoy the performance of two with the price of one Modular Design: High performance, Scalability, and Flexibility Support 4 types of line cards,11 combinations\n• Nhiệt độ hoạt động: 0°C to +50°C (32°F to 122°F) Altitude Operating altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.) Storage altitude: –500 m to +5,000 m (–1,640.42 ft. to +16,404.20 ft.)",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5300-8mg2xs-up",
@@ -755,7 +789,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 10 cổng multi-Gigabit, 8 cổng PoE++ 2.5G và 2 uplink SFP+."
+      "description": "Switch Layer 3 10 cổng multi-Gigabit, 8 cổng PoE++ 2.5G và 2 uplink SFP+.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5100-24gt4sfp",
@@ -765,12 +800,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5100-24gt4sfp/main.png",
-        "media/reyee/rg-nbs5100-24gt4sfp/image-2.png"
+        "/media/rg-nbs5100-24gt4sfp/main.png",
+        "/media/rg-nbs5100-24gt4sfp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 28 cổng Gigabit: 24 RJ45 + 4 SFP."
+      "description": "Switch Layer 3 28 cổng Gigabit: 24 RJ45 + 4 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5100-24gt4sfp-p",
@@ -780,11 +816,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5100-24gt4sfp-p/main.png"
+        "/media/rg-nbs5100-24gt4sfp-p/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 Gigabit PoE: 24 RJ45 + 4 SFP."
+      "description": "Switch Layer 3 Gigabit PoE: 24 RJ45 + 4 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5100-48gt4sfp",
@@ -794,12 +831,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5100-48gt4sfp/main.png",
-        "media/reyee/rg-nbs5100-48gt4sfp/image-2.png"
+        "/media/rg-nbs5100-48gt4sfp/main.png",
+        "/media/rg-nbs5100-48gt4sfp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 52 cổng Gigabit: 48 RJ45 + 4 SFP."
+      "description": "Switch Layer 3 52 cổng Gigabit: 48 RJ45 + 4 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-24sfp-8gt4xs",
@@ -809,11 +847,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5200-24sfp-8gt4xs/main.png"
+        "/media/rg-nbs5200-24sfp-8gt4xs/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 36 cổng: 24 SFP + 8 Gigabit RJ45 + 4 SFP+ 10G."
+      "description": "Switch Layer 3 36 cổng: 24 SFP + 8 Gigabit RJ45 + 4 SFP+ 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-24gt4xs-p-v2",
@@ -823,12 +862,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5200-24gt4xs-p-v2/main.png",
-        "media/reyee/rg-nbs5200-24gt4xs-p-v2/image-2.png"
+        "/media/rg-nbs5200-24gt4xs-p-v2/main.png",
+        "/media/rg-nbs5200-24gt4xs-p-v2/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 Gigabit PoE: 24 RJ45 + 4 uplink 10G SFP+."
+      "description": "Switch Layer 3 Gigabit PoE: 24 RJ45 + 4 uplink 10G SFP+.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-24gt4xs",
@@ -838,12 +878,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5200-24gt4xs/main.png",
-        "media/reyee/rg-nbs5200-24gt4xs/image-2.png"
+        "/media/rg-nbs5200-24gt4xs/main.png",
+        "/media/rg-nbs5200-24gt4xs/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3: 24 Gigabit RJ45 + 4 uplink 10G SFP+."
+      "description": "Switch Layer 3: 24 Gigabit RJ45 + 4 uplink 10G SFP+.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-48gt4xs-up",
@@ -853,11 +894,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5200-48gt4xs-up/image-1.png"
+        "/media/rg-nbs5200-48gt4xs-up/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 48 cổng Gigabit PoE với uplink 10G SFP+."
+      "description": "Switch Layer 3 48 cổng Gigabit PoE với uplink 10G SFP+.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs5200-48gt4xs",
@@ -867,12 +909,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs5200-48gt4xs/main.png",
-        "media/reyee/rg-nbs5200-48gt4xs/image-2.png"
+        "/media/rg-nbs5200-48gt4xs/main.png",
+        "/media/rg-nbs5200-48gt4xs/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 3 48 cổng Gigabit với uplink 10G SFP+."
+      "description": "Switch Layer 3 48 cổng Gigabit với uplink 10G SFP+.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-24gt4xs",
@@ -882,12 +925,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-24gt4xs/main.png",
-        "media/reyee/rg-nbs3200-24gt4xs/image-2.png"
+        "/media/rg-nbs3200-24gt4xs/main.png",
+        "/media/rg-nbs3200-24gt4xs/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2+ 24 cổng Gigabit với uplink 10G."
+      "description": "Switch quản lý Layer 2+ 24 cổng Gigabit với uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-24sfp-8gt4xs",
@@ -897,11 +941,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-24sfp-8gt4xs/main.png"
+        "/media/rg-nbs3200-24sfp-8gt4xs/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2+ với 24 SFP, 8 Gigabit RJ45 và uplink 10G."
+      "description": "Switch quản lý Layer 2+ với 24 SFP, 8 Gigabit RJ45 và uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-24gt4xs-p",
@@ -911,12 +956,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-24gt4xs-p/main.png",
-        "media/reyee/rg-nbs3200-24gt4xs-p/image-2.png"
+        "/media/rg-nbs3200-24gt4xs-p/main.png",
+        "/media/rg-nbs3200-24gt4xs-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 2+ PoE 24 cổng Gigabit với uplink 10G."
+      "description": "Switch Layer 2+ PoE 24 cổng Gigabit với uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-48gt4xs",
@@ -926,12 +972,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-48gt4xs/main.png",
-        "media/reyee/rg-nbs3200-48gt4xs/image-2.png"
+        "/media/rg-nbs3200-48gt4xs/main.png",
+        "/media/rg-nbs3200-48gt4xs/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 2+ 48 cổng Gigabit với uplink 10G."
+      "description": "Switch Layer 2+ 48 cổng Gigabit với uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-48gt4xs-p",
@@ -941,12 +988,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-48gt4xs-p/main.png",
-        "media/reyee/rg-nbs3200-48gt4xs-p/image-2.png"
+        "/media/rg-nbs3200-48gt4xs-p/main.png",
+        "/media/rg-nbs3200-48gt4xs-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 2+ PoE 48 cổng Gigabit với uplink 10G."
+      "description": "Switch Layer 2+ PoE 48 cổng Gigabit với uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-24gt4xs-p-v2",
@@ -956,12 +1004,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-24gt4xs-p-v2/main.png",
-        "media/reyee/rg-nbs3200-24gt4xs-p-v2/image-2.png"
+        "/media/rg-nbs3200-24gt4xs-p-v2/main.png",
+        "/media/rg-nbs3200-24gt4xs-p-v2/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 2+ PoE 24 cổng Gigabit, phiên bản V2, uplink 10G."
+      "description": "Switch Layer 2+ PoE 24 cổng Gigabit, phiên bản V2, uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3200-48gt4xs-p-v2",
@@ -971,12 +1020,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3200-48gt4xs-p-v2/main.png",
-        "media/reyee/rg-nbs3200-48gt4xs-p-v2/image-2.png"
+        "/media/rg-nbs3200-48gt4xs-p-v2/main.png",
+        "/media/rg-nbs3200-48gt4xs-p-v2/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch Layer 2+ PoE 48 cổng Gigabit, phiên bản V2, uplink 10G."
+      "description": "Switch Layer 2+ PoE 48 cổng Gigabit, phiên bản V2, uplink 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-8gt2sfp",
@@ -986,12 +1036,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3100-8gt2sfp/main.jpg",
-        "media/reyee/rg-nbs3100-8gt2sfp/image-2.png"
+        "/media/rg-nbs3100-8gt2sfp/main.jpg",
+        "/media/rg-nbs3100-8gt2sfp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2 Gigabit, 8 cổng RJ45 + 2 SFP."
+      "description": "Switch quản lý Layer 2 Gigabit, 8 cổng RJ45 + 2 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-8gt2sfp-p-v2",
@@ -1001,11 +1052,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3100-8gt2sfp-p-v2/image-1.png"
+        "/media/rg-nbs3100-8gt2sfp-p-v2/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2 PoE Gigabit, 8 cổng RJ45 + 2 SFP."
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 8 cổng RJ45 + 2 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-24gt4sfp-v2",
@@ -1015,11 +1067,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3100-24gt4sfp-v2/image-1.png"
+        "/media/rg-nbs3100-24gt4sfp-v2/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2 Gigabit, 24 cổng RJ45 + 4 SFP."
+      "description": "Switch quản lý Layer 2 Gigabit, 24 cổng RJ45 + 4 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-24gt4sfp-p-v2",
@@ -1029,11 +1082,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3100-24gt4sfp-p-v2/image-1.png"
+        "/media/rg-nbs3100-24gt4sfp-p-v2/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2 PoE Gigabit, 24 cổng RJ45 + 4 SFP."
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 24 cổng RJ45 + 4 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-48gt4sfp-p",
@@ -1043,12 +1097,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3100-48gt4sfp-p/main.png",
-        "media/reyee/rg-nbs3100-48gt4sfp-p/image-2.png"
+        "/media/rg-nbs3100-48gt4sfp-p/main.png",
+        "/media/rg-nbs3100-48gt4sfp-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2 PoE Gigabit, 48 cổng RJ45 + 4 SFP."
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 48 cổng RJ45 + 4 SFP.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nbs3100-48gt4sfp-p-v2",
@@ -1058,11 +1113,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nbs3100-48gt4sfp-p-v2/main.png"
+        "/media/rg-nbs3100-48gt4sfp-p-v2/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch quản lý Layer 2 PoE Gigabit, 48 cổng RJ45 + 4 SFP, phiên bản V2."
+      "description": "Switch quản lý Layer 2 PoE Gigabit, 48 cổng RJ45 + 4 SFP, phiên bản V2.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis3100-8gt4sfp-hp",
@@ -1072,11 +1128,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nis3100-8gt4sfp-hp/image-1.png"
+        "/media/rg-nis3100-8gt4sfp-hp/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch công nghiệp quản lý Layer 2, 8 cổng Gigabit + 4 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định."
+      "description": "Switch công nghiệp quản lý Layer 2, 8 cổng Gigabit + 4 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis3100-8gt2sfp-hp",
@@ -1086,11 +1143,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nis3100-8gt2sfp-hp/image-1.png"
+        "/media/rg-nis3100-8gt2sfp-hp/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch công nghiệp quản lý Layer 2, 8 cổng Gigabit + 2 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định."
+      "description": "Switch công nghiệp quản lý Layer 2, 8 cổng Gigabit + 2 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis3100-4gt2sfp-hp",
@@ -1100,11 +1158,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nis3100-4gt2sfp-hp/image-1.png"
+        "/media/rg-nis3100-4gt2sfp-hp/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch công nghiệp quản lý Layer 2, 4 cổng Gigabit + 2 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định."
+      "description": "Switch công nghiệp quản lý Layer 2, 4 cổng Gigabit + 2 SFP, PoE công suất cao.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis2100-8gt2sfp-hp",
@@ -1114,12 +1173,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nis2100-8gt2sfp-hp/main.png",
-        "media/reyee/rg-nis2100-8gt2sfp-hp/image-2.png"
+        "/media/rg-nis2100-8gt2sfp-hp/main.png",
+        "/media/rg-nis2100-8gt2sfp-hp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch công nghiệp Gigabit quản lý, 1 cổng PoE++, 7 cổng PoE+ và 2 uplink SFP.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định."
+      "description": "Switch công nghiệp Gigabit quản lý, 1 cổng PoE++, 7 cổng PoE+ và 2 uplink SFP.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-nis2100-4gt2sfp-hp",
@@ -1129,12 +1189,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-nis2100-4gt2sfp-hp/main.png",
-        "media/reyee/rg-nis2100-4gt2sfp-hp/image-2.png"
+        "/media/rg-nis2100-4gt2sfp-hp/main.png",
+        "/media/rg-nis2100-4gt2sfp-hp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Switch công nghiệp Gigabit quản lý, 1 cổng PoE++, 3 cổng PoE+ và 2 uplink SFP.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định."
+      "description": "Switch công nghiệp Gigabit quản lý, 1 cổng PoE++, 3 cổng PoE+ và 2 uplink SFP.\nThuộc dòng switch công nghiệp Reyee, hướng tới các hệ thống cần vận hành ổn định trong môi trường triển khai khắt khe.\nPhù hợp các hệ thống camera, nhà xưởng và mạng công nghiệp cần kết nối ổn định.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es205gc-p",
@@ -1144,15 +1205,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es205gc-p/image-1.png",
-        "media/reyee/rg-es205gc-p/image-2.png",
-        "media/reyee/rg-es205gc-p/image-3.png",
-        "media/reyee/rg-es205gc-p/image-4.png",
-        "media/reyee/rg-es205gc-p/image-5.png"
+        "/media/rg-es205gc-p/image-1.png",
+        "/media/rg-es205gc-p/image-2.png",
+        "/media/rg-es205gc-p/image-3.png",
+        "/media/rg-es205gc-p/image-4.png",
+        "/media/rg-es205gc-p/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port Gigabit smart cloud-managed PoE switch; 4 cổng PoE+, PoE budget 54 W.\n\nThông số chính:\n• Bảo hành: 3 years\n• Cổng Gigabit RJ45: Power Supply and Consumption Number of PoE Out ports Number of PoE/PoE+ Out ports\n• Ngân sách PoE: 54 W PoE power pins 1–2 (+), 3–6 (-)\n• Tốc độ chuyển tiếp: 7.4 Mpps\n• Khả năng chuyển mạch: 10 Gbps(bit/s)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)"
+      "description": "5-port Gigabit smart cloud-managed PoE switch; 4 cổng PoE+, PoE budget 54 W.\n\nThông số chính:\n• Bảo hành: 3 years\n• Cổng Gigabit RJ45: Power Supply and Consumption Number of PoE Out ports Number of PoE/PoE+ Out ports\n• Ngân sách PoE: 54 W PoE power pins 1–2 (+), 3–6 (-)\n• Tốc độ chuyển tiếp: 7.4 Mpps\n• Khả năng chuyển mạch: 10 Gbps(bit/s)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es206gs-p",
@@ -1164,7 +1226,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "6-port Gigabit smart cloud-managed PoE switch; 4 cổng PoE+ và 1 combo port, PoE budget 54 W."
+      "description": "6-port Gigabit smart cloud-managed PoE switch; 4 cổng PoE+ và 1 combo port, PoE budget 54 W.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es209gc-p",
@@ -1174,15 +1237,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es209gc-p/image-1.png",
-        "media/reyee/rg-es209gc-p/image-2.png",
-        "media/reyee/rg-es209gc-p/image-3.png",
-        "media/reyee/rg-es209gc-p/image-4.png",
-        "media/reyee/rg-es209gc-p/image-5.png"
+        "/media/rg-es209gc-p/image-1.png",
+        "/media/rg-es209gc-p/image-2.png",
+        "/media/rg-es209gc-p/image-3.png",
+        "/media/rg-es209gc-p/image-4.png",
+        "/media/rg-es209gc-p/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "9-port Gigabit smart cloud-managed PoE switch; 8 cổng PoE+, PoE budget 120 W.\n\nThông số chính:\n• Bảo hành: 3 years\n• Cổng Gigabit RJ45: Power Supply and Consumption Number of PoE Out ports Number of PoE/PoE+ Out ports\n• Ngân sách PoE: 120 W PoE power pins 1–2 (+), 3–6 (-)\n• Tốc độ chuyển tiếp: 13.4 Mpps\n• Khả năng chuyển mạch: 18 Gbps(bit/s)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)"
+      "description": "9-port Gigabit smart cloud-managed PoE switch; 8 cổng PoE+, PoE budget 120 W.\n\nThông số chính:\n• Bảo hành: 3 years\n• Cổng Gigabit RJ45: Power Supply and Consumption Number of PoE Out ports Number of PoE/PoE+ Out ports\n• Ngân sách PoE: 120 W PoE power pins 1–2 (+), 3–6 (-)\n• Tốc độ chuyển tiếp: 13.4 Mpps\n• Khả năng chuyển mạch: 18 Gbps(bit/s)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es210gs-p",
@@ -1194,7 +1258,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "10-port Gigabit smart cloud-managed PoE switch; 8 cổng PoE+ và 1 combo port, PoE budget 120 W."
+      "description": "10-port Gigabit smart cloud-managed PoE switch; 8 cổng PoE+ và 1 combo port, PoE budget 120 W.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es220gs-lp",
@@ -1204,12 +1269,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es220gs-lp/main.png",
-        "media/reyee/rg-es220gs-lp/image-2.png"
+        "/media/rg-es220gs-lp/main.png",
+        "/media/rg-es220gs-lp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "20-port Gigabit smart cloud-managed PoE switch; 16 cổng PoE+, 2 SFP, PoE budget 130 W."
+      "description": "20-port Gigabit smart cloud-managed PoE switch; 16 cổng PoE+, 2 SFP, PoE budget 130 W.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es220gs-p",
@@ -1219,11 +1285,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es220gs-p/image-1.png"
+        "/media/rg-es220gs-p/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "20-port Gigabit smart cloud-managed PoE switch; 16 cổng PoE+, 2 SFP, PoE budget 250 W."
+      "description": "20-port Gigabit smart cloud-managed PoE switch; 16 cổng PoE+, 2 SFP, PoE budget 250 W.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es228gs-lp",
@@ -1233,12 +1300,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es228gs-lp/main.png",
-        "media/reyee/rg-es228gs-lp/image-2.png"
+        "/media/rg-es228gs-lp/main.png",
+        "/media/rg-es228gs-lp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "28-port Gigabit smart cloud-managed PoE switch; 24 cổng PoE+, 2 SFP, PoE budget 250 W."
+      "description": "28-port Gigabit smart cloud-managed PoE switch; 24 cổng PoE+, 2 SFP, PoE budget 250 W.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es228gs-p",
@@ -1248,11 +1316,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es228gs-p/image-1.png"
+        "/media/rg-es228gs-p/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "28-port Gigabit smart cloud-managed PoE switch; 24 cổng PoE+, 2 SFP, PoE budget 370 W."
+      "description": "28-port Gigabit smart cloud-managed PoE switch; 24 cổng PoE+, 2 SFP, PoE budget 370 W.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es206mg-p",
@@ -1262,12 +1331,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es206mg-p/main.png",
-        "media/reyee/rg-es206mg-p/image-2.png"
+        "/media/rg-es206mg-p/main.png",
+        "/media/rg-es206mg-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "6-port 2.5 Gigabit smart cloud-managed PoE switch; 4 cổng PoE+ và 1 SFP+ 10G."
+      "description": "6-port 2.5 Gigabit smart cloud-managed PoE switch; 4 cổng PoE+ và 1 SFP+ 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es209mg-p",
@@ -1277,12 +1347,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es209mg-p/main.png",
-        "media/reyee/rg-es209mg-p/image-2.png"
+        "/media/rg-es209mg-p/main.png",
+        "/media/rg-es209mg-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "9-port 2.5 Gigabit smart cloud-managed PoE switch; 8 cổng PoE+ và 1 SFP+ 10G."
+      "description": "9-port 2.5 Gigabit smart cloud-managed PoE switch; 8 cổng PoE+ và 1 SFP+ 10G.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es205gc",
@@ -1292,11 +1363,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es205gc/main.png"
+        "/media/rg-es205gc/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port Gigabit cloud-managed switch, vỏ thép để bàn."
+      "description": "5-port Gigabit cloud-managed switch, vỏ thép để bàn.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es208gc",
@@ -1306,15 +1378,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es208gc/image-1.png",
-        "media/reyee/rg-es208gc/image-2.png",
-        "media/reyee/rg-es208gc/image-3.png",
-        "media/reyee/rg-es208gc/image-4.png",
-        "media/reyee/rg-es208gc/image-5.png"
+        "/media/rg-es208gc/image-1.png",
+        "/media/rg-es208gc/image-2.png",
+        "/media/rg-es208gc/image-3.png",
+        "/media/rg-es208gc/image-4.png",
+        "/media/rg-es208gc/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "8-port Gigabit cloud-managed switch, vỏ thép để bàn.\n\nThông số chính:\n• Bảo hành: 3 years\n• Tốc độ chuyển tiếp: 11.9 Mpps\n• Khả năng chuyển mạch: 16 Gbps(bit/s)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)"
+      "description": "8-port Gigabit cloud-managed switch, vỏ thép để bàn.\n\nThông số chính:\n• Bảo hành: 3 years\n• Tốc độ chuyển tiếp: 11.9 Mpps\n• Khả năng chuyển mạch: 16 Gbps(bit/s)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es216gc-v2",
@@ -1324,11 +1397,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es216gc-v2/main.png"
+        "/media/rg-es216gc-v2/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "16-port Gigabit cloud-managed switch, vỏ thép rack 19 inch."
+      "description": "16-port Gigabit cloud-managed switch, vỏ thép rack 19 inch.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es224gc-v2",
@@ -1338,11 +1412,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es224gc-v2/main.png"
+        "/media/rg-es224gc-v2/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "24-port Gigabit cloud-managed switch, vỏ thép rack 19 inch."
+      "description": "24-port Gigabit cloud-managed switch, vỏ thép rack 19 inch.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es105d",
@@ -1354,7 +1429,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "5-port Fast Ethernet unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "5-port Fast Ethernet unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es108d",
@@ -1366,7 +1442,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "8-port Fast Ethernet unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "8-port Fast Ethernet unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es105gd",
@@ -1376,11 +1453,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es105gd/image-1.png"
+        "/media/rg-es105gd/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port Gigabit unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "5-port Gigabit unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es108gd",
@@ -1390,11 +1468,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es108gd/image-1.png"
+        "/media/rg-es108gd/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "8-port Gigabit unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "8-port Gigabit unmanaged switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es116g-l",
@@ -1404,12 +1483,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es116g-l/main.png",
-        "media/reyee/rg-es116g-l/image-2.png"
+        "/media/rg-es116g-l/main.png",
+        "/media/rg-es116g-l/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "16-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "16-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es124g-l",
@@ -1419,12 +1499,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es124g-l/main.png",
-        "media/reyee/rg-es124g-l/image-2.png"
+        "/media/rg-es124g-l/main.png",
+        "/media/rg-es124g-l/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "24-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "24-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es106f-p",
@@ -1434,12 +1515,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es106f-p/main.jpg",
-        "media/reyee/rg-es106f-p/image-2.png"
+        "/media/rg-es106f-p/main.jpg",
+        "/media/rg-es106f-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "6-port 10/100 Mbps unmanaged PoE switch."
+      "description": "6-port 10/100 Mbps unmanaged PoE switch.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es110f-p",
@@ -1449,12 +1531,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es110f-p/main.jpg",
-        "media/reyee/rg-es110f-p/image-2.png"
+        "/media/rg-es110f-p/main.jpg",
+        "/media/rg-es110f-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port 10/100 Mbps unmanaged PoE switch."
+      "description": "10-port 10/100 Mbps unmanaged PoE switch.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es110fg-p",
@@ -1464,12 +1547,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es110fg-p/main.jpg",
-        "media/reyee/rg-es110fg-p/image-2.png"
+        "/media/rg-es110fg-p/main.jpg",
+        "/media/rg-es110fg-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Unmanaged PoE switch với 8 cổng 10/100BASE-T và 2 cổng Gigabit."
+      "description": "Unmanaged PoE switch với 8 cổng 10/100BASE-T và 2 cổng Gigabit.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es110gs-p-l",
@@ -1479,12 +1563,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es110gs-p-l/main.jpg",
-        "media/reyee/rg-es110gs-p-l/image-2.png"
+        "/media/rg-es110gs-p-l/main.jpg",
+        "/media/rg-es110gs-p-l/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port 10/100/1000 Mbps unmanaged PoE switch."
+      "description": "10-port 10/100/1000 Mbps unmanaged PoE switch.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es118fgs-lp",
@@ -1494,12 +1579,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es118fgs-lp/main.png",
-        "media/reyee/rg-es118fgs-lp/image-2.png"
+        "/media/rg-es118fgs-lp/main.png",
+        "/media/rg-es118fgs-lp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Unmanaged PoE switch với 16 cổng 10/100BASE-T và 2 cổng Gigabit."
+      "description": "Unmanaged PoE switch với 16 cổng 10/100BASE-T và 2 cổng Gigabit.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es118gs-p-l",
@@ -1509,12 +1595,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es118gs-p-l/main.png",
-        "media/reyee/rg-es118gs-p-l/image-2.png"
+        "/media/rg-es118gs-p-l/main.png",
+        "/media/rg-es118gs-p-l/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "18-port 10/100/1000 Mbps unmanaged PoE switch."
+      "description": "18-port 10/100/1000 Mbps unmanaged PoE switch.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es126fgs-lp",
@@ -1524,12 +1611,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es126fgs-lp/main.png",
-        "media/reyee/rg-es126fgs-lp/image-2.png"
+        "/media/rg-es126fgs-lp/main.png",
+        "/media/rg-es126fgs-lp/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Unmanaged PoE switch với 24 cổng 10/100BASE-T và 2 cổng Gigabit."
+      "description": "Unmanaged PoE switch với 24 cổng 10/100BASE-T và 2 cổng Gigabit.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es126fgs-p",
@@ -1539,12 +1627,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es126fgs-p/main.png",
-        "media/reyee/rg-es126fgs-p/image-2.png"
+        "/media/rg-es126fgs-p/main.png",
+        "/media/rg-es126fgs-p/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Unmanaged PoE switch với 24 cổng 10/100BASE-T và 2 cổng Gigabit."
+      "description": "Unmanaged PoE switch với 24 cổng 10/100BASE-T và 2 cổng Gigabit.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es05f",
@@ -1554,11 +1643,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es05f/main.png"
+        "/media/rg-es05f/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port 10/100 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "5-port 10/100 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es08f",
@@ -1568,12 +1658,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es08f/main.jpg",
-        "media/reyee/rg-es08f/image-2.png"
+        "/media/rg-es08f/main.jpg",
+        "/media/rg-es08f/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "8-port 10/100 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "8-port 10/100 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es05g-l",
@@ -1583,12 +1674,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es05g-l/main.jpg",
-        "media/reyee/rg-es05g-l/image-2.png"
+        "/media/rg-es05g-l/main.jpg",
+        "/media/rg-es05g-l/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "5-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-es08g-l",
@@ -1598,12 +1690,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-es08g-l/main.jpg",
-        "media/reyee/rg-es08g-l/image-2.png"
+        "/media/rg-es08g-l/main.jpg",
+        "/media/rg-es08g-l/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "8-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp."
+      "description": "8-port 10/100/1000 Mbps unmanaged non-PoE switch.\nSwitch không quản lý, thiết kế theo hướng cắm là chạy, không yêu cầu cấu hình phức tạp.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg105g-v3",
@@ -1615,7 +1708,8 @@
       "images": [],
       "video": "",
       "featured": false,
-      "description": "5-port Gigabit cloud-managed router, khuyến nghị tới 100 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "5-port Gigabit cloud-managed router, khuyến nghị tới 100 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg105g-p-v3",
@@ -1625,11 +1719,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg105g-p-v3/image-1.png"
+        "/media/rg-eg105g-p-v3/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port Gigabit cloud-managed PoE router, khuyến nghị tới 100 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "5-port Gigabit cloud-managed PoE router, khuyến nghị tới 100 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg105gw-t",
@@ -1639,11 +1734,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg105gwt/main.png"
+        "/media/rg-eg105gw-t/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 5 all-in-one cloud-managed router, tốc độ không dây tới 1.267 Mbps, khoảng 150 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "Wi-Fi 5 all-in-one cloud-managed router, tốc độ không dây tới 1.267 Mbps, khoảng 150 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg105gw-x",
@@ -1653,11 +1749,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg105gw-x/image-1.png"
+        "/media/rg-eg105gw-x/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "Wi-Fi 6 AX3000 high-performance all-in-one cloud-managed router, khoảng 180 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "Wi-Fi 6 AX3000 high-performance all-in-one cloud-managed router, khoảng 180 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg210g-e",
@@ -1667,11 +1764,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg210g-e/main.png"
+        "/media/rg-eg210g-e/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port Gigabit cloud-managed router, khoảng 200 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "10-port Gigabit cloud-managed router, khoảng 200 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg210g-p-v3",
@@ -1681,11 +1779,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg210g-p-v3/image-1.png"
+        "/media/rg-eg210g-p-v3/image-1.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port Gigabit cloud-managed PoE router, khoảng 200 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "10-port Gigabit cloud-managed PoE router, khoảng 200 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg209gs",
@@ -1695,11 +1794,12 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg209gs/main.png"
+        "/media/rg-eg209gs/main.png"
       ],
       "video": "",
       "featured": false,
-      "description": "9-port Gigabit cloud-managed SFP router, khoảng 200 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "9-port Gigabit cloud-managed SFP router, khoảng 200 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg305gh-p-e",
@@ -1709,12 +1809,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg305gh-p-e/main.png",
-        "media/reyee/rg-eg305gh-p-e/image-2.png"
+        "/media/rg-eg305gh-p-e/main.png",
+        "/media/rg-eg305gh-p-e/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "5-port Gigabit cloud-managed PoE router, khoảng 300 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "5-port Gigabit cloud-managed PoE router, khoảng 300 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg310gh-e",
@@ -1724,12 +1825,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg310gh-e/main.png",
-        "media/reyee/rg-eg310gh-e/image-2.png"
+        "/media/rg-eg310gh-e/main.png",
+        "/media/rg-eg310gh-e/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port Gigabit cloud-managed router, khoảng 300 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "10-port Gigabit cloud-managed router, khoảng 300 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg310gh-p-e",
@@ -1739,12 +1841,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg310gh-p-e/main.png",
-        "media/reyee/rg-eg310gh-p-e/image-2.png"
+        "/media/rg-eg310gh-p-e/main.png",
+        "/media/rg-eg310gh-p-e/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port Gigabit cloud-managed router/PoE gateway, khoảng 300 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "10-port Gigabit cloud-managed router/PoE gateway, khoảng 300 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg710xs",
@@ -1754,12 +1857,13 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg710xs/main.png",
-        "media/reyee/rg-eg710xs/image-2.png"
+        "/media/rg-eg710xs/main.png",
+        "/media/rg-eg710xs/image-2.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port high-performance cloud-managed router với 4 cổng 2.5G và 2 cổng 10G SFP+, khoảng 700 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung."
+      "description": "10-port high-performance cloud-managed router với 4 cổng 2.5G và 2 cổng 10G SFP+, khoảng 700 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.",
+      "category": "Thiết bị mạng"
     },
     {
       "id": "rg-eg1510xs",
@@ -1769,15 +1873,16 @@
       "brand": "Reyee",
       "shopee_link": "",
       "images": [
-        "media/reyee/rg-eg1510xs/image-1.png",
-        "media/reyee/rg-eg1510xs/image-2.png",
-        "media/reyee/rg-eg1510xs/image-3.png",
-        "media/reyee/rg-eg1510xs/image-4.png",
-        "media/reyee/rg-eg1510xs/image-5.png"
+        "/media/rg-eg1510xs/image-1.png",
+        "/media/rg-eg1510xs/image-2.png",
+        "/media/rg-eg1510xs/image-3.png",
+        "/media/rg-eg1510xs/image-4.png",
+        "/media/rg-eg1510xs/image-5.png"
       ],
       "video": "",
       "featured": false,
-      "description": "10-port high-performance cloud-managed router với 4 cổng 2.5G và 2 cổng 10G SFP+, khoảng 1.500 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\n\nThông số chính:\n• CPU: Quad-core processor, 1.8 GHz clock frequency per core\n• Flash: 128 MB\n• RAM: 4 GB\n• Kích thước: 440 mm x 210 mm x 43.6 mm (17.32 in. × 8.27 in. × 1.72 in.)\n• Khối lượng: 3 kg (6.61 lbs)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)\n• Số client khuyến nghị: 1500\n• Thông lượng: 6–12 Months Syslog Storage Supreme Capacity with Tremendous Performance EG1510XS can Fit Multiple Large Scenario Perfectly Scenarios Concurrent Clients"
+      "description": "10-port high-performance cloud-managed router với 4 cổng 2.5G và 2 cổng 10G SFP+, khoảng 1.500 client.\nPhù hợp văn phòng, cửa hàng, khách sạn và hệ thống SMB cần quản lý mạng tập trung.\n\nThông số chính:\n• CPU: Quad-core processor, 1.8 GHz clock frequency per core\n• Flash: 128 MB\n• RAM: 4 GB\n• Kích thước: 440 mm x 210 mm x 43.6 mm (17.32 in. × 8.27 in. × 1.72 in.)\n• Khối lượng: 3 kg (6.61 lbs)\n• Nhiệt độ hoạt động: 0°C to 40°C (32°F to 104°F)\n• Số client khuyến nghị: 1500\n• Thông lượng: 6–12 Months Syslog Storage Supreme Capacity with Tremendous Performance EG1510XS can Fit Multiple Large Scenario Perfectly Scenarios Concurrent Clients",
+      "category": "Thiết bị mạng"
     }
   ]
 }
