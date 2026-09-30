@@ -1,8 +1,11 @@
-name: Build official-only 2025+ staging V3
+name: Build official-only 2025+ staging V3.1
+
 on:
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   build:
     strategy:
@@ -10,15 +13,20 @@ jobs:
       max-parallel: 4
       matrix:
         group: [camera, network, computers, office]
+
     runs-on: ubuntu-latest
     timeout-minutes: 45
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+
       - name: Build group
         run: node scripts/build-official-catalog-2025plus-v3.js ${{ matrix.group }}
+
       - name: Commit group
         run: |
           git config user.name "github-actions[bot]"
@@ -28,6 +36,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Build official-only ${{ matrix.group }} staging V3"
+            git commit -m "Build official-only ${{ matrix.group }} staging V3.1"
             git push
           fi
