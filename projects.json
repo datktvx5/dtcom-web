@@ -2,16 +2,16 @@
   "items": [
     {
       "id": "nha-hang-tiec-cuoi",
-      "title": "Mạng Lan Nhà Hàng Tiệc Cưới",
+      "title": "Mạng Lan Nhà Hàng 7 Tầng",
       "project_type": "Mạng LAN / WiFi",
-      "location": "Phú Thọ",
       "images": [
         "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack012.jpg",
-        "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack011.jpg",
         "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack013.jpg",
+        "/media/cong-trinh/nha-hang-tiec-cuoi/mangturack011.jpg",
         "/media/cong-trinh/nha-hang-tiec-cuoi/mangphongmaychu001.jpg"
       ],
-      "featured": true
+      "featured": true,
+      "description": "**DỰ ÁN TIÊU BIỂU: GIẢI PHÁP HẠ TẦNG MẠNG LAN TÒA NHÀ TOÀN DIỆN**\n\n🏢 **Phân hoạch hệ thống thông minh (VLAN)**\n* Mạng nội bộ được chia tách độc lập thành các phân khu chuyên biệt: mạng LAN văn phòng, mạng Camera an ninh và mạng Wi-Fi phát riêng cho từng tầng[cite: 1].\n* Thiết kế này giúp triệt tiêu hoàn toàn hiện tượng nhiễu mạng chéo, tối ưu hóa băng thông và bảo vệ an toàn cho dữ liệu nội bộ\n\n⚡ **Truyền tải quang học & Dự phòng chống đứt cáp**\n* Hạ tầng trục chính kết nối các thiết bị chuyển mạch bằng cáp quang tốc độ cao và ứng dụng công nghệ gộp nhiều đường truyền vật lý (Bonding)[cite: 1].\n* Giải pháp này giúp nhân hệ số băng thông và đảm bảo mạng nội bộ vẫn vận hành trơn tru ngay cả khi một sợi cáp vật lý gặp sự cố\n\n🌐 **Cân bằng tải đa đường truyền (Multi-WAN)**\n* Thiết bị định tuyến trung tâm gánh vác và vận hành song song 3 đường truyền Internet[cite: 1].\n* Hệ thống tự động phân bổ luồng dữ liệu và lập tức chuyển đổi kết nối (failover) nếu một nhà mạng bị rớt, đảm bảo Internet không bao giờ bị gián đoạn\n\n🛡️ **Bảo mật mạng và Chống phá hoại nội bộ**\n* Các cổng kết nối được kích hoạt tính năng an ninh thông minh (DHCP Snooping), tự động ngăn chặn tình trạng cắm nhầm thiết bị lạ gây xung đột IP và làm sập hệ thống mạng\n* Mạng Wi-Fi của các tầng được thiết lập tường lửa cô lập nghiêm ngặt, ngăn chặn việc truy cập trái phép chéo giữa các tầng hoặc xâm nhập ngược vào mạng nội bộ của doanh nghiệp[cite: 1].\n\n📶 **Kiểm soát Wi-Fi tập trung**\n* Toàn bộ hệ thống phát sóng Wi-Fi được quản lý qua một bộ điều khiển trung tâm duy nhất[cite: 1].\n* Thiết kế linh hoạt cho phép bộ điều khiển xuyên qua các lớp bảo mật để giao tiếp với thiết bị, giúp quản trị viên dễ dàng theo dõi và cấu hình toàn bộ hệ thống từ xa\n\n🆘 **Cơ chế hỗ trợ từ xa & Cứu hộ khẩn cấp**\n* Hệ thống được trang bị một đường hầm mã hóa bảo mật cao dành riêng cho kỹ sư IT truy cập và xử lý sự cố từ xa\n* Đặc biệt, mỗi thiết bị đều được thiết lập sẵn một cổng cắm dây vật lý độc lập (Emergency Port) để ứng cứu trực tiếp tại chỗ trong các tình huống khẩn cấp nhất"
     },
     {
       "id": "camera-tiem-vang",
