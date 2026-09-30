@@ -102,10 +102,11 @@
       "title": "Sever Cho Doanh Nghiệp",
       "project_type": "Phòng máy / Máy tính",
       "images": [
-        "/media/maytinhserver001-1.jpg",
-        "/media/maytinhserversuachua001.jpg"
+        "/media/cong-trinh/sever-cho-doanh-nghiep/maytinhserver001-1.jpg",
+        "/media/cong-trinh/sever-cho-doanh-nghiep/maytinhserversuachua001.jpg"
       ],
-      "featured": false
+      "featured": false,
+      "id": "sever-cho-doanh-nghiep"
     }
   ]
 }
