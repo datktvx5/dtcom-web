@@ -87,6 +87,7 @@
       "featured": false
     },
     {
+      "id": "phong-may-cho-hoc-sinh",
       "title": "Phòng Máy Cho Học Sinh",
       "project_type": "Phòng máy / Máy tính",
       "images": [
@@ -95,8 +96,16 @@
         "/media/cong-trinh/phong-may-cho-hoc-sinh/maytinhphongmay004.jpg",
         "/media/cong-trinh/phong-may-cho-hoc-sinh/maytinhphongmay005.jpg"
       ],
-      "featured": false,
-      "id": "phong-may-cho-hoc-sinh"
+      "featured": false
+    },
+    {
+      "title": "Sever Cho Doanh Nghiệp",
+      "project_type": "Phòng máy / Máy tính",
+      "images": [
+        "/media/maytinhserver001-1.jpg",
+        "/media/maytinhserversuachua001.jpg"
+      ],
+      "featured": false
     }
   ]
 }
