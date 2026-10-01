@@ -1,16 +1,14 @@
 {
-  "hero_image": "/media/hero-banner-1.png",
   "top_ticker": {
     "enabled": true,
     "text": "🎉 KHAI TRƯƠNG DTCOM • ƯU ĐÃI HẤP DẪN • CAMERA • MÁY TÍNH • MÁY IN • THIẾT BỊ MẠNG • HOTLINE 0971 675 929",
-    "link": "",
     "background_color": "#0B2D55",
     "text_color": "#FFFFFF",
     "font_family": "system-ui",
-    "font_size": 14,
+    "font_size": "16",
     "font_weight": "700",
-    "speed_seconds": 22,
-    "height": 36,
+    "speed_seconds": "30",
+    "height": "36",
     "pause_on_hover": true
   }
 }
