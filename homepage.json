@@ -1,14 +1,29 @@
 {
-  "top_ticker": {
-    "enabled": true,
-    "text": "🎉 KHAI TRƯƠNG DTCOM • ƯU ĐÃI HẤP DẪN • CAMERA • MÁY TÍNH • MÁY IN • THIẾT BỊ MẠNG • HOTLINE 0971 675 929",
-    "background_color": "#0B2D55",
-    "text_color": "#FFFFFF",
-    "font_family": "Arial, sans-serif",
-    "font_size": "16",
-    "font_weight": "700",
-    "speed_seconds": "30",
-    "height": "48",
-    "pause_on_hover": false
+  "site_contact": {
+    "company_name": "DTCOM",
+    "company_subtitle": "Technology & Security",
+    "address_icon": "📍",
+    "address": "Xã Đại Đồng, tỉnh Nghệ An",
+    "phone_icon": "📞",
+    "phone_label": "Điện thoại",
+    "phone_number": "0971675929",
+    "phone_display": "0971 675 929",
+    "zalo_icon": "💬",
+    "zalo_label": "Zalo",
+    "zalo_number": "0971675929",
+    "zalo_display": "0971 675 929",
+    "zalo_link": "https://zalo.me/0971675929",
+    "show_email": false,
+    "show_working_hours": true,
+    "hours_icon": "🕒",
+    "hours_label": "Thời gian làm việc",
+    "working_hours": "Thứ 2 - Chủ nhật: 8:00 - 18:00",
+    "show_header_call": true,
+    "header_call_icon": "☎",
+    "header_call_label": "Gọi tư vấn",
+    "floating_phone_enabled": true,
+    "floating_phone_bg": "#18B86B",
+    "floating_zalo_enabled": true,
+    "floating_zalo_bg": "#1688F8"
   }
 }
