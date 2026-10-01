@@ -6,7 +6,7 @@ on:
     paths:
       - 'homepage.json'
       - 'media/**'
-      - '!media/hero-banner.png'
+      - '!assets/hero-banner.png'
 
 permissions:
   contents: write
@@ -31,17 +31,20 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Replace fixed hero banner
+      - name: Replace live hero banner
         run: node scripts/sync-hero-banner.js
 
-      - name: Commit fixed hero-banner.png
+      - name: Commit live hero banner
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add media/hero-banner.png
+
+          git add assets/hero-banner.png
+
           if git diff --cached --quiet; then
             echo "Banner already up to date."
             exit 0
           fi
+
           git commit -m "Update homepage hero banner"
           git push origin HEAD:main
