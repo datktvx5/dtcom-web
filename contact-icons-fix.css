@@ -1,0 +1,76 @@
+/* Align footer contact icons and text */
+.dtcom-footer .dtcom-contact-item{
+  display:grid !important;
+  grid-template-columns:28px 1fr !important;
+  column-gap:10px !important;
+  align-items:start !important;
+  margin:0 0 12px !important;
+}
+.dtcom-footer .dtcom-contact-icon{
+  width:28px !important;
+  min-width:28px !important;
+  height:24px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  line-height:24px !important;
+  font-size:16px !important;
+  margin:0 !important;
+}
+.dtcom-footer .dtcom-contact-item p{
+  margin:0 !important;
+  line-height:24px !important;
+}
+.dtcom-footer .dtcom-contact-item a{
+  line-height:inherit !important;
+}
+
+/* Floating contact buttons */
+#dtcom-floating-contact{
+  position:fixed;
+  right:18px;
+  bottom:20px;
+  z-index:99998;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  align-items:flex-end;
+}
+#dtcom-floating-contact a{
+  min-width:52px;
+  height:52px;
+  padding:0 14px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  box-sizing:border-box;
+  color:#fff;
+  text-decoration:none;
+  font-weight:800;
+  font-size:15px;
+  box-shadow:0 8px 22px rgba(0,0,0,.18);
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+#dtcom-floating-contact a:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 26px rgba(0,0,0,.24);
+}
+#dtcom-floating-contact .dt-float-phone{
+  background:var(--dt-float-phone-bg,#18B86B);
+}
+#dtcom-floating-contact .dt-float-zalo{
+  background:var(--dt-float-zalo-bg,#1688F8);
+}
+@media(max-width:640px){
+  #dtcom-floating-contact{
+    right:12px;
+    bottom:14px;
+  }
+  #dtcom-floating-contact a{
+    min-width:48px;
+    height:48px;
+    padding:0 12px;
+  }
+}

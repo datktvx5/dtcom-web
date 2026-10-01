@@ -25,6 +25,13 @@
     "quick_products_label": "Sản phẩm",
     "quick_projects_label": "Công trình",
     "quick_services_label": "Dịch vụ",
-    "quick_contact_label": "Liên hệ"
+    "quick_contact_label": "Liên hệ",
+    "floating_phone_enabled": true,
+    "floating_phone_icon": "☎",
+    "floating_phone_text": "",
+    "floating_phone_bg": "#18B86B",
+    "floating_zalo_enabled": true,
+    "floating_zalo_text": "Zalo",
+    "floating_zalo_bg": "#1688F8"
   }
 }

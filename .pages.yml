@@ -776,3 +776,48 @@ content:
           - name: quick_contact_label
             label: Tên link Liên hệ
             type: string
+          - name: floating_phone_enabled
+            label: Hiện nút điện thoại nổi
+            type: boolean
+          - name: floating_phone_icon
+            label: Biểu tượng nút điện thoại nổi
+            type: string
+            description: Ví dụ ☎ 📞 📱
+          - name: floating_phone_text
+            label: Chữ trong nút điện thoại nổi
+            type: string
+            description: Để trống nếu chỉ muốn biểu tượng
+          - name: floating_phone_bg
+            label: Màu nút điện thoại nổi
+            type: select
+            options:
+              values:
+                - name: "#18B86B"
+                  label: Xanh lá
+                - name: "#16A34A"
+                  label: Xanh lá đậm
+                - name: "#087CF0"
+                  label: Xanh điện
+                - name: "#0B2D55"
+                  label: Xanh navy
+                - name: "#D71920"
+                  label: Đỏ
+          - name: floating_zalo_enabled
+            label: Hiện nút Zalo nổi
+            type: boolean
+          - name: floating_zalo_text
+            label: Chữ trên nút Zalo nổi
+            type: string
+          - name: floating_zalo_bg
+            label: Màu nút Zalo nổi
+            type: select
+            options:
+              values:
+                - name: "#1688F8"
+                  label: Xanh Zalo
+                - name: "#087CF0"
+                  label: Xanh điện
+                - name: "#0B2D55"
+                  label: Xanh navy
+                - name: "#FFFFFF"
+                  label: Trắng
