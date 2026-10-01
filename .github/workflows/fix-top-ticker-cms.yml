@@ -1,0 +1,40 @@
+name: Fix CMS Top Ticker
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install YAML library
+        run: npm install yaml@2.8.1
+
+      - name: Fix CMS fields and ticker animation
+        run: node scripts/fix-top-ticker-cms.js
+
+      - name: Commit fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .pages.yml homepage.json top-ticker.css top-ticker.js
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Fix CMS ticker controls and animation"
+          git push origin HEAD:main
