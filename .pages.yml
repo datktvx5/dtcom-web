@@ -516,3 +516,88 @@ content:
           categories:
             - image
           rename: false
+  - name: homepage_ticker
+    label: Chữ chạy đầu trang
+    type: file
+    path: homepage.json
+    operations:
+      create: false
+      rename: false
+      delete: false
+    fields:
+      - name: top_ticker.enabled
+        label: Bật chữ chạy
+        type: boolean
+        default: true
+      - name: top_ticker.text
+        label: Nội dung chữ chạy
+        type: string
+        required: true
+      - name: top_ticker.link
+        label: Link khi bấm vào chữ chạy
+        type: string
+        description: "Có thể để trống. Ví dụ: /products.html hoặc https://..."
+      - name: top_ticker.background_color
+        label: Màu nền
+        type: string
+        required: true
+        description: "Mã màu HEX, ví dụ #0B2D55"
+      - name: top_ticker.text_color
+        label: Màu chữ
+        type: string
+        required: true
+        description: "Mã màu HEX, ví dụ #FFFFFF"
+      - name: top_ticker.font_family
+        label: Font chữ
+        type: select
+        required: true
+        options:
+          values:
+            - value: system-ui
+              label: Mặc định hiện đại
+            - value: Arial, sans-serif
+              label: Arial
+            - value: Tahoma, sans-serif
+              label: Tahoma
+            - value: Verdana, sans-serif
+              label: Verdana
+            - value: "'Trebuchet MS', sans-serif"
+              label: Trebuchet MS
+            - value: Georgia, serif
+              label: Georgia
+      - name: top_ticker.font_size
+        label: Cỡ chữ (px)
+        type: number
+        required: true
+        default: 14
+      - name: top_ticker.font_weight
+        label: Độ đậm chữ
+        type: select
+        required: true
+        options:
+          values:
+            - value: "400"
+              label: Thường
+            - value: "500"
+              label: Vừa
+            - value: "600"
+              label: Hơi đậm
+            - value: "700"
+              label: Đậm
+            - value: "800"
+              label: Rất đậm
+      - name: top_ticker.speed_seconds
+        label: Tốc độ chạy (giây/vòng)
+        type: number
+        required: true
+        default: 22
+        description: Số càng nhỏ chạy càng nhanh. Gợi ý 15–35.
+      - name: top_ticker.height
+        label: Chiều cao thanh (px)
+        type: number
+        required: true
+        default: 36
+      - name: top_ticker.pause_on_hover
+        label: Dừng khi rê chuột
+        type: boolean
+        default: true
