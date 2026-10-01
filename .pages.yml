@@ -666,3 +666,113 @@ content:
           - name: pause_on_hover
             label: Dừng khi rê chuột
             type: boolean
+  - name: site_contact_settings
+    label: Header & Footer
+    type: file
+    path: homepage.json
+    operations:
+      create: false
+      rename: false
+      delete: false
+    fields:
+      - name: site_contact
+        label: Thông tin Header & Footer
+        type: object
+        fields:
+          - name: company_name
+            label: Tên thương hiệu
+            type: string
+            required: true
+          - name: company_subtitle
+            label: Dòng chữ dưới thương hiệu
+            type: string
+          - name: footer_description
+            label: Mô tả ngắn ở chân trang
+            type: text
+          - name: address_icon
+            label: Biểu tượng địa chỉ
+            type: string
+            description: Có thể nhập emoji, ví dụ 📍
+          - name: address
+            label: Địa chỉ
+            type: string
+          - name: phone_icon
+            label: Biểu tượng điện thoại
+            type: string
+            description: Ví dụ ☎ hoặc 📞
+          - name: phone_label
+            label: Nhãn điện thoại
+            type: string
+          - name: phone_number
+            label: Số điện thoại để gọi
+            type: string
+            description: Chỉ số, ví dụ 0971675929
+          - name: phone_display
+            label: Số điện thoại hiển thị
+            type: string
+            description: Ví dụ 0971 675 929
+          - name: zalo_icon
+            label: Biểu tượng Zalo
+            type: string
+            description: Ví dụ 💬
+          - name: zalo_label
+            label: Nhãn Zalo
+            type: string
+          - name: zalo_number
+            label: Số Zalo
+            type: string
+          - name: zalo_display
+            label: Số Zalo hiển thị
+            type: string
+          - name: zalo_link
+            label: Link Zalo
+            type: string
+            description: Ví dụ https://zalo.me/0971675929
+          - name: show_email
+            label: Hiện Email
+            type: boolean
+          - name: email_icon
+            label: Biểu tượng Email
+            type: string
+            description: Ví dụ ✉️
+          - name: email_label
+            label: Nhãn Email
+            type: string
+          - name: email
+            label: Địa chỉ Email
+            type: string
+          - name: show_working_hours
+            label: Hiện thời gian làm việc
+            type: boolean
+          - name: hours_icon
+            label: Biểu tượng thời gian
+            type: string
+            description: Ví dụ 🕒
+          - name: hours_label
+            label: Nhãn thời gian
+            type: string
+          - name: working_hours
+            label: Thời gian làm việc
+            type: string
+          - name: show_header_call
+            label: Hiện nút gọi tư vấn trên Header
+            type: boolean
+          - name: header_call_icon
+            label: Biểu tượng nút gọi
+            type: string
+            description: Ví dụ ☎ hoặc 📞
+          - name: header_call_label
+            label: Chữ trên nút gọi
+            type: string
+          - name: quick_products_label
+            label: Tên link Sản phẩm
+            type: string
+          - name: quick_projects_label
+            label: Tên link Công trình
+            type: string
+          - name: quick_services_label
+            label: Tên link Dịch vụ
+            type: string
+          - name: quick_contact_label
+            label: Tên link Liên hệ
+            type: string
