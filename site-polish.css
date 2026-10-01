@@ -1,0 +1,90 @@
+/* DTCOM header/footer polish */
+.dtcom-footer{
+  background:#061a36;
+  color:#d9e8ff;
+  padding:42px 0 26px;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+.dtcom-footer .dtcom-footer-wrap{
+  width:min(1180px,calc(100% - 40px));
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1.25fr 1fr .8fr;
+  gap:48px;
+  align-items:start;
+}
+.dtcom-footer .dtcom-footer-brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:14px;
+}
+.dtcom-footer .dtcom-footer-logo{
+  width:46px;
+  height:46px;
+  object-fit:contain;
+  border-radius:10px;
+  background:#fff;
+  padding:5px;
+  box-sizing:border-box;
+}
+.dtcom-footer .dtcom-footer-name{
+  color:#fff;
+  font-size:18px;
+  font-weight:800;
+  letter-spacing:.4px;
+}
+.dtcom-footer .dtcom-footer-sub{
+  color:#8fb7ef;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+.dtcom-footer h3{
+  margin:0 0 16px;
+  color:#fff;
+  font-size:16px;
+  font-weight:800;
+}
+.dtcom-footer p,
+.dtcom-footer a{
+  color:#c6d8f2;
+  font-size:15px;
+  line-height:1.8;
+  text-decoration:none;
+}
+.dtcom-footer a:hover{
+  color:#55c7ff;
+}
+.dtcom-footer .dtcom-contact-item{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  margin-bottom:9px;
+}
+.dtcom-footer .dtcom-contact-icon{
+  width:22px;
+  flex:0 0 22px;
+  text-align:center;
+}
+.dtcom-footer .dtcom-footer-links{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.dtcom-footer .dtcom-footer-bottom{
+  width:min(1180px,calc(100% - 40px));
+  margin:28px auto 0;
+  padding-top:18px;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#7fa0c8;
+  font-size:13px;
+  text-align:center;
+}
+@media(max-width:800px){
+  .dtcom-footer .dtcom-footer-wrap{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+}
