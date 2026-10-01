@@ -1,7 +1,6 @@
 media:
   input: media
   output: /media
-
 content:
   - name: cameras
     label: Camera
@@ -17,44 +16,90 @@ content:
             collapsed: true
             summary: "{name}"
         fields:
-          - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
-          - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: id
+            label: Mã sản phẩm / đường dẫn
+            type: string
+            hidden: true
+          - name: name
+            label: Tên sản phẩm
+            type: string
+            required: true
           - name: subcategory
             label: Nhóm sản phẩm
             type: select
             required: true
             options:
-              values: ["Camera trong nhà", "Camera ngoài trời", "Camera IP PoE", "Camera PTZ / 360", "Camera Analog", "Đầu ghi", "Phụ kiện Camera"]
+              values:
+                - Camera trong nhà
+                - Camera ngoài trời
+                - Camera IP PoE
+                - Camera PTZ / 360
+                - Camera Analog
+                - Đầu ghi
+                - Phụ kiện Camera
           - name: brand
             label: Hãng
             type: select
             required: true
             options:
-              values: [IMOU, EZVIZ, Hikvision, Dahua, KBVision, "TP-Link / Tapo", Xiaomi, Reolink, Uniview, Vantech, Yoosee, Axis, Bosch, "Hanwha Vision", Tiandy, TVT, Khác]
-          - { name: price, label: Giá bán, type: number }
-          - { name: old_price, label: Giá cũ, type: number }
-          - { name: shopee_link, label: Link Shopee Affiliate, type: string }
+              values:
+                - IMOU
+                - EZVIZ
+                - Hikvision
+                - Dahua
+                - KBVision
+                - TP-Link / Tapo
+                - Xiaomi
+                - Reolink
+                - Uniview
+                - Vantech
+                - Yoosee
+                - Axis
+                - Bosch
+                - Hanwha Vision
+                - Tiandy
+                - TVT
+                - Khác
+          - name: price
+            label: Giá bán
+            type: number
+          - name: old_price
+            label: Giá cũ
+            type: number
+          - name: shopee_link
+            label: Link Shopee Affiliate
+            type: string
           - name: images
             label: Ảnh sản phẩm
             type: image
             options:
-              multiple: { max: 10 }
+              multiple:
+                max: 10
               unique: true
-              extensions: [jpg, jpeg, png, webp]
+              extensions:
+                - jpg
+                - jpeg
+                - png
+                - webp
               rename: safe
           - name: video
             label: Video sản phẩm
             type: file
             options:
-              categories: [video]
-              extensions: [mp4, webm]
+              categories:
+                - video
+              extensions:
+                - mp4
+                - webm
               rename: safe
-          - { name: featured, label: Sản phẩm nổi bật, type: boolean }
+          - name: featured
+            label: Sản phẩm nổi bật
+            type: boolean
           - name: description
             label: Mô tả
             type: text
-            options: { rows: 10 }
-
+            options:
+              rows: 10
   - name: computers
     label: Máy tính
     type: file
@@ -69,49 +114,118 @@ content:
             collapsed: true
             summary: "{name}"
         fields:
-          - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
-          - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: id
+            label: Mã sản phẩm / đường dẫn
+            type: string
+            hidden: true
+          - name: name
+            label: Tên sản phẩm
+            type: string
+            required: true
           - name: subcategory
             label: Nhóm sản phẩm
             type: select
             required: true
             options:
-              values: [Laptop, "Máy tính để bàn", "Màn hình", "Linh kiện", "Phụ kiện"]
+              values:
+                - Laptop
+                - Máy tính để bàn
+                - Màn hình
+                - Linh kiện
+                - Phụ kiện
           - name: product_type
             label: Loại chi tiết (nếu cần)
             type: select
             options:
-              values: [CPU, Mainboard, RAM, "SSD / HDD", VGA, "Nguồn / PSU", Case, "Tản nhiệt", "Bàn phím", Chuột, Webcam, "Tai nghe", Khác]
+              values:
+                - CPU
+                - Mainboard
+                - RAM
+                - SSD / HDD
+                - VGA
+                - Nguồn / PSU
+                - Case
+                - Tản nhiệt
+                - Bàn phím
+                - Chuột
+                - Webcam
+                - Tai nghe
+                - Khác
           - name: brand
             label: Hãng
             type: select
             required: true
             options:
-              values: [Acer, ASUS, Dell, HP, Lenovo, MSI, Gigabyte, Apple, Intel, AMD, NVIDIA, Kingston, Corsair, "G.Skill", Crucial, Samsung, "Western Digital", Seagate, Lexar, TeamGroup, Logitech, Razer, Rapoo, AOC, LG, ViewSonic, BenQ, Philips, Khác]
-          - { name: price, label: Giá bán, type: number }
-          - { name: old_price, label: Giá cũ, type: number }
-          - { name: shopee_link, label: Link Shopee Affiliate, type: string }
+              values:
+                - Acer
+                - ASUS
+                - Dell
+                - HP
+                - Lenovo
+                - MSI
+                - Gigabyte
+                - Apple
+                - Intel
+                - AMD
+                - NVIDIA
+                - Kingston
+                - Corsair
+                - G.Skill
+                - Crucial
+                - Samsung
+                - Western Digital
+                - Seagate
+                - Lexar
+                - TeamGroup
+                - Logitech
+                - Razer
+                - Rapoo
+                - AOC
+                - LG
+                - ViewSonic
+                - BenQ
+                - Philips
+                - Khác
+          - name: price
+            label: Giá bán
+            type: number
+          - name: old_price
+            label: Giá cũ
+            type: number
+          - name: shopee_link
+            label: Link Shopee Affiliate
+            type: string
           - name: images
             label: Ảnh sản phẩm
             type: image
             options:
-              multiple: { max: 10 }
+              multiple:
+                max: 10
               unique: true
-              extensions: [jpg, jpeg, png, webp]
+              extensions:
+                - jpg
+                - jpeg
+                - png
+                - webp
               rename: safe
           - name: video
             label: Video sản phẩm
             type: file
             options:
-              categories: [video]
-              extensions: [mp4, webm]
+              categories:
+                - video
+              extensions:
+                - mp4
+                - webm
               rename: safe
-          - { name: featured, label: Sản phẩm nổi bật, type: boolean }
+          - name: featured
+            label: Sản phẩm nổi bật
+            type: boolean
           - name: description
             label: Mô tả
             type: text
-            options: { rows: 10 }
-
+            options:
+              rows: 10
   - name: printers
     label: Máy in
     type: file
@@ -126,44 +240,90 @@ content:
             collapsed: true
             summary: "{name}"
         fields:
-          - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
-          - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: id
+            label: Mã sản phẩm / đường dẫn
+            type: string
+            hidden: true
+          - name: name
+            label: Tên sản phẩm
+            type: string
+            required: true
           - name: subcategory
             label: Nhóm sản phẩm
             type: select
             required: true
             options:
-              values: ["Laser đen trắng", "Laser màu", "Phun màu", "Đa chức năng", "Máy in nhiệt / tem", "Máy Scan", "Mực & vật tư"]
+              values:
+                - Laser đen trắng
+                - Laser màu
+                - Phun màu
+                - Đa chức năng
+                - Máy in nhiệt / tem
+                - Máy Scan
+                - Mực & vật tư
           - name: brand
             label: Hãng
             type: select
             required: true
             options:
-              values: [Canon, HP, Brother, Epson, Pantum, Ricoh, Xerox, "Fujifilm Business Innovation", Kyocera, "Konica Minolta", Lexmark, Samsung, Oki, Zebra, Godex, Xprinter, Khác]
-          - { name: price, label: Giá bán, type: number }
-          - { name: old_price, label: Giá cũ, type: number }
-          - { name: shopee_link, label: Link Shopee Affiliate, type: string }
+              values:
+                - Canon
+                - HP
+                - Brother
+                - Epson
+                - Pantum
+                - Ricoh
+                - Xerox
+                - Fujifilm Business Innovation
+                - Kyocera
+                - Konica Minolta
+                - Lexmark
+                - Samsung
+                - Oki
+                - Zebra
+                - Godex
+                - Xprinter
+                - Khác
+          - name: price
+            label: Giá bán
+            type: number
+          - name: old_price
+            label: Giá cũ
+            type: number
+          - name: shopee_link
+            label: Link Shopee Affiliate
+            type: string
           - name: images
             label: Ảnh sản phẩm
             type: image
             options:
-              multiple: { max: 10 }
+              multiple:
+                max: 10
               unique: true
-              extensions: [jpg, jpeg, png, webp]
+              extensions:
+                - jpg
+                - jpeg
+                - png
+                - webp
               rename: safe
           - name: video
             label: Video sản phẩm
             type: file
             options:
-              categories: [video]
-              extensions: [mp4, webm]
+              categories:
+                - video
+              extensions:
+                - mp4
+                - webm
               rename: safe
-          - { name: featured, label: Sản phẩm nổi bật, type: boolean }
+          - name: featured
+            label: Sản phẩm nổi bật
+            type: boolean
           - name: description
             label: Mô tả
             type: text
-            options: { rows: 10 }
-
+            options:
+              rows: 10
   - name: networks
     label: Thiết bị mạng
     type: file
@@ -178,44 +338,89 @@ content:
             collapsed: true
             summary: "{name}"
         fields:
-          - { name: id, label: Mã sản phẩm / đường dẫn, type: string, hidden: true }
-          - { name: name, label: Tên sản phẩm, type: string, required: true }
+          - name: id
+            label: Mã sản phẩm / đường dẫn
+            type: string
+            hidden: true
+          - name: name
+            label: Tên sản phẩm
+            type: string
+            required: true
           - name: subcategory
             label: Nhóm sản phẩm
             type: select
             required: true
             options:
-              values: [Router, "Access Point", Switch, "Firewall / Gateway", "Mesh WiFi", "Converter / SFP", "Cáp & phụ kiện mạng"]
+              values:
+                - Router
+                - Access Point
+                - Switch
+                - Firewall / Gateway
+                - Mesh WiFi
+                - Converter / SFP
+                - Cáp & phụ kiện mạng
           - name: brand
             label: Hãng
             type: select
             required: true
             options:
-              values: ["TP-Link", Ruijie, Reyee, MikroTik, Ubiquiti, Cisco, Aruba, Tenda, "D-Link", DrayTek, Fortinet, HPE, Netgear, Totolink, Mercusys, Khác]
-          - { name: price, label: Giá bán, type: number }
-          - { name: old_price, label: Giá cũ, type: number }
-          - { name: shopee_link, label: Link Shopee Affiliate, type: string }
+              values:
+                - TP-Link
+                - Ruijie
+                - Reyee
+                - MikroTik
+                - Ubiquiti
+                - Cisco
+                - Aruba
+                - Tenda
+                - D-Link
+                - DrayTek
+                - Fortinet
+                - HPE
+                - Netgear
+                - Totolink
+                - Mercusys
+                - Khác
+          - name: price
+            label: Giá bán
+            type: number
+          - name: old_price
+            label: Giá cũ
+            type: number
+          - name: shopee_link
+            label: Link Shopee Affiliate
+            type: string
           - name: images
             label: Ảnh sản phẩm
             type: image
             options:
-              multiple: { max: 10 }
+              multiple:
+                max: 10
               unique: true
-              extensions: [jpg, jpeg, png, webp]
+              extensions:
+                - jpg
+                - jpeg
+                - png
+                - webp
               rename: safe
           - name: video
             label: Video sản phẩm
             type: file
             options:
-              categories: [video]
-              extensions: [mp4, webm]
+              categories:
+                - video
+              extensions:
+                - mp4
+                - webm
               rename: safe
-          - { name: featured, label: Sản phẩm nổi bật, type: boolean }
+          - name: featured
+            label: Sản phẩm nổi bật
+            type: boolean
           - name: description
             label: Mô tả
             type: text
-            options: { rows: 10 }
-
+            options:
+              rows: 10
   - name: projects
     label: Công trình tiêu biểu
     type: file
@@ -230,34 +435,84 @@ content:
             collapsed: true
             summary: "{title}"
         fields:
-          - { name: id, label: Mã công trình / đường dẫn, type: string, hidden: true }
-          - { name: title, label: Tên công trình, type: string, required: true }
+          - name: id
+            label: Mã công trình / đường dẫn
+            type: string
+            hidden: true
+          - name: title
+            label: Tên công trình
+            type: string
+            required: true
           - name: project_type
             label: Loại công trình
             type: select
             required: true
             options:
-              values: ["Hệ thống Camera", "Mạng LAN / WiFi", "Phòng máy / Máy tính", "Hệ thống Máy in", "Hệ thống tổng hợp", "Khác"]
-          - { name: location, label: Địa điểm, type: string }
-          - { name: customer, label: Khách hàng / Đơn vị, type: string }
-          - { name: completed, label: Thời gian hoàn thành, type: string }
+              values:
+                - Hệ thống Camera
+                - Mạng LAN / WiFi
+                - Phòng máy / Máy tính
+                - Hệ thống Máy in
+                - Hệ thống tổng hợp
+                - Khác
+          - name: location
+            label: Địa điểm
+            type: string
+          - name: customer
+            label: Khách hàng / Đơn vị
+            type: string
+          - name: completed
+            label: Thời gian hoàn thành
+            type: string
           - name: images
             label: Hình ảnh công trình
             type: image
             options:
-              multiple: { max: 20 }
+              multiple:
+                max: 20
               unique: true
-              extensions: [jpg, jpeg, png, webp]
+              extensions:
+                - jpg
+                - jpeg
+                - png
+                - webp
               rename: safe
           - name: video
             label: Video công trình
             type: file
             options:
-              categories: [video]
-              extensions: [mp4, webm]
+              categories:
+                - video
+              extensions:
+                - mp4
+                - webm
               rename: safe
-          - { name: featured, label: Hiển thị trên trang chủ, type: boolean }
+          - name: featured
+            label: Hiển thị trên trang chủ
+            type: boolean
           - name: description
             label: Giới thiệu công trình
             type: text
-            options: { rows: 10 }
+            options:
+              rows: 10
+  - name: homepage_banner
+    label: Banner trang chủ
+    type: file
+    path: homepage.json
+    operations:
+      create: false
+      rename: false
+      delete: false
+    fields:
+      - name: hero_image
+        label: Ảnh Hero Banner
+        type: image
+        required: true
+        description: Chọn hoặc tải ảnh PNG dùng cho banner lớn đầu trang. Khuyến nghị
+          1920 × 800 px.
+        options:
+          extensions:
+            - png
+          categories:
+            - image
+          rename: false
