@@ -1,0 +1,47 @@
+name: Sync Hero Banner
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'homepage.json'
+      - 'media/**'
+      - '!media/hero-banner.png'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-hero-banner
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Replace fixed hero banner
+        run: node scripts/sync-hero-banner.js
+
+      - name: Commit fixed hero-banner.png
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/hero-banner.png
+          if git diff --cached --quiet; then
+            echo "Banner already up to date."
+            exit 0
+          fi
+          git commit -m "Update homepage hero banner"
+          git push origin HEAD:main
