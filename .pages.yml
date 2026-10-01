@@ -525,79 +525,144 @@ content:
       rename: false
       delete: false
     fields:
-      - name: top_ticker.enabled
-        label: Bật chữ chạy
-        type: boolean
-        default: true
-      - name: top_ticker.text
-        label: Nội dung chữ chạy
-        type: string
-        required: true
-      - name: top_ticker.link
-        label: Link khi bấm vào chữ chạy
-        type: string
-        description: "Có thể để trống. Ví dụ: /products.html hoặc https://..."
-      - name: top_ticker.background_color
-        label: Màu nền
-        type: string
-        required: true
-        description: "Mã màu HEX, ví dụ #0B2D55"
-      - name: top_ticker.text_color
-        label: Màu chữ
-        type: string
-        required: true
-        description: "Mã màu HEX, ví dụ #FFFFFF"
-      - name: top_ticker.font_family
-        label: Font chữ
-        type: select
-        required: true
-        options:
-          values:
-            - value: system-ui
-              label: Mặc định hiện đại
-            - value: Arial, sans-serif
-              label: Arial
-            - value: Tahoma, sans-serif
-              label: Tahoma
-            - value: Verdana, sans-serif
-              label: Verdana
-            - value: "'Trebuchet MS', sans-serif"
-              label: Trebuchet MS
-            - value: Georgia, serif
-              label: Georgia
-      - name: top_ticker.font_size
-        label: Cỡ chữ (px)
-        type: number
-        required: true
-        default: 14
-      - name: top_ticker.font_weight
-        label: Độ đậm chữ
-        type: select
-        required: true
-        options:
-          values:
-            - value: "400"
-              label: Thường
-            - value: "500"
-              label: Vừa
-            - value: "600"
-              label: Hơi đậm
-            - value: "700"
-              label: Đậm
-            - value: "800"
-              label: Rất đậm
-      - name: top_ticker.speed_seconds
-        label: Tốc độ chạy (giây/vòng)
-        type: number
-        required: true
-        default: 22
-        description: Số càng nhỏ chạy càng nhanh. Gợi ý 15–35.
-      - name: top_ticker.height
-        label: Chiều cao thanh (px)
-        type: number
-        required: true
-        default: 36
-      - name: top_ticker.pause_on_hover
-        label: Dừng khi rê chuột
-        type: boolean
-        default: true
+      - name: top_ticker
+        label: Cài đặt chữ chạy
+        type: object
+        fields:
+          - name: enabled
+            label: Bật chữ chạy
+            type: boolean
+          - name: text
+            label: Nội dung chữ chạy
+            type: text
+            required: true
+            description: Có thể dùng tiếng Việt, ký tự đặc biệt và emoji như 🎉 🔥 🎁 📞 ⭐.
+          - name: link
+            label: Link khi bấm vào chữ chạy
+            type: string
+            description: "Có thể để trống. Ví dụ: /products.html"
+          - name: background_color
+            label: Màu nền
+            type: select
+            required: true
+            options:
+              values:
+                - name: "#0B2D55"
+                  label: Xanh navy DTCOM
+                - name: "#087CF0"
+                  label: Xanh điện
+                - name: "#005EAA"
+                  label: Xanh công nghệ
+                - name: "#111827"
+                  label: Đen xanh
+                - name: "#000000"
+                  label: Đen
+                - name: "#D71920"
+                  label: Đỏ khuyến mãi
+                - name: "#B91C1C"
+                  label: Đỏ đậm
+                - name: "#F59E0B"
+                  label: Cam vàng
+                - name: "#16A34A"
+                  label: Xanh lá
+                - name: "#7C3AED"
+                  label: Tím
+          - name: text_color
+            label: Màu chữ
+            type: select
+            required: true
+            options:
+              values:
+                - name: "#FFFFFF"
+                  label: Trắng
+                - name: "#FFD400"
+                  label: Vàng nổi bật
+                - name: "#67E8F9"
+                  label: Xanh cyan
+                - name: "#BAE6FD"
+                  label: Xanh nhạt
+                - name: "#FDE68A"
+                  label: Vàng nhạt
+                - name: "#000000"
+                  label: Đen
+          - name: font_family
+            label: Font chữ
+            type: select
+            required: true
+            options:
+              values:
+                - name: Arial, sans-serif
+                  label: Arial
+                - name: Tahoma, sans-serif
+                  label: Tahoma
+                - name: Verdana, sans-serif
+                  label: Verdana
+                - name: "'Trebuchet MS', sans-serif"
+                  label: Trebuchet MS
+                - name: Georgia, serif
+                  label: Georgia
+                - name: system-ui
+                  label: Mặc định hiện đại
+          - name: font_size
+            label: Cỡ chữ
+            type: select
+            required: true
+            options:
+              values:
+                - name: "12"
+                  label: Nhỏ - 12 px
+                - name: "14"
+                  label: Vừa - 14 px
+                - name: "16"
+                  label: Lớn - 16 px
+                - name: "18"
+                  label: Rất lớn - 18 px
+          - name: font_weight
+            label: Độ đậm chữ
+            type: select
+            required: true
+            options:
+              values:
+                - name: "400"
+                  label: Thường
+                - name: "500"
+                  label: Vừa
+                - name: "600"
+                  label: Hơi đậm
+                - name: "700"
+                  label: Đậm
+                - name: "800"
+                  label: Rất đậm
+          - name: speed_seconds
+            label: Tốc độ di chuyển
+            type: select
+            required: true
+            options:
+              values:
+                - name: "10"
+                  label: Rất nhanh
+                - name: "15"
+                  label: Nhanh
+                - name: "22"
+                  label: Vừa
+                - name: "30"
+                  label: Chậm
+                - name: "40"
+                  label: Rất chậm
+          - name: height
+            label: Chiều cao thanh
+            type: select
+            required: true
+            options:
+              values:
+                - name: "30"
+                  label: Mỏng - 30 px
+                - name: "36"
+                  label: Vừa - 36 px
+                - name: "42"
+                  label: Cao - 42 px
+                - name: "48"
+                  label: Rất cao - 48 px
+          - name: pause_on_hover
+            label: Dừng khi rê chuột
+            type: boolean
